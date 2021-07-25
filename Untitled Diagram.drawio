@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-07-25T12:45:14.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.9.2" etag="W9RRbU-MoNl86BAan4qW" type="github"><diagram id="_4nTsSpE2cZ2mVLc5QJQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-25T13:22:43.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VxP5FOdWC232K6Uq2tZa" version="14.9.2" type="github">
+  <diagram id="_4nTsSpE2cZ2mVLc5QJQ" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-1" value="" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="76.5" y="70" width="37" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-2" value="Original Owner / Issuing Entity" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-3" value="" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;strokeColor=#d79b00;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="70" width="37" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-4" value="" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="456.5" y="70" width="37" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-5" value="Buyer 1 (NFT Holder)" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mRSaWbxFbk9eLZvZXtLE-6" value="Buyer 2 (NFT Purchaser)" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
