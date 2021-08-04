@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T07:24:12.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="-KyVOLOMxXb5f0NKmPMY" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T07:27:53.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="YV7hkA6EXoff0Gl_FuF5" version="14.9.2" type="github">
   <diagram id="NuNeDP4s5AKi3y37Stm7" name="Page-1">
     <mxGraphModel dx="1678" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,17 +7,11 @@
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-8" value="Raw Data Storage" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="560" y="660" width="490" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-17" value="Secondary NFT Marketplaces" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="100" y="490" width="240" height="190" as="geometry" />
-        </mxCell>
         <mxCell id="rTZjimPAplINiTkd5XX4-3" value="Sell Data" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="630" y="-140" width="320" height="630" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-1" value="Data Vault" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="30" width="350" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="VyxAzK_4GtYRlAjmE1mU-2" value="Data Coalitions" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="30" width="350" height="340" as="geometry" />
+          <mxGeometry x="1950" y="400" width="350" height="340" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-3" value="Itheum Data DEX DApp" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="85" y="40" width="330" height="320" as="geometry" />
@@ -149,19 +143,37 @@
           <mxGeometry x="160" y="130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rTZjimPAplINiTkd5XX4-8" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-19" value="OpenSea" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-20" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="590" width="30" height="60" as="geometry" />
+          <mxGeometry x="1550" y="110" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rTZjimPAplINiTkd5XX4-30" value="Data Pack / Data NFT File Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="710" width="395" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rTZjimPAplINiTkd5XX4-31" value="Data Stream Folder Storage (Microbatch files)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="790" width="395" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-36" value="Sale Options" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-140" width="320" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="VyxAzK_4GtYRlAjmE1mU-2" value="Data Coalitions" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="-80" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-38" value="Data DEX - Advertised" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="60" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-39" value="Data Pack - Peer to Peer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-40" value="Data NFT Marketplace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-17" value="Secondary NFT Marketplaces" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="300" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-19" value="OpenSea" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTZjimPAplINiTkd5XX4-20" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="410" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
