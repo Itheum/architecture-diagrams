@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T07:27:53.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="YV7hkA6EXoff0Gl_FuF5" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T12:09:12.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="icpYUpR7ApI7j3iTWQW-" version="14.9.8" type="github">
   <diagram id="NuNeDP4s5AKi3y37Stm7" name="Page-1">
-    <mxGraphModel dx="1678" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-8" value="Raw Data Storage" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="560" y="660" width="490" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-3" value="Sell Data" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-3" value="Sell Data" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="630" y="-140" width="320" height="630" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-1" value="Data Vault" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -16,15 +16,15 @@
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-3" value="Itheum Data DEX DApp" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="85" y="40" width="330" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="rTZjimPAplINiTkd5XX4-8">
+        <mxCell id="rTZjimPAplINiTkd5XX4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="rTZjimPAplINiTkd5XX4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-14" value="Data Pack - Purchase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-12">
+        <mxCell id="rTZjimPAplINiTkd5XX4-14" value="Data Pack - Purchase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-12" vertex="1" connectable="0">
           <mxGeometry x="-0.4398" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="rTZjimPAplINiTkd5XX4-30">
+        <mxCell id="rTZjimPAplINiTkd5XX4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="rTZjimPAplINiTkd5XX4-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="580" as="targetPoint" />
             <Array as="points">
@@ -34,18 +34,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-28" value="Data Pack - Raw File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-26">
+        <mxCell id="rTZjimPAplINiTkd5XX4-28" value="Data Pack - Raw File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-26" vertex="1" connectable="0">
           <mxGeometry x="0.7355" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="VyxAzK_4GtYRlAjmE1mU-2">
+        <mxCell id="rTZjimPAplINiTkd5XX4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-4" target="VyxAzK_4GtYRlAjmE1mU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-4" value="Data Pack (Peer to Peer Trades)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="670" y="90" width="210" height="160" as="geometry" />
+          <mxGeometry x="670" y="90" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5" target="rTZjimPAplINiTkd5XX4-8">
+        <mxCell id="rTZjimPAplINiTkd5XX4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5" target="rTZjimPAplINiTkd5XX4-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="423" />
@@ -53,20 +53,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-22" value="Data NFT - Buy via Marketplace" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-21">
+        <mxCell id="rTZjimPAplINiTkd5XX4-22" value="Data NFT - Buy via Marketplace" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-21" vertex="1" connectable="0">
           <mxGeometry x="-0.4642" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5" target="rTZjimPAplINiTkd5XX4-20">
+        <mxCell id="rTZjimPAplINiTkd5XX4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5" target="rTZjimPAplINiTkd5XX4-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-25" value="Data NFT - Buy via OpenSea" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-24">
+        <mxCell id="rTZjimPAplINiTkd5XX4-25" value="Data NFT - Buy via OpenSea" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-24" vertex="1" connectable="0">
           <mxGeometry x="0.0318" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5">
+        <mxCell id="rTZjimPAplINiTkd5XX4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="VyxAzK_4GtYRlAjmE1mU-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="740" as="targetPoint" />
             <Array as="points">
@@ -75,13 +75,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-29" value="Data NFT - Raw File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-27">
+        <mxCell id="rTZjimPAplINiTkd5XX4-29" value="Data NFT - Raw File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-27" vertex="1" connectable="0">
           <mxGeometry x="-0.1329" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-5" value="Data NFTs" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="670" y="280" width="210" height="180" as="geometry" />
+          <mxGeometry x="670" y="280" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-12" value="Cons" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1870" y="50" width="160" height="94" as="geometry">
@@ -97,21 +97,21 @@
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VyxAzK_4GtYRlAjmE1mU-12" vertex="1">
           <mxGeometry y="68" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="rTZjimPAplINiTkd5XX4-2" target="VyxAzK_4GtYRlAjmE1mU-2">
+        <mxCell id="rTZjimPAplINiTkd5XX4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="rTZjimPAplINiTkd5XX4-2" target="VyxAzK_4GtYRlAjmE1mU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-2" value="Data Streams" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-90" width="220" height="160" as="geometry" />
+        <mxCell id="rTZjimPAplINiTkd5XX4-2" value="Data Streams" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="670" y="-90" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="VyxAzK_4GtYRlAjmE1mU-4">
+        <mxCell id="rTZjimPAplINiTkd5XX4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="VyxAzK_4GtYRlAjmE1mU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-13" value="Data Pack - Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-10">
+        <mxCell id="rTZjimPAplINiTkd5XX4-13" value="Data Pack - Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-10" vertex="1" connectable="0">
           <mxGeometry x="0.2304" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="VyxAzK_4GtYRlAjmE1mU-5">
+        <mxCell id="rTZjimPAplINiTkd5XX4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="VyxAzK_4GtYRlAjmE1mU-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="190" y="160" />
@@ -121,12 +121,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-16" value="Data NFT - Mint &amp;amp; Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-15">
+        <mxCell id="rTZjimPAplINiTkd5XX4-16" value="Data NFT - Mint &amp;amp; Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-15" vertex="1" connectable="0">
           <mxGeometry x="0.5774" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="rTZjimPAplINiTkd5XX4-2">
+        <mxCell id="rTZjimPAplINiTkd5XX4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="rTZjimPAplINiTkd5XX4-4" target="rTZjimPAplINiTkd5XX4-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="470" y="136" />
@@ -134,45 +134,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-35" value="Data Stream - Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rTZjimPAplINiTkd5XX4-34">
+        <mxCell id="rTZjimPAplINiTkd5XX4-35" value="Data Stream - Advertise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rTZjimPAplINiTkd5XX4-34" vertex="1" connectable="0">
           <mxGeometry x="0.4659" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-4" value="Data Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-4" value="Data Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="130" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-8" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-8" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1550" y="110" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-30" value="Data Pack / Data NFT File Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-30" value="Data Pack / Data NFT File Storage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="710" width="395" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-31" value="Data Stream Folder Storage (Microbatch files)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-31" value="Data Stream Folder Storage (Microbatch files)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="790" width="395" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-36" value="Sale Options" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-36" value="Sale Options" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-140" width="320" height="750" as="geometry" />
         </mxCell>
         <mxCell id="VyxAzK_4GtYRlAjmE1mU-2" value="Data Coalitions" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1080" y="-80" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-38" value="Data DEX - Advertised" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-38" value="Data DEX - Advertised" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1080" y="60" width="260" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-39" value="Data Pack - Peer to Peer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-39" value="Data Pack - Peer to Peer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-40" value="Data NFT Marketplace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-40" value="Data NFT Marketplace" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-17" value="Secondary NFT Marketplaces" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-17" value="Secondary NFT Marketplaces" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1090" y="300" width="240" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-19" value="OpenSea" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-19" value="OpenSea" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1140" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rTZjimPAplINiTkd5XX4-20" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rTZjimPAplINiTkd5XX4-20" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1270" y="410" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
