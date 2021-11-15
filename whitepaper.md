@@ -2,12 +2,29 @@
 
 
 # Abstract
-Itheum is the world's 1st "decentralised data brokerage. The platform transforms your personal data into a highly tradable asset class. It provides Data Creators and Data Consumers with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem.
+Itheum is the world's 1st `decentralised data brokerage`. The platform transforms your personal data into a highly tradable asset class. It provides Data Creators and Data Consumers with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem.
 
 **Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens. Full Disclaimers are available at the bottom of this document**
 
 
-[TABLE OF CONTENTS]
+
+      Table Of Contents
+        [Introduction](#intro-1)
+        [Multi-Chain Strategy](#multi-chain-1)
+        [Cross Chain Tokens](#cross-chain-1)
+        [Tokenomics](#tokenomics-1)
+        [Types of Direct Sale](#types-on-1)
+        [Buying Data](#buying-data-1)
+        [Enabling Personal Data "Proofs" within Smart Contracts](#data-proofs-1)
+        [Our 5-stage Product Development Process](#product-process-1)
+        [Data Coalitions](#data-coalitions-1)
+        [Data NFTs](#data-nfts-1)
+        [Data Streams](#data-streams-1)
+        [Data Vault](#data-vault-1)
+        [Trusted Computation Framework](#trusted-1)
+        [Regional Decentralisation Hubs](#decen-hubs-1)
+        [Fraud Detection — “Gaming” the system](#fraud-1)
+        [Key Terms of Reference](#refs-1)
 
 
 
@@ -104,7 +121,7 @@ In the web2 space there are highly innovative companies like [digi.me](foo) and 
 Itheum provides a new pradimn to solve the same issues our competiors are trying to solve. 
 
 ### Not all data needs to enter "blockchain"
-Many of our competiors are aiming to stream or on-board **all raw data** into blockchain powered tech stacks. We feel that it's impossible for any distributed system to be able to handle this amount of data. With petabytes worth of data being generated every second, it's not feasible to work with these kinds of volumns and overlay any "consesnsus" or enforce anny fixed standards. Raw data in this valumn is also not worth a lot as it takes a lot of time to process and extract any value from it. Itheum takes a different approach to the problem and aims to generate and unlock highly-structured, outcome-oriented and normalised personal data. Our data collection and analytiucs toolkit allows for such datasets to be created with eash (as evidences by OKPulse for example) and then sold as a highly valueable, context rick dataset. We also allow for such rich personal data based datasets to be grouped togetehr and sold in bulk with our Data Coaltions tcehnology.
+Many of our competiors are aiming to stream or on-board **all raw data** into blockchain powered tech stacks. We feel that it's impossible for any distributed system to be able to handle this amount of data. With petabytes worth of data being generated every second, it's not feasible to work with these kinds of volumns and overlay any "consesnsus" or enforce anny fixed standards. Raw data in this valumn is also not worth a lot as it takes a lot of time to process and extract any value from it. Itheum takes a different approach to the problem and aims to generate and unlock highly-structured, outcome-oriented and normalised personal data. Our data collection and analytiucs toolkit allows for such datasets to be created with eash (as evidences by OKPulse for example) and then sold as a highly valueable, context rick dataset. We also allow for such rich personal data based datasets to be grouped togetehr and sold in bulk with our Data Coalitions tcehnology.
 
 ### Data needs to be traded across chain
 Itheum also is building from day-1 to enable for data to be traded across blockcahins, we believe the future web will be built "multiple blockchains" and inteerroprability is key. With data (especially) we need to ensure that it can flow between blochains with ease. For e.g. with Ithem, you can place data for sale on Ethreum and purchase access to it on POlygon.
@@ -418,22 +435,36 @@ In this example, let's assume *you want to sell your Genomics dataset as a Data 
 
 Independently selling personal data is inefficient and time consuming. Continuing to curate and monitor the “terms and conditions” for each sale as well as to keep track of what data will be used for and by whom will quickly become overwhelming.
 
-Your individual data (both the longitudinal data from your structured programs and highly personal & sensitive data from your vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep Analytics.
+Your individual data (both the longitudinal data from your structured programs and highly personal & sensitive data from your vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep analytics.
 
-Coalitions are DAOs where you can stake your MYDA. Your can then #vote to agree on the terms and conditions and the governance (privacy and security) of the data trade#. Once you align to the Coalition who acts in your best interests you can then delegate the ownership of your datasets and data streams. The coalition will group your data into clusters of similar data and sell the data in bulk to a larger column of buyers. In return you can earn a steady value return on your data or choose to lock up your returns for longer term growth of the coalitions network. Itheum's Data Coalitions are modelled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
+Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond MYDA to form and run it. The creators are called Board Members and they have an incentive to run the Coalition on the best interests of its "Members". Board Members have "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Coalition as robust as possible in order to attract new Members (and therefore more Data). 
+
+Itheum envisions a future where the most successful Data Coalitions will be run my enterprises and SMEs (subject matter experts like legal and regulation experts, commercial data warehouses, academic/research institutes, government departments etc) and will be the perfect balance between commercialisation of data and accountability to end-users (Data Providers). Board Members vote to agree on the terms and conditions and the governance (privacy and security) of the data trade, the parameters they agree to will be made visible to anyone who wants to join the Data Coalition. Users (called Members) can then align to the Coalition who they feel acts in their best interests. 
+
+You then delegate the ownership of your datasets, data streams and data NFTs. The Coalition will group your data into clusters of similar data and sell the data in bulk to a larger column of buyers. In return you can earn a steady value return on your data or choose to lock up your returns for longer term growth of the Coalitions network. 
+
+Data Coalitions also allow for "staking" of MYDA, where anyone can stake their MYDA with a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd Sourced Data Curation), this allows for itheum to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data at that point in time. All parties involved in the Data Coalition (Board Members who bond MYDA, Members who share data, Members who stake MYDA are all incentivised relative to their role and stake and earn micropayments after each sale is finalised)
+
+Itheum's Data Coalitions are modelled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
 
 <br />
 ## Decentralised Board Members <a name="data-coalitions-2"></a>
-Data Coalitions have a virtual board who are voted in by the members (Data Creators / Data Owners) — they have some additional governance responsibility and can mediate / provide conflict resolution, negotiate terms of sale of data with real world entities etc. Board Members have to stake MYDA into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by members. The Board will rotate periodically to ensure they is no centralisation. Board members earn a share of the sale in data (payed out in MYDA) that is housed within the Data Coalition. They can also lose MYDA in case they don’t represent their member’s best interests or conduct an incorrect sale of data (that breaks the terms of sale contract) and need to revoke it and pay back the buyers and compensate sellers for the damage.
+As introduced above; Data Coalitions are formed and run by a virtual board — they have additional governance responsibility and can mediate / provide conflict resolution, negotiate terms of sale of data with real world entities and other Coalitions etc. Board Members have to bond MYDA into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by other board members. To prevent hard centralisation, Board Members will serve a fixed term (if required by the Members - it's not mandatory), and after which they will need to rotate out and be replaced with a new board. Board members earn a share of the sale in data (payed out in MYDA) that is housed within the Data Coalition. They can also lose MYDA in case they don’t represent their member’s best interests or conduct an incorrect sale of data (that breaks the terms of sale contract) and need to revoke it and pay back the buyers and compensate sellers for the damage. Although not mandatory, Members will be able to participate in ongoing period votes to express satisfaction of the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause. 
 
 ### Other Notable Properties of Data Coalitions
+- Data Coalitions enable "collective bargaining power" for end-users and will be a viable solution to the problem of centralised enterprise data silos that don't provide any value to the Data Creator.
+
+<br />
 - DAO based governance and modified proof-of-authority based decision making will be involved in ongoing operations of the Data Coalition. 
 
 <br />
-- They are also delegated custodians of “Data Vaults” and can autonomously trade high value data and share earnings via micropayments to members.
+- They will also be delegated custodians of “Data Vaults” and can autonomously trade high value data from the Vaults by attaching it to the other datasets within the Data Coalition.
 
 <br />
-- They can efficiently facilitate "micropayments" to all it's members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk sale. After each sale, the 1000 members will be sent a share of the earnings via micropayments. Traditional banking payment systems are unable to handle these kind of micropayments due to the overhead of fees and charges - but cryptocurrency will be able to facilitate this well.
+- They will also be able to link with the "Trusted Computation Framework" and facilitate the privacy preserving compute-to-data technology handshake, where 3rd parties will be able to run algorithms on the datasets housed within the Coalition without having the identity and privacy of the original Data Creators leaked.
+
+<br />
+- They can efficiently facilitate "micropayments" to all its members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk sale. After each sale, the 1000 members will be sent a share of the earnings via micropayments. Traditional banking payment systems are unable to handle these kind of micropayments due to the overhead of fees and charges - but crypto will be able to facilitate this well.
 
 <br />
 - Data Coalitions in future will also trade with other Coalitions and be connected to autonomous machines via a machine to machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
@@ -445,10 +476,13 @@ Data Coalitions have a virtual board who are voted in by the members (Data Creat
 > _Anonymous cohort analysis via our data collection and analytics toolkit integration_
 
 <br />
-- By default the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Heath and Genomics data for automated ingestions into their systems - they will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
+- By default the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - they will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
 
 <br />
-> This feature is currently in the "Available in Testnet" stage.
+- Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under it's control. For e.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to Bond MYDA for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and MYDA stakes from regular users (members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so it's important that you have some commercial experience in data related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due-diligence on the validators reputation and past performance. So for a Data Coalition to be successful - it will need to be in a "operational mode" and have some credible "board members" whilst maintaining ongoing trade operational credibility.
+
+<br />
+> This feature is currently in the "Detailed Design & Prototyping" stage.
 
 
 
@@ -748,15 +782,66 @@ We are sure that there will be many more methods malicious users will use to try
 
 
 
-# Decentralised Governance <a name="intro-2"></a>
+# Decentralised Governance <a name="governance"></a>
+The Itheum platform will aim to be a `public-goods platform that's fully decentralised`. Public-goods in a sense that all the technological developments that are made as part of Itheum's vision will always be available in the public domain and not privatised in any way. Although it will take some time to fully get there; especially in the area of our web2 data on-ramp/bridge technology (e.g. Data Collection and Analytics Toolkit). But it's worth nothing that our web3 technology stacks will be fully available in the public-domain from day one. 
+
+With our technology deliverables aligned to be made available as a fully public-goods platform, the next important aspect to decentralisation is to have our technology development roadmap DAO controlled with MYDA token holders being able to collectively and fairly decide on the technology strategy and direction of roadmap delivery. It's worth nothing that "fully DAO controlled" platforms are complex to setup and will require some platform operating maturity before implementing, but the ultimate intention of Itheum is full decentralisation and this will happen progressively over time in order to ensure the Itheum platform will remain in the hands of the public - but at the same time, be a robust operating technology solution that will be around for the next 100 years. Until the platform roadmap is progressively transformed into a fully DOA controlled element, the Core Team will manage the prioritised of the roadmap items with some pathways detailed on how the platform will transition to decentralisation. This is described below in the "Foundation DAO" section.
+
+Once the Itheum platform transforms into having its operations and roadmap strategy DAO controlled, the intention is to have the native token (MYDA) be the governance token. New advanced yet seamless DAO schemes will be build around the MYDA token that will increase the utility of the MYDA token and to also ensure the best user experience for our platform users and token holders. People who own MYDA will be able to participate in DAO votes and collectively make decisions on the future of Itheum.
+
+Itheum has 2 high-level forms of DAO schemes that will be implemented in our platform:
+1. Foundation DAO: This is the platform governance DAO that will eventually be responsible for the future direction of Itheum's technology strategy and roadmap. 
+
+2. Data Coalitions DAO: Unlike the single Foundation DAO, there can be multiple Data Coalition DOAs. Each time a new Data Coalition is setup by the public and the structure reaches an "operating mode" it can be considered to be an independent DAO. The overarching parameters of the Data Coalitions DAO will be controlled by the Foundation DAO. So effectively, the Foundation DAO is considered to be a `DAO of DAOs`.
+
+## Platform Governance - Foundation DAO <a name="governance-1"></a>
+As detailed above; the Foundation DAO will be responsible for the core platform's governance activities. Until the Itheum platform reaches the `operational maturity` required to fully decentralise the Foundation DAO, the Core Team will provide the governance in away that's fully open to public visibility and accountability.
+
+### Operational Maturity <a name="governance-1-1"></a>
+In this section we will clearly detail what it means when we say `operational maturity` and this dictates when Itheum will progressively transition to a fully DAO controlled Foundation DAO. For an ambitious platform like Itheum to gain widespread mainstream adoption and deliver robust technology solutions in the midst of high competition from other commercial and public organisations - we will need to have fast iterative delivery of roadmap items an make objective decisions to ensure we get Itheum to the Mainnet in a state that makes it the number 1 data platform for web3.
+
+It's a well known observation that putting in a fully decentralised DAO too early can slow down decision making and delay competitive timelines and therefore we need to be cognisant and pragmatics on how early we embrace full decentralisation, as failure to do so will put the entire Itheum platform delivery at risk and effect all of the itheum community and token holders. Once Itheum has been deployed to the Mainnet and the day-to-day operations of the platform are in a stable and controlled state and we are ready to move into iterative continuous improvements; we will then begin rolling out the Foundation DAO schemes and start opening up public voting for further roadmap upgrades. Such an approach will ensure the long term success of itheum and is in the best interests of the entire community.
+
+### Roadmap methodology <a name="governance-1-2"></a>
+Itheum's roadmap has always been public and is available for everyone to view. It can be accessed here: https://itheum.com/roadmap
+
+As seen in the roadmap board; all items that need to be considered to be included in the roadmap are added here and are voted on by the Foundation DAO to transition them to the appropriate lanes for delivery. We follow the Kanban methodology to manage the transition of items from inception to delivery. An idea is registered in the `IdeaBox` and can then move to `Research and Development` after the Foundation DAO voting agrees that the core-team can spend the time and effort to commence R&D activity on the task. Once R&D is complete and the team is ready to ready to begin design and estimation; the task will then move to the `Estimating` lane. The Foundation DAO then can decide when to schedule in the work. Once it's ready to start the development phase it will then move to the "Sprint Candidate" lane and then development and testing begins. The final lane is called `shipped` and an item moves there once it's deployed to production (and/or mainnet).
+
+### DAO Technology Schemes <a name="governance-1-2"></a>
+The Foundation DAO feature is still under development but we detail our current design schemes goals below, please note that this is subject to change as we iterate on our design and we will continue to keep this section of the whitepaper updated with any changes and also inform our community via our channels of any changes.
+
+- The MYDA token also plays the role of a Governance Token. There wont be any other, dedicated governance token in Itheum. This ensure MYDA has more utility int the Itheum ecosystem and that there also wont be a proliferation of bespoke governance and other tokens in Itheum - this boosts the user experience of the platform as it keeps things simple.
+- Voting is by `Quorum + Direct Democracy`
+- MYDA holders can stake their tokens into the Governance contract and in turn they will be able to vote on `proposals`
+- The weight of each user’s vote is proportionate to the amount of tokens they have staked
+- Users can exist their stake anytime, but their vote will be withdraw if they exit during an active voting round
+- `Proposals` can be decisions to `roadmap updates` or `changes to core platform parameters`
+- **Core Platform Parameters** can be tasks like `Update Quorum %`, `Approve new Data Coalition applications`, `Manage core Data Coalition parameters (min:max members / min fees to join)`, `Setting Harberger Tax rate on Coalitions managing Data NFTs`, `Manage Key-pool parameters for Personal Data Vault nodes (max / min / rotation / bonds)`, `Manage node parameters for Trusted Computation framework (max / min / rotation / bonds)` etc.
+- **Roadmap updates** are bascially proposals to move the development roadmap future (see above in Roadmap methodology section)
+- Potential issues with this scheme that we will need to design around are `Governance Locks if quorum is not reached` and `Whale dominance`
 
 
+## Data Coalition DAOs <a name="governance-2"></a>
+Details about the Data Coalition DAOs are explained in the above section titled [Data Coalitions](#data-coalitions-1), but we will summarise the DAO scheme below to lay out the various features of this component. Please note that this is subject to change as we iterate on our design and we will continue to keep this section of the whitepaper updated with any changes and also inform our community via our channels of any changes.
 
-## Platform Governance - Foundation DAO <a name="intro-2"></a>
-
-
-
-## Data Coalition DAOs <a name="intro-2"></a>
+- These DAOs are generated each time a new Data Coalition is formed and approved by the Foundation DAO to operate.
+- These DAOs are programmatically built via a factory contract that generates the base Data Coalition DAO according to the core parameters (these parameters can be altered later by the Board Members of the DOA).
+- Anyone can form a Data Coalition DAO by bonding MYDA. The creator is called the `Chairman` but they don't have any special rights. They have the same rights as `Board Members`.
+- Once the Chairman creates the DAO, it goes into a phase where new Board Members need to be recruited. Board Members also need to bond MYDA and be voted in by the other Board Members. This is akin to `Permissioned entry` where existing Board Members need to recommend you via a `Motion`
+- Only Board Members can vote on Motions; which follows a `representative democracy` scheme. A Motion can be anything that ranges from `adding more Board Members` to `changing the parameters of DAO (min:max members / min fees to join, terms of sale, sale price etc)` and also to `agree on which purchase request to approve (i.e. who to sell data to)`.
+- Voting is by `Simple Majority (no quorum needed)`, this allows for fast decisions to be made on potential new data sales.
+- All funds raised via bonds and stakes go into a `DC Fund Pool` which is then used for arbitration and dispute resolution in contentious sales of data.
+- The DC Fund Pool will be controlled by a Multi-Sig Wallet that will require a minimum set of Board Member signatures to process transactions.
+- Once the minimum Board members have joined the Data Coalition, it will enter into "operational mode" where it can start accepting `Members`.
+- Board Members will provide some public profile information to provide transparency on who they are, this is to provide some information for future Members to make informed decisions on if they should join the Coalition. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due-diligence on the validators reputation and past performance.
+- Anyone can link their data to a Data Coalition and join as a `Member`. They can also choose to Stake MYDA along with their data to provide more guarantee that they are aligned to the long term mission of the Data Coalition.
+- Everyone who joins the Data Coalition (Board Members and Members who contribute data) - start with a low reputation score that builds up over time with each successful data trade.
+- Data Coalitions also allow for "pure staking" of MYDA, where anyone can stake their MYDA into a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd Sourced Data Curation). They are also considered to be a `Member`.
+- Members who staked MYDA and Board Members get a majority share of each sale. A minority share is available for pure stakers, data providers who did not “stake” and/or who have a low reputation
+- Members can exit anytime but Board Members need a Motion passed to leave or be replaced. Board Members also need to wait until bond period ends to exit.
+- Although not mandatory, Members will be able to participate in ongoing period votes to express satisfaction of the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause.
+- Although not mandatory, Members will be able to expect the Board to have a fixed term, and after which they will need to rotate out and be replaced with a new board. 
+- A Data Coalition can only be shut down if it's not `operational`, if it does not have any outstanding disputes to resolve, all Board Members and Members have been compensated for any sales made in the past. The final decision will be made by the foundation DAO to terminate operation.
 
 
 
