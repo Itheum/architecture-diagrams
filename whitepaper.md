@@ -159,58 +159,71 @@ Itheum aims to have a viral go-to-market stragey that removes the barrier for gr
 
 
 # Data Collection & Analytics Toolkit Components <a name="intro-2"></a>
-
+The following are the key components that come together to make up the Data Collection & Analytics Toolkit.
 
 
 ## Smart Data Types <a name="intro-2"></a>
+[IMAGE]
+
+The core element of the Data Collection & Analytics Toolkit is a concept called “Smart Data Types”. There are core building blocks that you can use to build advanced data collection apps. Think of them as the “composable elements” that can be used to generate high value data.
+
+Smart Data Types are a revolutionary concept to data collection that’s native to the Itheum platform. The core Itheum team will regularly build new Smart Data Types and add them to the library. There will also be a public marketplace of 3rd party Smart Data Types produced by our community. 3rd party Smart Data Type developers will be incentivised to contribute their their work with token incentives and grants released by the "Itheum Ecosystem Fund".
+
+Here is an example of a Smart Data Type that is available for use today for the Health and Wellness industry : https://itheum.com/smartdatatypes/blood-pressure-left-arm-sitting
+
+Here are all the other available Smart Data Types: https://itheum.com/smartdatatypes
 
 
 
-## Program / App Builder <a name="intro-2"></a>
+## App Builder <a name="intro-2"></a>
+[IMAGE]
+
+The Data Collection & Analytics Toolkit provides interfaces for app developers to build highly flexible data collection and analytics experiences. Apps can be built using our "no-code" toolkit available in the "Management Portal". The "no-code" approach allows for a click and build approach to data collection and analytics, where you can reuse prebuilt templates for scheduled data collection or build out your own custom schedules and include tools from a already built collection of Smart Data Types, engagement channels (e.g. Email, SMS, Telegram), data visualisations, machine learning analysis layers (e.g. sentiment analysis), reports, alerts/thresholds (e.g. irregular data pattern detection), video education and many more tools. 
+
+You can also freely "clone" existing apps and build on top of them. As an example; if you like the (OKPulse employee wellness app)[https://okpulse.life] - you can clone it and build on top of it by adding new  Smart Data Types and data visualisations. We are also working on releasing an SDK and API for people who would like to build apps on Itheum using a programming interface.
 
 
-
-## Omnichannel data collection <a name="intro-2"></a>
-
+## Omnichannel Data Collection <a name="intro-2"></a>
+[IMAGE]
 
 
 ## Automated Data Collection Schedular <a name="intro-2"></a>
-
+[IMAGE]
 
 
 ## Dispense rewards for compliance <a name="intro-2"></a>
+[IMAGE]
 
 
-
-## End User Portal <a name="intro-2"></a>
-
+## User Portal <a name="intro-2"></a>
+[IMAGE]
 
 
 ## Powerful analytics and insights engine <a name="intro-2"></a>
-
+[IMAGE]
 
 
 ## Built In Video Education Studio <a name="intro-2"></a>
+[IMAGE]
 
 
-
-## Admin Portal <a name="intro-2"></a>
-
+## Management Portal <a name="intro-2"></a>
+[IMAGE]
 
 
 ## Full White label Support <a name="intro-2"></a>
-
+[IMAGE]
 
 
 ## App/Program & Smart Data Type Marketplace <a name="intro-2"></a>
-
+[IMAGE]
 
 
 ---
 
 
 
-# Decentralised Data Trade <a name="intro-2"></a>
+# Decentralised Data Trade <a name="data-trade"></a>
 
 The DEX allows for the seamless sale of personal data by “data creators”. The sale, verification and ownership accreditation of the data is handled on-chain but the actual data being sold is kept off-chain. 
 
@@ -355,12 +368,14 @@ Anyone with a crypto wallet can become a buyer of data packs or data streams und
 
 
 
-# Data Dex Components <a name="intro-2"></a>
+# Data Dex Components <a name="data-dex"></a>
 
 
 
-## Peer to Peer Data Trade <a name="intro-2"></a>
+## Peer to Peer Data Trade <a name="peer-trade-1"></a>
+The base functionality that's available when you first log into the Data DEX is the ability to discover and trade data with your "direct peers". You will be able to see all "advertised data" from others and also "advertise" your own data in the data marketplace. As detailed in the section (Decentralised Data Trade)[#data-trade], you can advertise your data from apps that you have joined that's built on Itheum's data Collection and Analytics toolkit or you can also advertise any "arbitrary data" that you own.  
 
+When you place data for sale you will nominate a purchase price in MYDA, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the MYDA requested and in return get access to the data for use based on the "Terms of Use" that you specify. The market operates completely in a "peer-to-peer" manner where there is absolutely no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
 
 
 ## Data NFTs <a name="data-nfts-1"></a>
@@ -698,6 +713,8 @@ Token Generation Event (TGE) Offering:
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5p1usdq7u755ks33rce6.png)
 
 
+## Token Distribution <a name="tokenomics-3"></a>
+-------- talk about the vaious buckets we have and what they mean (team, advicor, tresury, etc). Note that we menione "Itheum Ecosystem Fund" in ertain sections so mention that as well
 
 ---
 
