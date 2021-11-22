@@ -1,10 +1,13 @@
-**Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens.**
+# Abstract
+Itheum is the world's 1st `decentralised data brokerage`. The platform transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty and fair compensation for data usage - and this positions Itheum as the `data platform for the Metaverse`.
+
+**Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens. Full Disclaimers are available at the bottom of this document**
 
       Table Of Contents
         [Introduction](#intro-1)
         [Multi-Chain Strategy](#multi-chain-1)
         [Cross Chain Tokens](#cross-chain-1)
-        [Tokenomics](#tokenomics-1)
+        [Itheum Token](#tokenomics-1)
         [Types of Direct Sale](#types-on-1)
         [Buying Data](#buying-data-1)
         [Enabling Personal Data "Proofs" within Smart Contracts](#data-proofs-1)
@@ -18,16 +21,13 @@
         [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
+        [Disclaimers](#disclaimers)
 
 
 
 
 # Preface
-This is the “Lite WhitePaper” of the Itheum Data DEX — https://datadex.itheum.com
-
-This paper is being actively worked on so it’s in DRAFT format. 
-
-Once a peer review is complete; a formal Whitepaper will be released very soon.
+This is the “Lite WhitePaper” of the Itheum Platform. This paper is worked on so it’s in `DRAFT format`. Once a peer review is complete; a formal Whitepaper will be released.
 
 A technical "yellow paper" is also being actively worked on and will be released prior to our launch.
 <br />
@@ -55,7 +55,7 @@ With this product, Itheum provides **real-world value and adoption** — and in 
 
 This product is essentially a fully featured personal data and analytics platform offered as a PaaS (platform as a service) to organisations. For example:
 
-1. A health and wellness company can use the Itheum data collection and analytics toolkit and embed it into their apps; enabling the collection of health data like blood pressure, fitness/activity, sleep quality and then visualise trends and patterns of their app userbase.
+1. A health and wellness company can use the Itheum data collection and analytics toolkit and embed it into their apps; enabling the collection of health data like blood pressure, fitness/activity, sleep quality and then visualise trends and patterns of their app user-base.
 
 2. A financial organisation can use the Itheum data collection and analytics toolkit to collect scheduled data via customised surveys or questionnaires, triggered by certain actions related to spending patterns — the trends and patterns can then give them more context of their customers’ spending habits.
 
@@ -115,7 +115,7 @@ MYDA can be moved between chains via native ERC20 bridges that already exist. Fo
 
 ---
 
-# Tokenomics <a name="tokenomics-1"></a>
+# Itheum Token <a name="tokenomics-1"></a>
 The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a side-chain like Polygon, BSC or Avalanche).
 
 The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
@@ -135,9 +135,9 @@ A Data Creator (who is the original Data Owner of the data) will allow an Access
 
 If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the MYDA is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
 
-To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
+- To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
 
-Based on the share token holding of the board members, members and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
+- Based on the relative bond/stake token contribution of the board members, members and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
 
 See point number (3) below for more details…
 
@@ -147,18 +147,19 @@ The IF DAO will vote on "Proposals'' on how the MYDA Treasury will be spent to f
 
 **3) Stake/Bond MYDA to create a new Data Coalition (DC) (which is governed by a DAO)**
 
-By doing so; you receive relative voting rights in return. Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
+By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
 
 The following parties can Stake/Bond MYDA:
 
 - Board Members will bond MYDA to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in for until the Board Member leaves the DC.
 
-- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have genuine interest in supplying good quality data to the DC
+- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have genuine interest in supplying good quality data to the DC.
 
-- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a Data Pool Data Quality verifier. Effectively signaling that genuineness of a Data Coalition (similar to how genuineness of a node validator in a DPOS gets signalled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA into a DC will receive relative “share tokens” in return that is used as a Governance token for the DC DAO as well as the access-rights transfer indicator between all parties involved in the exchange of the personal data.
+- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd Sourced Data Curation dynamic), effectively also signalling the "genuineness/credibility" of a Data Coalition (similar to how credibility of a node validator in a DPOS gets signalled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA into are all incentivised relative to their role and stake and earn micropayments after each sale is finalised. Learn more about the [Data Coalition DAO design here][#data-coalitions-1]
 
 
-## Token Offering & Allocation <a name="tokenomics-3"></a>
+
+## Token Metrics <a name="tokenomics-3"></a>
 Please note that the following details are likely to change as we are currently planning for our token launch and as we adjust our token offering based on our planned token utility forecast.
 
 **Total MYDA Supply: 1,000,000,000**
@@ -211,7 +212,7 @@ This demo video shows you an example of the end user portal (CareView)for OKPuls
 
 The CareView portal allows the end user (data creator) to link their Ethereum, Polygon, BSC or Avalanche account to their Itheum platform account. Once they have done this they can then use the Data DEX to load the raw datasets they have generated and put them up for sale.
 
-As the data collected via a Itheum program/application is **fully structured and outcome oriented**, for example — Red Heart Challenge data is centered around the self management of Cardiovascular disease management and OKPulse is around the proactive monitoring of Employee health and wellness issues — it is very valuable for a data buyer/consumer who wants to align analytics discovery or outcome analysis around a certain topic.
+As the data collected via a Itheum program/application is **fully structured and outcome oriented**, for example — Red Heart Challenge data is centred around the self management of Cardiovascular disease management and OKPulse is around the proactive monitoring of Employee health and wellness issues — it is very valuable for a data buyer/consumer who wants to align analytics discovery or outcome analysis around a certain topic.
 
 When this data is grouped together with multiple people who have joined the same program/application via a “Data Coalition (see below)”and augmented with personal data via the “Data Vault (see below)” then the value of the data can grow exponentially as the quantity and quality of the datasets grow.
 
@@ -422,7 +423,7 @@ When working with NFTs in general, the main actors to consider are:
 
 In this example, let's assume *you want to sell your Genomics dataset as a Data NFT.*
 
-1. You use the Ithuem Data DEX to upload your data file and **mint a new Data NFT**. You are the **Original Owner / Issuing Entity**. The NFT is minted with a "proof of ownership" along with other metadata that enables access to the original data file if ownership is proven. All this metadata will be stored on-chain via the standard NFT metadata file schema standards.
+1. You use the Itheum Data DEX to upload your data file and **mint a new Data NFT**. You are the **Original Owner / Issuing Entity**. The NFT is minted with a "proof of ownership" along with other metadata that enables access to the original data file if ownership is proven. All this metadata will be stored on-chain via the standard NFT metadata file schema standards.
 
 2. You then head over to a public NFT marketplace (e.g. OpenSea - where your Data NFT will already be available for sale under your wallet). You place it for sale for .05 ETH
 
@@ -547,7 +548,7 @@ The Foundation DAO feature is still under development but we detail our current 
 - Users can exist their stake anytime, but their vote will be withdraw if they exit during an active voting round
 - `Proposals` can be decisions to `roadmap updates` or `changes to core platform parameters`
 - **Core Platform Parameters** can be tasks like `Update Quorum %`, `Approve new Data Coalition applications`, `Manage core Data Coalition parameters (min:max members / min fees to join)`, `Setting Harberger Tax rate on Coalitions managing Data NFTs`, `Manage Key-pool parameters for Personal Data Vault nodes (max / min / rotation / bonds)`, `Manage node parameters for Trusted Computation framework (max / min / rotation / bonds)` etc.
-- **Roadmap updates** are bascially proposals to move the development roadmap future (see above in Roadmap methodology section)
+- **Roadmap updates** are basically proposals to move the development roadmap future (see above in Roadmap methodology section)
 - Potential issues with this scheme that we will need to design around are `Governance Locks if quorum is not reached` and `Whale dominance`
 
 
@@ -654,7 +655,7 @@ We are sure that there will be many more methods malicious users will use to try
 - **Data Owner:** The type of user who owns a piece of data that’s available in the decentralised data DEX/marketplace. The Owner does not have to be the Data Creator, it can be someone who purchased a Data Pack or a Data NFT can can prove ownership of that asset on the blockchain. So for each Data Pack for example, there will be 1 Data Creator and potentially multiple, unlimited (n∞) Data Owners (the users who bought the original data pack). And for Each Data NFT for example, there will be 1 Data Creator and a single (n1)or multiple, limited (nx) Data Owners as Data NFTs have a limited supply of 1 — x.
 
 <br />
--  **Buyer:** The type of user who logs into the decentralised data DEX and buys a Data Pack or Data NFT. They then become a Data Owner.
+-  **Buyer (Access Requester):** The type of user who logs into the decentralised data DEX and buys a Data Pack or Data NFT. They then become a Data Owner. They are also referred to as a `Access Requester` as they are technically not "buying data to fully own it", instead they are only "buying access rights to use a copy of the data".
 
 <br />
 - **Data Pack:** The simplest dataset that can be sold on the Data DEX. It’s a file in JSON format that can be put on sale by the Data Creator and then get’s advertised for sale in the marketplace. The sale happens directly between Creator and Buyer with no intermediaries.
@@ -664,3 +665,13 @@ We are sure that there will be many more methods malicious users will use to try
 
 <br />
 - *Data NFT:* The alternate way to sell data is by wrapping it in a NFT and then trading it as a regular NFT product in the NFT marketplace.
+
+
+---
+
+
+# Disclaimers <a name="disclaimers"></a>
+This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this White Paper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
+The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
+Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
+This Whitepaper describes a future project and contains forward-looking statements that are based on our beliefs and assumptions at the present time. The project envisaged in this Whitepaper is under development and being constantly updated and accordingly, if and when the project is completed, it may differ significantly from the project set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in the Documents is or should be relied upon as a promise or representation as to the future.

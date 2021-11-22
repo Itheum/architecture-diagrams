@@ -1,8 +1,5 @@
-**Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens.**
-
-
 # Abstract
-Itheum is the world's 1st `decentralised data brokerage`. The platform transforms your personal data into a highly tradable asset class. It provides Data Creators and Data Consumers with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem.
+Itheum is the world's 1st `decentralised data brokerage`. The platform transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty and fair compensation for data usage - and this positions Itheum as the `data platform for the Metaverse`.
 
 **Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens. Full Disclaimers are available at the bottom of this document**
 
@@ -663,6 +660,12 @@ At this point, the following tasks will REQUIRE the MYDA token (or corresponding
 
 **1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
 
+The MYDA token is a pure “utility token” as without owning MYDA you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
+
+At this point, the following tasks will REQUIRE the MYDA token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take a MYDA 1st approach to aligning incentives so we can ensure that MYDA’s position as a utility token can’t be disputed:
+
+**1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
+
 A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of MYDA between the parties. MYDA is essentially the key to use the data from an authorization perspective. The primary goal would be use the transaction of MYDA (between the 2 parties as logged on-chain) as:
 
 - Evidence of access rights being granted by the Data Owner to another party
@@ -671,9 +674,9 @@ A Data Creator (who is the original Data Owner of the data) will allow an Access
 
 If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the MYDA is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
 
-To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
+- To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
 
-Based on the share token holding of the board members, members and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
+- Based on the relative bond/stake token contribution of the board members, members and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
 
 See point number (3) below for more details…
 
@@ -683,15 +686,15 @@ The IF DAO will vote on "Proposals'' on how the MYDA Treasury will be spent to f
 
 **3) Stake/Bond MYDA to create a new Data Coalition (DC) (which is governed by a DAO)**
 
-By doing so; you receive relative voting rights in return. Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
+By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
 
 The following parties can Stake/Bond MYDA:
 
 - Board Members will bond MYDA to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in for until the Board Member leaves the DC.
 
-- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have genuine interest in supplying good quality data to the DC
+- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have genuine interest in supplying good quality data to the DC.
 
-- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a Data Pool Data Quality verifier. Effectively signaling that genuineness of a Data Coalition (similar to how genuineness of a node validator in a DPOS gets signalled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA into a DC will receive relative “share tokens” in return that is used as a Governance token for the DC DAO as well as the access-rights transfer indicator between all parties involved in the exchange of the personal data.
+- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd Sourced Data Curation dynamic), effectively also signalling the "genuineness/credibility" of a Data Coalition (similar to how credibility of a node validator in a DPOS gets signalled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA into are all incentivised relative to their role and stake and earn micropayments after each sale is finalised. Learn more about the [Data Coalition DAO design here][#data-coalitions-1]
 
 
 
@@ -903,7 +906,7 @@ To ensure we continually innovate and delivery tangible web3 / blockchain featur
 - **Data Owner:** The type of user who owns a piece of data that’s available in the decentralised data DEX/marketplace. The Owner does not have to be the Data Creator, it can be someone who purchased a Data Pack or a Data NFT can can prove ownership of that asset on the blockchain. So for each Data Pack for example, there will be 1 Data Creator and potentially multiple, unlimited (n∞) Data Owners (the users who bought the original data pack). And for Each Data NFT for example, there will be 1 Data Creator and a single (n1)or multiple, limited (nx) Data Owners as Data NFTs have a limited supply of 1 — x.
 
 <br />
--  **Buyer:** The type of user who logs into the decentralised data DEX and buys a Data Pack or Data NFT. They then become a Data Owner.
+-  **Buyer (Access Requester):** The type of user who logs into the decentralised data DEX and buys a Data Pack or Data NFT. They then become a Data Owner. They are also referred to as a `Access Requester` as they are technically not "buying data to fully own it", instead they are only "buying access rights to use a copy of the data".
 
 <br />
 - **Data Pack:** The simplest dataset that can be sold on the Data DEX. It’s a file in JSON format that can be put on sale by the Data Creator and then get’s advertised for sale in the marketplace. The sale happens directly between Creator and Buyer with no intermediaries.
@@ -920,7 +923,7 @@ To ensure we continually innovate and delivery tangible web3 / blockchain featur
 
 
 
-## Disclaimers <a name="intro-2"></a>
+# Disclaimers <a name="disclaimers"></a>
 This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this White Paper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
 The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
 Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
