@@ -205,18 +205,26 @@ For example; in the "Red Heart Challenge" program - blood pressure from you left
 ## User Portal <a name="intro-2"></a>
 [IMAGE]
 
-Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) gets access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at anytime. The user portal enables full visibility, management and control of the user's interactions with Itheum Apps. 
+Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) will get access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at anytime. The user portal enables full visibility, management and control of the user's interactions with Itheum Apps. 
 
 Along with providing users with control over their app subscriptions and data, the portal can also be used by users to manage their account preferences, watch education modules (see below), participate in rewards programs (swap engagement reward points for gift-cards) and join new programs. 
 
 The user portal will also be the central hub for "data and privacy control and regulation", where the user can opt in to having their data stored in specific regions or to even completely exit from the Itheum ecosystem and request a full delete of their data assets and history (e.g. "forget-me"). In future; When Data Coalitions provide services like "delegated data usage policy approver" - the user portal can use used by the user to manage the this delegation interface.
 
-## Management Portal <a name="intro-2"></a>
-[IMAGE]
-
 
 ## Powerful analytics and insights engine <a name="intro-2"></a>
 [IMAGE]
+
+As described above in the Smart Data Types section, each Data Type will have built in `composable analytics modules`. These modules are built by developers and data analysts and will overlay on top of all the collected data to provide unparalleled insights. As these analytics modules are composable, you can piece them together to generate powerful analytics and gain insights on the data collected via your apps. 
+
+The insights engine can also make use of some core analytics modules built by the core Itheum team. As example of such a module is the `AI Sentiment Analysis` layer - this layer can be applied to any user-entered input collected by your apps. In the OkPulse App, the AI Sentiment Analysis module is used to analyse the written sentiment of an Employee as they interact with the app. The output from this layer is then used to detect levels of stress and anxiety among employees as they respond to certain data collection metrics. 
+
+## Management Portal <a name="intro-2"></a>
+[IMAGE]
+
+Users who build and run Itheum Apps will get access to a management portal, this is akin to an admin portal that provides full management features over the the apps they are running and the users who are enrolled into those apps. This portal will allow an admin user the tools to manage their Itheum apps (update app configurations and settings, add new apps, change engagement channels for data collation, upload new education modules etc) and also manage their users (manually onboard new users, change password and access control for users, see user progress, add users to new programs etc). 
+
+The portal will also provide the comprehensive data reporting features that allow the user to view cutting edge data analytics which are produced by the `Powerful analytics and insights engine`. The management portal is the "control panel" for everyone who runs itheum apps.
 
 
 ## Built In Video Education Studio <a name="intro-2"></a>
@@ -744,9 +752,26 @@ Token Generation Event (TGE) Offering:
 
 
 ## Token Distribution <a name="tokenomics-3"></a>
--------- talk about the vaious buckets we have and what they mean (team, advicor, tresury, etc). Note that we menione "Itheum Ecosystem Fund" in ertain sections so mention that as well
+As with all blockchain based projects, there will be an allocation of tokens that are not for public sale, these non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity and incentives needed for continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, that brings the best value to the community and eventually be governed by the community. The allocations will be as follows:
 
----
+### Foundation Reserve
+
+
+### Liquidity
+
+
+### Community & Ecosystem
+
+
+### Partners
+
+
+### Team & Advisors
+
+
+
+
+
 
 ## Active Community and Loyalty Incentives <a name="tokenomics-3"></a>
 -------- Talk about how we are planning to put in tx fees for trade and have that money moved to a special tresury. This treasury is then split and shared with the ecosystem, Where a % goes to tokens holders and % goes to fund more apps, data coaltions and integrations
