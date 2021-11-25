@@ -1,0 +1,200 @@
+<mxfile host="app.diagrams.net" modified="2021-11-25T02:46:34.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="5ONqlJSUXV_r3FRcq_T7" version="15.0.3" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uSYhQ36tXlabATn87FUD-1" value="Itheum Data DEX" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="710" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-5" target="uSYhQ36tXlabATn87FUD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-5" value="Seller Upload JSON to sell as a &quot;Data Pack&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-8" value="&quot;Advertise Data for Sale in HBAR&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=top;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="210" y="50" width="480" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-19" target="uSYhQ36tXlabATn87FUD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-19" value="Generate &lt;br&gt;&quot;Data Hash&quot;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="274" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-20" target="uSYhQ36tXlabATn87FUD-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="140" />
+              <mxPoint x="610" y="200" />
+              <mxPoint x="270" y="200" />
+              <mxPoint x="270" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-20" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Store file to &lt;br&gt;IPFS/FileCoin and &lt;br&gt;get &quot;Location URL&quot;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="439" y="100" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-22" target="uSYhQ36tXlabATn87FUD-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-22" value="Generate Data Pack &lt;br&gt;with URL and other &lt;br&gt;user entered meta &lt;br&gt;data (data preview)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="279" y="240" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-30" value="Store the &quot;proof&quot; &lt;br&gt;on Hedera, get &lt;br&gt;transaction &lt;br&gt;reference and update&lt;br&gt;Data Pack&amp;nbsp;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="459" y="240" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-46" target="uSYhQ36tXlabATn87FUD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-46" value="Buyer wants to buy Data Pack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="39" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-47" value="&quot;Verify Data and Buy&quot;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=top;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="209" y="410" width="480" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-50" target="uSYhQ36tXlabATn87FUD-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-50" value="Check Data Hash of &lt;br&gt;required Data Pack &lt;br&gt;against Hedera for &lt;br&gt;&quot;Proof of Veracity&quot;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="279" y="460" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="uSYhQ36tXlabATn87FUD-1" source="uSYhQ36tXlabATn87FUD-54" target="uSYhQ36tXlabATn87FUD-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="515" />
+              <mxPoint x="630" y="590" />
+              <mxPoint x="330" y="590" />
+              <mxPoint x="330" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-54" value="Move HBAR tokens &lt;br&gt;from buyer and &lt;br&gt;send to seller" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="454" y="460" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-57" value="Fetch URL from FileCoin &lt;br&gt;and finalise the &lt;br&gt;&quot;Data Order&quot; for Buyer &lt;br&gt;to provide access to file" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry x="350" y="600" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-2" target="uSYhQ36tXlabATn87FUD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-4" value="User Logs In Via Hedera Identity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uSYhQ36tXlabATn87FUD-3">
+          <mxGeometry x="0.2381" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-2" value="Data Buyer / Seller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-6" value="Web2 Meta Data Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-22" target="uSYhQ36tXlabATn87FUD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="560" />
+              <mxPoint x="340" y="560" />
+              <mxPoint x="340" y="180" />
+              <mxPoint x="530" y="180" />
+              <mxPoint x="530" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-10" value="Store and get&amp;nbsp;&lt;br&gt;&amp;nbsp;&quot;Data Pack ID&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uSYhQ36tXlabATn87FUD-9">
+          <mxGeometry x="0.0039" y="3" relative="1" as="geometry">
+            <mxPoint x="13" y="-217" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-13" value="Storage Library create a new row in the DataPack table and send the id back - this is the DataPack ID and is the &quot;linking ID&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-14" value="Data Packs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-15" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-16" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-14">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-17" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-14">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-15" target="uSYhQ36tXlabATn87FUD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-26" value="FileCoin " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="180" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-39" value="Do we run our own node?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontStyle=2" vertex="1" parent="uSYhQ36tXlabATn87FUD-26">
+          <mxGeometry x="20" y="50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-27" value="Hedera Hashgraph - HCS" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="300" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-33" value="&lt;h1&gt;Proof&lt;/h1&gt;&lt;p&gt;Data Pack ID -&amp;gt; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; seller [type = wallet address],&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; dataHash [type = string]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="uSYhQ36tXlabATn87FUD-27">
+          <mxGeometry x="20" y="40" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-20" target="uSYhQ36tXlabATn87FUD-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="290" />
+              <mxPoint x="1030" y="290" />
+              <mxPoint x="1030" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.463;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-30" target="uSYhQ36tXlabATn87FUD-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-35" value="After Consensus is reached &lt;br&gt;then we get the&lt;br&gt;&amp;nbsp;transaction reference details &lt;br&gt;and send back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1030" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-50" target="uSYhQ36tXlabATn87FUD-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="650" />
+              <mxPoint x="1310" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-53" value="Data integrity is good" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uSYhQ36tXlabATn87FUD-52">
+          <mxGeometry x="0.2892" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-55" value="Hedera Hashgraph - Token Service" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="730" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-54" target="uSYhQ36tXlabATn87FUD-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="849" y="660" />
+              <mxPoint x="1077" y="660" />
+              <mxPoint x="1077" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-61" value="Data Orders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="28" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-62" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-61">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-63" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-61">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-64" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uSYhQ36tXlabATn87FUD-61">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSYhQ36tXlabATn87FUD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="uSYhQ36tXlabATn87FUD-63" target="uSYhQ36tXlabATn87FUD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
