@@ -9,7 +9,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Introduction](#intro-1)
         [Multi-Chain Strategy](#multi-chain-1)
         [Cross Chain Tokens](#cross-chain-1)
-        [Tokenomics](#tokenomics-1)
+        [Itheum Token](#tokenomics-1)
         [Types of Direct Sale](#types-on-1)
         [Buying Data](#buying-data-1)
         [Enabling Personal Data "Proofs" within Smart Contracts](#data-proofs-1)
@@ -20,8 +20,10 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
+        [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
+        [Disclaimers](#disclaimers)
 
 
 
@@ -43,10 +45,11 @@ At Itheum, we believe that YOUR DATA IS YOUR BUSINESS!
 
 # What is Itheum? <a name="intro-2"></a>
 
-Itheum wants to change this current toxic model for personal data collection and exchange and level the playing field — where the organisation and “you” (the data creator) equally benefit from the trade of personal data.
+Itheum wants to change this current toxic model for personal data collection and exchange and level the playing field — where the commercial enterprise and “you” (the data creator) equally benefit from the trade of personal data.
 
-Itheum is a complete platform that aims to provide 2 fundamental products (that when used together) will flip the dynamic of personal data collection and exchange.
+Itheum empowers data ownership in the metaverse and brings new market value to your data. It enables this by providing “decentralised data brokerage” technology. It’s a suite of tools that enable for high-value data to be bridged from web2 to web3 and then be traded via peer-to-peer sales. It allows for “viral adoption” via our creative Data NFT technology and our innovative Data Coalition DAOs (which bulk sell your data). It also aims to be fully privacy-preserving, regulation-friendly and cross-chain; making it the most comprehensive core blockchain data infrastructure available in the market with use-cases in both the enterprise and consumer space.
 
+It provides 2 fundamental products (that when used together) will flip the dynamic of personal data collection and exchange.
 
 
 ---
@@ -177,22 +180,38 @@ Here are all the other available Smart Data Types: https://itheum.com/smartdatat
 
 The Data Collection & Analytics Toolkit provides interfaces for app developers to build highly flexible data collection and analytics experiences. Apps can be built using our "no-code" toolkit available in the "Management Portal". The "no-code" approach allows for a click and build approach to data collection and analytics, where you can reuse prebuilt templates for scheduled data collection or build out your own custom schedules and include tools from a already built collection of Smart Data Types, engagement channels (e.g. Email, SMS, Telegram), data visualisations, machine learning analysis layers (e.g. sentiment analysis), reports, alerts/thresholds (e.g. irregular data pattern detection), video education and many more tools. 
 
-You can also freely "clone" existing apps and build on top of them. As an example; if you like the (OKPulse employee wellness app)[https://okpulse.life] - you can clone it and build on top of it by adding new  Smart Data Types and data visualisations. We are also working on releasing an SDK and API for people who would like to build apps on Itheum using a programming interface.
+You can also freely "clone" existing apps and build on top of them. As an example; if you like the [OKPulse employee wellness app](https://okpulse.life) - you can clone it and build on top of it by adding new  Smart Data Types and data visualisations. We are also working on releasing an SDK and API for people who would like to build apps on Itheum using a programming interface.
 
 
 ## Omnichannel Data Collection <a name="intro-2"></a>
 [IMAGE]
 
+In order to reach the broadest user base and bridge as much highly structured, outcome oriented data from the web2 world into the web3 world; Itheum aims to support a wide range of data collection "channels". Channels are pathways from which data is actively and passively collected from users. 
+
+Itheum currently supports automated data collection via Email, SMS, Telegram and Facebook Messenger. We are also actively working to support Slack, Voice (via automated telephony calling and speech-to-text collection of data) and WhatsApp. Itheum is also building an iOS and Android mobile app that will be be able to integrate with your mobile platform's existing secure data vaults (Apple health and Google Fit) and automate the collection of valuable health and wellness data. 
+
+The platform will also support various 3rd party, on-chain and off-chain (Data Adaptors (Fitbit, Garmin, Open APIs, The Graph, ChainLink etc))[data-adaptors-1]
+
 
 ## Automated Data Collection Schedular <a name="intro-2"></a>
 [IMAGE]
 
+Apps built on the Itheum will actively and passively collect data from users and bridge seamlessly this data into web3. Highly structured, outcome oriented data can be collected by using Smart Data Types and these data types usually need to be collected at a pre-defined, structured schedule for them to provide the most value. 
 
-## Dispense rewards for compliance <a name="intro-2"></a>
-[IMAGE]
+Using the built in `Automated Data Collection Schedular`, you can schedule data collection based on granular conditions and timetables. You can pick the day and time data needs to be collected, you can skip certain days or collect weekly, forth-nightly or monthly, you can trigger other specific data to be collected based results of a previous data point or result and also use other customised logic for scheduled data collection. 
 
+For example; in the "Red Heart Challenge" program - blood pressure from you left arm is collected daily but on the weekends, blood pressure data is collected from your right arm. Using this schedule, we can derive using data analytics on the "variance of left vs right arm collection" and "weekday vs weekend collection". The automated Data Collection Schedular provides the ability to enable rich data collection and increase the value of the final data.
 
 ## User Portal <a name="intro-2"></a>
+[IMAGE]
+
+Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) gets access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at anytime. The user portal enables full visibility, management and control of the user's interactions with Itheum Apps. 
+
+Along with providing users with control over their app subscriptions and data, the portal can also be used by users to manage their account preferences, watch education modules (see below), participate in rewards programs (swap engagement reward points for gift-cards) and join new programs. 
+
+The user portal will also be the central hub for "data and privacy control and regulation", where the user can opt in to having their data stored in specific regions or to even completely exit from the Itheum ecosystem and request a full delete of their data assets and history (e.g. "forget-me"). In future; When Data Coalitions provide services like "delegated data usage policy approver" - the user portal can use used by the user to manage the this delegation interface.
+
+## Management Portal <a name="intro-2"></a>
 [IMAGE]
 
 
@@ -203,10 +222,8 @@ You can also freely "clone" existing apps and build on top of them. As an exampl
 ## Built In Video Education Studio <a name="intro-2"></a>
 [IMAGE]
 
-
-## Management Portal <a name="intro-2"></a>
+## Dispense rewards for compliance <a name="intro-2"></a>
 [IMAGE]
-
 
 ## Full White label Support <a name="intro-2"></a>
 [IMAGE]
@@ -440,6 +457,7 @@ In this example, let's assume *you want to sell your Genomics dataset as a Data 
 5. The can request formal **transfer of ownership** to own the *IP* if needed and is allowed in the original terms of sale. Although this feature is not an inherent quality of NFTs, it will be mediated via Data Coalitions and our "Decentralised Middleware" service
 
 <br />
+
 > Data NFTs are currently in the "Available in Testnet" stage.
 
 
@@ -482,6 +500,9 @@ As introduced above; Data Coalitions are formed and run by a virtual board — t
 - Data Coalitions in future will also trade with other Coalitions and be connected to autonomous machines via a machine to machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
 
 <br />
+- As we join new apps or services today we are often promoted to agree to "terms and conditions and privacy policy documents" that are pages long and contain legal jargon that we just don't understand. Many of us do not read this or understand the impact of "agreeing". As some Data Coalitions will be made of of data, regulation and legal subject matter experts - they can in future can provide services like "delegated data usage policy approver", where users can delegate the approval rights to the Data Coalitions who would have previously vetted terms and conditions and privacy policy documents and can agree to them on behalf of the user. This service will be provided to web2 and web3 app developers and we envision this as a "pay per use" product, where the generated income shared with the Data Coalition members.
+
+<br />
 - They can allow (if voted by members) for "anonymous cohort analysis" of data trends via tooling provided via our "data collection and analytics toolkit" feature. For example; there may be a data coalition setup for the collection of "fitness and demographic data" - where you, as a Data Creator can align to and sell your wearable data from Fitbit or Garmin as well as append specify demographic data from your Data Vault (e.g. Gender, Age, Ethnicity) to enhance it's value. Anonymous cohort analysis can then be enabled to visualise the type of data under the control of this Data Coalition. This adds more appeal to buyers who can preview data with more detail before committing to buying at a premium price.
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/avoyaf20ah58ysvutla5.png)
@@ -494,6 +515,7 @@ As introduced above; Data Coalitions are formed and run by a virtual board — t
 - Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under it's control. For e.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to Bond MYDA for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and MYDA stakes from regular users (members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so it's important that you have some commercial experience in data related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due-diligence on the validators reputation and past performance. So for a Data Coalition to be successful - it will need to be in a "operational mode" and have some credible "board members" whilst maintaining ongoing trade operational credibility.
 
 <br />
+
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
 
@@ -544,11 +566,12 @@ As the data is encrypted using user’s private key we need to enable a friction
 - Data Vaults will enable a user to "opt out" of the system in the event they do not want to share their data anymore (e.g. a requirement in GDPR). This is achieved by the above mentioned "proof of ownership" protocol. Where the unique decrypting key can be "burned" which then effectively makes all decentralised copies of data (e.g. in IPFS or elsewhere) become **untethered from the Data Creator**. The data without its decryption key is now effectively just a blob of scrambled test without any identity or utility attached to it. There are of course challenges to this that we need to solve, for e.g. what happens if you sell your data and then change your mind after the sale? Do we allow for a recall of data sale? if so, how can we ensure a user can completely opt-out?
 
 <br />
+
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
 
 
-## Personal Data Adaptors
+## Personal Data Adaptors <a name="data-adaptors-1"></a>
 
 
 ## Data Streams <a name="data-streams-1"></a>
@@ -558,6 +581,8 @@ You can let buyers subscribe to “personal data streams” — unlike the on-of
 Streams are a more powerful way for buyers to subscribe to longitudinal datasets that grow over time. For example, health and wellness data like activity, sleep quality, blood pressure or financial activity like spend habits etc.
 
 When paired with context rich data from your “data vault” — streams become a valuable and steady source of passive income for you in exchange for your personal data.
+
+<br />
 
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
@@ -572,6 +597,7 @@ All personal data traded on the on-chain DEX is never stored on-chain — only h
 The trusted computation framework is tethered to the “regional decentralisation hub” and is our "Compute-to-Data” solution for highly sensitive data processing requirements within high regulatory environments.
 
 <br />
+
 > This feature is currently in the "Research:Labs" stage.
 
 
@@ -583,6 +609,7 @@ Highly sensitive data like medical data from hospitals, personal health records,
 Regional Decentralised Hubs are a novel idea we are exploring around regional decentralisation which balance legal sovereignty laws with personal data sovereignty.
 
 <br />
+
 > This feature is currently in the "Research:Labs" stage.
 
 
@@ -721,6 +748,10 @@ Token Generation Event (TGE) Offering:
 
 ---
 
+## Active Community and Loyalty Incentives <a name="tokenomics-3"></a>
+-------- Talk about how we are planning to put in tx fees for trade and have that money moved to a special tresury. This treasury is then split and shared with the ecosystem, Where a % goes to tokens holders and % goes to fund more apps, data coaltions and integrations
+
+---
 
 
 # Usage, Utility & Fraud <a name="intro-2"></a>
