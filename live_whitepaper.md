@@ -166,15 +166,12 @@ Please note that the following details are likely to change as we are currently 
 
 Token Generation Event (TGE) Offering:
 - Hard Cap on Launch: 6.5 million
-- Liquidity on DEX: 400k
-- Total MYDA offered (13.8%): 138,000,000 (seed + private = 130,000,000, Public IDO = 8,000,000)
-- Price per MYDA: 0.10
-- Initial Market Cap: $450,000
+- Liquidity on DEX: 600k
+- Total MYDA offered (24%): 240,000,000 (seed + private = 232,500,000; Public IDO = 7,500,000)
+- Price per MYDA: 0.08
+- Initial Market Cap: TBD
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1yhdk5jekmby4nj2s0om.png)
- 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5p1usdq7u755ks33rce6.png)
- 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ujbmfjf2o22q0rlvdvrm.png)
  
 
 ---
@@ -373,9 +370,6 @@ As introduced above; Data Coalitions are formed and run by a virtual board — t
 
 <br />
 - Data Coalitions in future will also trade with other Coalitions and be connected to autonomous machines via a machine to machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
-
-<br />
-- As we join new apps or services today we are often promoted to agree to "terms and conditions and privacy policy documents" that are pages long and contain legal jargon that we just don't understand. Many of us do not read this or understand the impact of "agreeing". As some Data Coalitions will be made of of data, regulation and legal subject matter experts - they can in future can provide services like "delegated data usage policy approver", where users can delegate the approval rights to the Data Coalitions who would have previously vetted terms and conditions and privacy policy documents and can agree to them on behalf of the user. This service will be provided to web2 and web3 app developers and we envision this as a "pay per use" product, where the generated income shared with the Data Coalition members.
 
 <br />
 - They can allow (if voted by members) for "anonymous cohort analysis" of data trends via tooling provided via our "data collection and analytics toolkit" feature. For example; there may be a data coalition setup for the collection of "fitness and demographic data" - where you, as a Data Creator can align to and sell your wearable data from Fitbit or Garmin as well as append specify demographic data from your Data Vault (e.g. Gender, Age, Ethnicity) to enhance it's value. Anonymous cohort analysis can then be enabled to visualise the type of data under the control of this Data Coalition. This adds more appeal to buyers who can preview data with more detail before committing to buying at a premium price.
