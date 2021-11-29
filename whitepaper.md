@@ -20,6 +20,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
+        [NFMe Technology](#nfme-1)
         [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
@@ -110,11 +111,11 @@ So what are you waiting for? Read on to learn more about the Itheum platform and
 
 
 # Market Landscape & Adoption Strategy <a name="intro-2"></a>
-The "personal data soverignty" market landscape is growing rapidly with many tranditional web2 enterprises and blockchain tech stack based web3 companies laucnhing and providing soltuions to meet the growing global demand for data platforms that empower the "data creator" and enable better regulation of personal data. 
+The "personal data sovereignty" market landscape is growing rapidly with many traditional web2 enterprises and blockchain tech stack based web3 companies launching and providing solutions to meet the growing global demand for data platforms that empower the "data creator" and enable better regulation of personal data.
 
 
 ## Key web2 and web 3 Competitors <a name="intro-2"></a>
-In the web2 space there are highly innovative companies like [digi.me](foo) and [Solid](foo) (a company founded Sir Tim Burnes Lee - the inventor of the internet) and in the web3 space; we have platforms like Ocean Protocol, Streamr and Fractal along with newer platforms like Cirus and Swash. The growth in this space signals the growing need for platforms like Itheum - which aim to underpin the data tech infrastructure needed for future growth in the data sharing space.
+In the web2 space there are highly innovative companies like [digi.me](https://digi.me/) and [Solid](https://solidproject.org/) (a company founded Sir Tim Berners Lee - the inventor of the internet) and in the web3 space; we have platforms like Ocean Protocol, Streamr and Fractal along with newer platforms like Cirus Foundation and Swash. The growth in this space signals the growing need for platforms like Itheum - which aim to underpin the data tech infrastructure needed for future growth in the data sharing space.
 
 
 ## What Makes us different <a name="intro-2"></a>
@@ -162,7 +163,7 @@ Itheum aims to have a viral go-to-market stragey that removes the barrier for gr
 The following are the key components that come together to make up the Data Collection & Analytics Toolkit.
 
 
-## Smart Data Types <a name="intro-2"></a>
+## Smart Data Types
 [IMAGE]
 
 The core element of the Data Collection & Analytics Toolkit is a concept called “Smart Data Types”. There are core building blocks that you can use to build advanced data collection apps. Think of them as the “composable elements” that can be used to generate high value data.
@@ -175,7 +176,7 @@ Here are all the other available Smart Data Types: https://itheum.com/smartdatat
 
 
 
-## App Builder <a name="intro-2"></a>
+## App Builder
 [IMAGE]
 
 The Data Collection & Analytics Toolkit provides interfaces for app developers to build highly flexible data collection and analytics experiences. Apps can be built using our "no-code" toolkit available in the "Management Portal". The "no-code" approach allows for a click and build approach to data collection and analytics, where you can reuse prebuilt templates for scheduled data collection or build out your own custom schedules and include tools from a already built collection of Smart Data Types, engagement channels (e.g. Email, SMS, Telegram), data visualisations, machine learning analysis layers (e.g. sentiment analysis), reports, alerts/thresholds (e.g. irregular data pattern detection), video education and many more tools. 
@@ -183,7 +184,7 @@ The Data Collection & Analytics Toolkit provides interfaces for app developers t
 You can also freely "clone" existing apps and build on top of them. As an example; if you like the [OKPulse employee wellness app](https://okpulse.life) - you can clone it and build on top of it by adding new  Smart Data Types and data visualisations. We are also working on releasing an SDK and API for people who would like to build apps on Itheum using a programming interface.
 
 
-## Omnichannel Data Collection <a name="intro-2"></a>
+## Omnichannel Data Collection
 [IMAGE]
 
 In order to reach the broadest user base and bridge as much highly structured, outcome oriented data from the web2 world into the web3 world; Itheum aims to support a wide range of data collection "channels". Channels are pathways from which data is actively and passively collected from users. 
@@ -193,7 +194,7 @@ Itheum currently supports automated data collection via Email, SMS, Telegram and
 The platform will also support various 3rd party, on-chain and off-chain (Data Adaptors (Fitbit, Garmin, Open APIs, The Graph, ChainLink etc))[data-adaptors-1]
 
 
-## Automated Data Collection Schedular <a name="intro-2"></a>
+## Automated Data Collection Schedular
 [IMAGE]
 
 Apps built on the Itheum will actively and passively collect data from users and bridge seamlessly this data into web3. Highly structured, outcome oriented data can be collected by using Smart Data Types and these data types usually need to be collected at a pre-defined, structured schedule for them to provide the most value. 
@@ -202,7 +203,7 @@ Using the built in `Automated Data Collection Schedular`, you can schedule data 
 
 For example; in the "Red Heart Challenge" program - blood pressure from you left arm is collected daily but on the weekends, blood pressure data is collected from your right arm. Using this schedule, we can derive using data analytics on the "variance of left vs right arm collection" and "weekday vs weekend collection". The automated Data Collection Schedular provides the ability to enable rich data collection and increase the value of the final data.
 
-## User Portal <a name="intro-2"></a>
+## User Portal
 [IMAGE]
 
 Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) will get access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at anytime. The user portal enables full visibility, management and control of the user's interactions with Itheum Apps. 
@@ -212,14 +213,14 @@ Along with providing users with control over their app subscriptions and data, t
 The user portal will also be the central hub for "data and privacy control and regulation", where the user can opt in to having their data stored in specific regions or to even completely exit from the Itheum ecosystem and request a full delete of their data assets and history (e.g. "forget-me"). In future; When Data Coalitions provide services like "delegated data usage policy approver" - the user portal can use used by the user to manage the this delegation interface.
 
 
-## Powerful analytics and insights engine <a name="intro-2"></a>
+## Powerful analytics and insights engine
 [IMAGE]
 
 As described above in the Smart Data Types section, each Data Type will have built in `composable analytics modules`. These modules are built by developers and data analysts and will overlay on top of all the collected data to provide unparalleled insights. As these analytics modules are composable, you can piece them together to generate powerful analytics and gain insights on the data collected via your apps. 
 
 The insights engine can also make use of some core analytics modules built by the core Itheum team. As example of such a module is the `AI Sentiment Analysis` layer - this layer can be applied to any user-entered input collected by your apps. In the OkPulse App, the AI Sentiment Analysis module is used to analyse the written sentiment of an Employee as they interact with the app. The output from this layer is then used to detect levels of stress and anxiety among employees as they respond to certain data collection metrics. 
 
-## Management Portal <a name="intro-2"></a>
+## Management Portal
 [IMAGE]
 
 Users who build and run Itheum Apps will get access to a management portal, this is akin to an admin portal that provides full management features over the the apps they are running and the users who are enrolled into those apps. This portal will allow an admin user the tools to manage their Itheum apps (update app configurations and settings, add new apps, change engagement channels for data collation, upload new education modules etc) and also manage their users (manually onboard new users, change password and access control for users, see user progress, add users to new programs etc). 
@@ -227,7 +228,7 @@ Users who build and run Itheum Apps will get access to a management portal, this
 The portal will also provide the comprehensive data reporting features that allow the user to view cutting edge data analytics which are produced by the `Powerful analytics and insights engine`. The management portal is the "control panel" for everyone who runs itheum apps.
 
 
-## Built In Video Education Studio <a name="intro-2"></a>
+## Built In Video Education Studio
 [IMAGE]
 
 Itheum aims to generate very high quality personal data but this can be a challenge as the problems of bad data quality are very common in the data tech industry. Especially when the data is generated by an end user and not a machine (like a sensor). For example; in the health and wellness industry - the problems associated with bad "patient generated data" makes it very hard for clinical staff to make automated diagnosis or dispositions, as there is a high possibility that the data might have been incorrectly generated or entered by the end user (patient). These problems are not unique to the health and wellness industry and are common across any sectors where end-users are responsible for generating and submitting their own data.
@@ -236,17 +237,22 @@ To improve the quality of data that is produced by Itheum apps, we have implemen
 
 the Itheum Management portal has a video studio that allows you to record videos or reuse videos from public channels like YouTube. Users are also rewarded for watching these videos, with engagement points being handed to users as they complete video education modules. With users earning rewards to be educated of data collection, their engagement rates increase and Itheum generates higher quality data. In future, Itheum will also allow 3rd party education content provides to generate education videos for use within the Itheum App ecosystem.
 
-## Dispense rewards for compliance <a name="intro-2"></a>
+## Dispense rewards for compliance
+[IMAGE]
+
+The data collection apps built on Itheum aim to have built in mechanisms to boost user engagement and compliance. As higher user engagement leads to higher quantities of data, these incentive mechanisms are invaluable to the system. Users who join the `Data DEX` to connect their Itheum Apps and then bridge and trade their data on the blockchain, are able to earn MYDA tokens in return for access to their data. But this requires users to have web3 experience and it can be a limiting factor initially where Itheum's apps may have many users who are yet to enter the web3 technology  ecosystem (wallet usage, token purchase on DEX/CEX etc).
+
+To enable the widest adoption of Itheum in web2 and web3; the Itheum platform also introduces a `web2 rewards system` - where users who earn "traditional rewards points" as they engage with the apps they join. Users can earn points for completing data collection tasks on time, watching education videos, logging into the platform to check progress etc. This reward system is very similar to the mainstream royalty points system that users will be familiar with, where you can earn points for credit card usage, frequent travel and for shopping at the grocery stores. The Itheum app platform's rewards points can then be redeemed in the reward store for real world gift cards or redeemed for MYDA tokens in the Data DEX. 
+
+
+## Full White label Support
 [IMAGE]
 
 
 
-## Full White label Support <a name="intro-2"></a>
+## App & Smart Data Type Marketplace
 [IMAGE]
 
-
-## App & Smart Data Type Marketplace <a name="intro-2"></a>
-[IMAGE]
 
 
 ---
@@ -391,6 +397,10 @@ Anyone with a crypto wallet can become a buyer of data packs or data streams und
 2. Each data pack or stream will have an associated “terms of use”, the buyer agrees to abide by the nominated use. There will be dispute and conflict resolution processes in future to protect the seller from misuse. (if the sale is direct between data creator and buyer)
 
 3. If the purchase is via an authorised Data Coalition, then the buyer needs to adhere to the terms and condition of use as per the Data Coalition and also put in collateral in the form of MYDA for a certain period of time (until the buyer earns a higher credibility score) – data sold via a Data Coalition has a more robust misuse remediation and dispute resolution process handled via decentralised governance.
+
+
+
+## Pricing Data <a name="types-on-1"></a>
 
 
 
@@ -629,6 +639,15 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 > This feature is currently in the "Research:Labs" stage.
 
 
+## NFMe Technology <a name="nfme-1"></a>
+
+
+
+<br />
+
+> This feature is currently in the "Research:Labs" stage.
+
+
 
 # Technology Philosophy
 
@@ -668,7 +687,7 @@ MYDA can be moved between chains via native ERC20 bridges that already exist. Fo
 
 
 ## Moving to a Layer 1 Protocol
-
+[talk about the bridges that are coming up to link chains to data like polygon filecoin bridge]
 
 
 ---
