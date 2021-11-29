@@ -248,11 +248,19 @@ To enable the widest adoption of Itheum in web2 and web3; the Itheum platform al
 ## Full White label Support
 [IMAGE]
 
+Apps developed on the Data Collection and Analytics toolkit will be built by commercial enterprises and also academic and research institutes. We have seen this already with OKPulse, which was built by a corporate wellness institute and Red Heart Challenge which was co-designed and built by an academic institute. These entities will usually have a target user-case they'd like to engage with and often require the entire app experience and data collection communication to be "white labeled". 
+
+White Labelling includes using your own domain names, logos and branding, email and mobile numbers, support ticketing systems etc. By white labelling an Itheum App, app developers can boost adoption with their users as the entire user experience will be branded to something they can be trusted. To enable this requirement we have built in full white label support for Itheum Apps and feel that this is a huge selling point for mass adoption in both the commercial and non-commercial sectors.
 
 
 ## App & Smart Data Type Marketplace
 [IMAGE]
 
+Anyone can participate in the Data Collection and Analytics toolkit ecosystem and build Smart Data Types and Apps. For Apps built for use within the not-for-profit and academic sectors, Itheum will offer the toolkit absolutely free of charge. For commercial use-cases Itheum will charge a nominal fee (we will offer it as a Platform-as-a-service with a nominal fee that ensures that the price point is accessible to small-to-medium businesses to ensure they can participate in the personal data collection industry). 
+
+As detailed above, all Smart Data Types and Apps are "modular"; which means that you can clone them and build on top of them. This makes Itheum highly composable and extensible and will provide huge opportunities for innovative data collection and analytics solutions to come into existence.
+
+All new Smart Data Types and Apps build built on Itheum will be available in a `Itheum Marketplace`. Most of them will be available free of charge, but we will also provide a mechanism for Smart Data Types and App developers to build solutions that can be sold or licensed. This provides a dynamic marketplace for data collection and analytics innovation and an opportunity for 3rd party developers, data analysis, data scientists, product owners to earn some income.
 
 
 ---
@@ -639,7 +647,7 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 > This feature is currently in the "Research:Labs" stage.
 
 
-## NFMe Technology <a name="nfme-1"></a>
+## NFMe Technology - Evolving Data NFTs <a name="nfme-1"></a>
 
 
 
