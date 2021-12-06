@@ -6,8 +6,10 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
       Table Of Contents
         [Introduction](#intro-1)
         [Multi-Chain Strategy](#multi-chain-1)
+        [Multi-Chain Technical Design Goals](#multi-chain-design-1)
         [Cross Chain Tokens](#cross-chain-1)
         [Itheum Token](#tokenomics-1)
+        [Selling Data](#selling-1)
         [Types of Direct Sale](#types-on-1)
         [Buying Data](#buying-data-1)
         [Enabling Personal Data "Proofs" within Smart Contracts](#data-proofs-1)
@@ -18,6 +20,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
+        [The Data Metaverse and nfME Avatar Technology](#nfme-1)
         [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
@@ -92,7 +95,7 @@ So what are you waiting for? Read on to learn more about the Itheum platform and
 ---
 
 # Multi-Chain Strategy <a name="multi-chain-1"></a>
-The Itheum Data DEX will work across all EVM compatible chains from day one. We already have Ethereum and Polygon working and will be deploying into BSC and Avalanche shortly. Currently data advertised on a particular chain can only be visible to participants who are one the same chain. i.e. a buyer can only buy data advertised for sale on the same chain.
+The Itheum Data DEX will work across EVM and non-EVM compatible chains from day one of it's mainnet launch. We already have Ethereum, Polygon, BSC, Harmony, PlatON and Parastate working and will be deploying into Avalanche shortly. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Algorand, Hedera and others. Currently data advertised on a particular chain can only be visible to participants who are one the same chain. i.e. a buyer can only buy data advertised for sale on the same chain.
 
 We are working on cross-chain advertising and purchasing of data facilitated via cross chain oracles that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn of chain native tokens to balance the chain specific token repositories (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains).
 
@@ -101,22 +104,33 @@ We are working on cross-chain advertising and purchasing of data facilitated via
 
 ---
 
+# Multi-Chain Technical Design Goals <a name="multi-chain-design-1"></a>
+
+- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. So this protocol can be implemented on any blockchain.
+- The Itheum protocol is built into the smart contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
+- Therefore the protocol can be implemented in any blockchain and on any native runtime (does not have to be EVM). So long as the native chain supports transaction consensus and token standards; Itheum can be built on it.
+- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable smart-contracts which coordinate how data will be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they form the foundation for future web3 core infrastructure. This also makes sure we can work across private, permissioned and public chains to reach maximum adoption.
+- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain smart-contract-coordinators on any other chain and runtime; and they can talk to each other via bridges, middleware and oracles.
+- The future of blockchain is interoperability, so we are designing it this way.
+
+---
+
 # Cross Chain Tokens <a name="cross-chain-1"></a>
 The core Itheum Data DEX token is an ERC20 token called MYDA (short for MYDAta). The MYDA token will allow for the purchasing of data from data creators as well as from Data Coalitions. The MYDA token will also play a role in staking against a Data Coalition and for decentralised governance of the Data Coalition’s responsibilities and actions.
 
-As the Itheum Data DEX operates cross-chain, there will be 3 core tokens that represent each chain.
+As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of MYDA bridged and distributed as more chains are added.
 
 - MYDA — Token deployed on Ethereum
 - mMYDA — Token deployed on Polygon/Matic
 - bMYDA — Token deployed on Binance Smart Chain (BSC)
 - aMYDA — Token deployed on Avalanche
 
-MYDA can be moved between chains via native ERC20 bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert you MYDA to mMYDA and vice versa.
+MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert you MYDA to mMYDA and vice versa.
 
 ---
 
 # Itheum Token <a name="tokenomics-1"></a>
-The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a side-chain like Polygon, BSC or Avalanche).
+The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a chains like Polygon, BSC, Avalanche or Elrond).
 
 The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
 
@@ -384,9 +398,12 @@ As introduced above; Data Coalitions are formed and run by a virtual board — t
 - Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under it's control. For e.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to Bond MYDA for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and MYDA stakes from regular users (members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so it's important that you have some commercial experience in data related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due-diligence on the validators reputation and past performance. So for a Data Coalition to be successful - it will need to be in a "operational mode" and have some credible "board members" whilst maintaining ongoing trade operational credibility.
 
 <br />
+
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
+
 ---
+
 
 # Data NFTs <a name="data-nfts-1"></a>
 Data is an asset in itself and personal data is a “unique asset” as no two personal datasets are the same. Highly personal or sensitive datasets can essentially function as a NFT allowing for uniqueness and limited availability.
@@ -451,9 +468,12 @@ In this example, let's assume *you want to sell your Genomics dataset as a Data 
 5. The can request formal **transfer of ownership** to own the *IP* if needed and is allowed in the original terms of sale. Although this feature is not an inherent quality of NFTs, it will be mediated via Data Coalitions and our "Decentralised Middleware" service
 
 <br />
+
 > Data NFTs are currently in the "Available in Testnet" stage.
 
+
 ---
+
 
 # Data Streams <a name="data-streams-1"></a>
 You can let buyers subscribe to “personal data streams” — unlike the on-off datasets that can also be purchased on the Data Dex, data streams will continue to feed data once a “subscription” is purchased.
@@ -462,9 +482,13 @@ Streams are a more powerful way for buyers to subscribe to longitudinal datasets
 
 When paired with context rich data from your “data vault” — streams become a valuable and steady source of passive income for you in exchange for your personal data.
 
+<br />
+
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
+
 ---
+
 
 # Data Vault <a name="data-vault-1"></a>
 You can store highly sensitive personal data in your data vault. For example; details about your gender, race, sexual preference, prior health conditions, financial history etc.
@@ -482,11 +506,15 @@ As the data is encrypted using user’s private key we need to enable a friction
 - Data Vaults will enable a user to "opt out" of the system in the event they do not want to share their data anymore (e.g. a requirement in GDPR). This is achieved by the above mentioned "proof of ownership" protocol. Where the unique decrypting key can be "burned" which then effectively makes all decentralised copies of data (e.g. in IPFS or elsewhere) become **untethered from the Data Creator**. The data without its decryption key is now effectively just a blob of scrambled test without any identity or utility attached to it. There are of course challenges to this that we need to solve, for e.g. what happens if you sell your data and then change your mind after the sale? Do we allow for a recall of data sale? if so, how can we ensure a user can completely opt-out?
 
 <br />
+
 > This feature is currently in the "Detailed Design & Prototyping" stage.
+
 
 ---
 
+
 # Trusted Computation Framework <a name="trusted-1"></a>
+
 As personal datasets under the control of Data Coalitions grow overtime, certain end use-cases may require access to highly sensitive, identifiable data — often these use-cases will provide the most “payout” for data usage (as such they are considered high value use-cases). In such situations a trusted computation framework can be used to ensure computation is handled off-chain with tamper-proof integrity. The Data Coalition will coordinate these computation jobs on-chain (with possible coordination assistance of (Chainlink’s Attested Oracles)[https://blog.chain.link/driving-demand-for-enterprise-smart-contracts-using-the-trusted-computation-framework-and-attested-oracles-via-chainlink/])
 
 All personal data traded on the on-chain DEX is never stored on-chain — only hash values are stored to ensure integrity of traded datasets. But in certain advanced use-cases where Data Coalition’s manage the data of multiple users, there will be encrypted personal meta data stored on-chain. There will be cases where this data cannot be put on-chain even when encrypted due to privacy regulations, especially if the blockchain network is spread across multiple geographies. Off-chain execution is, in some cases, the only option for processing this data. Trusted Computation Framework can be used to localise the computation of the data to ensure the data storage and processing complies with all data sovereignty regulations.
@@ -494,16 +522,47 @@ All personal data traded on the on-chain DEX is never stored on-chain — only h
 The trusted computation framework is tethered to the “regional decentralisation hub” and is our "Compute-to-Data” solution for highly sensitive data processing requirements within high regulatory environments.
 
 <br />
+
 > This feature is currently in the "Research:Labs" stage.
+
 
 ---
 
+
 # Regional Decentralisation Hubs <a name="decen-hubs-1"></a>
+
 Highly sensitive data like medical data from hospitals, personal health records, financial transaction or credit history are protected by regional or local sovereignty laws. To unlock the trade of this data we cannot use fully decentralised global storage or compute. For example; we may want to limit trade, storage and compute on data to only the EU region so that it complies with laws like GDPR and yet prevent a central hoarding of these resources
 
 Regional Decentralised Hubs are a novel idea we are exploring around regional decentralisation which balance legal sovereignty laws with personal data sovereignty.
 
 <br />
+
+> This feature is currently in the "Research:Labs" stage.
+
+
+---
+
+
+# The Data Metaverse and nfME Avatar Technology <a name="nfme-1"></a>
+
+nfME (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own nfME minted and stored in your wallet. nfME's have "personal data categories" (PDC) linked to it; these feed data into the nfME's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
+
+Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your nfME.
+
+As more data is added to the nfME; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your nfME. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your nfME is organic and grows like a human as more data is added to it.
+
+## What can I do with an nfME?
+
+- nfMEs are NFT tokens; so it supports all NFT capabilities. By your can never completely sell your nfME, you can only lease it to others and they can use it to access your data. It's a "authorisation key" your provide to a 3rd party for fair use of your data in return for shared value.
+- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other nfME avatars and engage is missions or trade "accessories" or "evolution traits".
+- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your nfME and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
+- Slice out certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and sell these in secondary markets.
+
+
+In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the nfME.
+
+<br />
+
 > This feature is currently in the "Research:Labs" stage.
 
 
@@ -511,6 +570,7 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 
 
 # Decentralised Governance <a name="governance"></a>
+
 The Itheum platform will aim to be a `public-goods platform that's fully decentralised`. Public-goods in a sense that all the technological developments that are made as part of Itheum's vision will always be available in the public domain and not privatised in any way. Although it will take some time to fully get there; especially in the area of our web2 data on-ramp/bridge technology (e.g. Data Collection and Analytics Toolkit). But it's worth nothing that our web3 technology stacks will be fully available in the public-domain from day one. 
 
 With our technology deliverables aligned to be made available as a fully public-goods platform, the next important aspect to decentralisation is to have our technology development roadmap DAO controlled with MYDA token holders being able to collectively and fairly decide on the technology strategy and direction of roadmap delivery. It's worth nothing that "fully DAO controlled" platforms are complex to setup and will require some platform operating maturity before implementing, but the ultimate intention of Itheum is full decentralisation and this will happen progressively over time in order to ensure the Itheum platform will remain in the hands of the public - but at the same time, be a robust operating technology solution that will be around for the next 100 years. Until the platform roadmap is progressively transformed into a fully DOA controlled element, the Core Team will manage the prioritised of the roadmap items with some pathways detailed on how the platform will transition to decentralisation. This is described below in the "Foundation DAO" section.

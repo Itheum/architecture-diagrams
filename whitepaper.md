@@ -8,6 +8,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
       Table Of Contents
         [Introduction](#intro-1)
         [Multi-Chain Strategy](#multi-chain-1)
+        [Multi-Chain Technical Design Goals](#multi-chain-1a)
         [Cross Chain Tokens](#cross-chain-1)
         [Itheum Token](#tokenomics-1)
         [Types of Direct Sale](#types-on-1)
@@ -647,8 +648,23 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 > This feature is currently in the "Research:Labs" stage.
 
 
-## NFMe Technology - Evolving Data NFTs <a name="nfme-1"></a>
+## The Data Metaverse and nfME Avatar Technology <a name="nfme-1"></a>
 
+nfME (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own nfME minted and stored in your wallet. nfME's have "personal data categories" (PDC) linked to it; these feed data into the nfME's and this data is secured in personal `Data Vaults`. Example PDCs are social, financial, historical, internal and external.
+
+Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your nfME.
+
+As more data is added to the nfME; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your nfME. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your nfME is organic and grows like a human as more data is added to it.
+
+### What can I do with an nfME?
+
+- nfMEs are NFT tokens; so it supports all NFT capabilities. By your can never completely sell your nfME, you can only lease it to others and they can use it to access your data. It's a "authorisation key" your provide to a 3rd party for fair use of your data in return for shared value.
+- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other nfME avatars and engage is missions or trade "accessories" or "evolution traits".
+- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your nfME and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
+- Slice out certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and sell these in secondary markets.
+
+
+In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the nfME.
 
 
 <br />
@@ -660,25 +676,35 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 # Technology Philosophy
 
 ## Multi-Chain Strategy <a name="multi-chain-1"></a>
-The Itheum Data DEX will work across all EVM compatible chains from day one. We already have Ethereum and Polygon working and will be deploying into BSC and Avalanche shortly. Currently data advertised on a particular chain can only be visible to participants who are one the same chain. i.e. a buyer can only buy data advertised for sale on the same chain.
+The Itheum Data DEX will work across EVM compatible chains from day one. We already have Ethereum, Polygon, BSC, Harmony, PlatON and Parastate working and will be deploying into Avalanche shortly. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Algorand, Hedera and others. Currently data advertised on a particular chain can only be visible to participants who are one the same chain. i.e. a buyer can only buy data advertised for sale on the same chain.
 
 We are working on cross-chain advertising and purchasing of data facilitated via cross chain oracles that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn of chain native tokens to balance the chain specific token repositories (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains).
 
 {% youtube 63BE4plzDzw %}
 > _Demo video of the Itheum Data DEX working on Ethereum and Polygon_
 
+## Multi-Chain Technical Design Goals <a name="multi-chain-1a"></a>
+
+- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. So this protocol can be implemented on any blockchain.
+- The Itheum protocol is built into the smart contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
+- Therefore the protocol can be implemented in any blockchain and on any native runtime (does not have to be EVM). So long as the native chain supports transaction consensus and token standards; Itheum can be built on it.
+- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable smart-contracts which coordinate how data will be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they form the foundation for future web3 core infrastructure. This also makes sure we can work across private, permissioned and public chains to reach maximum adoption.
+- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain smart-contract-coordinators on any other chain and runtime; and they can talk to each other via bridges, middleware and oracles.
+- The future of blockchain is interoperability, so we are designing it this way.
+
+
 
 ## Cross Chain Tokens <a name="cross-chain-1"></a>
 The core Itheum Data DEX token is an ERC20 token called MYDA (short for MYDAta). The MYDA token will allow for the purchasing of data from data creators as well as from Data Coalitions. The MYDA token will also play a role in staking against a Data Coalition and for decentralised governance of the Data Coalition’s responsibilities and actions.
 
-As the Itheum Data DEX operates cross-chain, there will be 3 core tokens that represent each chain.
+As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of MYDA bridged and distributed as more chains are added.
 
 - MYDA — Token deployed on Ethereum
 - mMYDA — Token deployed on Polygon/Matic
 - bMYDA — Token deployed on Binance Smart Chain (BSC)
 - aMYDA — Token deployed on Avalanche
 
-MYDA can be moved between chains via native ERC20 bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert you MYDA to mMYDA and vice versa.
+MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert you MYDA to mMYDA and vice versa.
 
 
 
@@ -719,7 +745,7 @@ MYDA can be moved between chains via native ERC20 bridges that already exist. Fo
 
 
 # Itheum Token <a name="intro-2"></a>
-The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a side-chain like Polygon, BSC or Avalanche).
+The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a chains like Polygon, BSC, Avalanche or Elrond).
 
 The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
 
