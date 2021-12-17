@@ -20,7 +20,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
-        [The Data Metaverse and nfME Avatar Technology](#nfme-1)
+        [The Data Metaverse and NFMe Avatar Technology](#nfme-1)
         [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
@@ -543,23 +543,32 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 ---
 
 
-# The Data Metaverse and nfME Avatar Technology <a name="nfme-1"></a>
+# The Data Metaverse and NFMe Avatar Technology <a name="nfme-1"></a>
 
-nfME (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own nfME minted and stored in your wallet. nfME's have "personal data categories" (PDC) linked to it; these feed data into the nfME's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
+NFMe (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own NFMe minted and stored in your wallet. NFMe's have "personal data categories" (PDC) linked to it; these feed data into the NFMe's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
 
-Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your nfME.
+Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your NFMe.
 
-As more data is added to the nfME; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your nfME. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your nfME is organic and grows like a human as more data is added to it.
+As more data is added to the NFMe; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your NFMe. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your NFMe is organic and grows like a human as more data is added to it.
 
-## What can I do with an nfME?
+## What can I do with an NFMe?
 
-- nfMEs are NFT tokens; so it supports all NFT capabilities. By your can never completely sell your nfME, you can only lease it to others and they can use it to access your data. It's a "authorisation key" your provide to a 3rd party for fair use of your data in return for shared value.
-- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other nfME avatars and engage is missions or trade "accessories" or "evolution traits".
-- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your nfME and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
+- NFMe's are NFT tokens; so it supports all NFT capabilities. But you can never completely sell your NFMe, you can only lease it to others and they can use it to access your data. It's an "authorisation key" you provide to a 3rd party for fair use of your data in return for shared value.
+- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other NFMe avatars and engage is missions or trade "accessories" or "evolution traits".
+- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your NFMe and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
 - Slice out certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and sell these in secondary markets.
 
+In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the NFMe.
 
-In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the nfME.
+
+## NFMe Interoperability 
+
+NFMe's are your virtual data avatar; so they ideally need to be interoperable with other digital Metaverses so you can explore other virtual world's and ecosystems and interact with more digital assets. Itheum will have it's own `Virtual Data Metaverse` but we are looking at methods to "port" our NFMe avatars into other virtual worlds. 
+
+The concept of interoperable Metaverse avatars are in it's very early stages of development but there is some promising progress being made by projects like [WorlWideWeb3](https://www.playtoearn.online/2021/11/11/worldwideweb3-going-for-nft-avatar-interoperability/) - who will allow for external NFT Avatars to be ported into their virtual world. We will also actively follow progress in this new space by following the developments of organisations like the [Open Metaverse Interoperability Group](https://omigroup.org/home) and also contribute to help create open-standards for future Metaverse Interoperability.
+
+Itheum may also eventually become the `world's 1st fully decentralised Metaverse backed by true data ownership` - a vision we hold close to our hearts.
+
 
 <br />
 
