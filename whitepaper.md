@@ -1,5 +1,5 @@
 # Abstract
-Itheum is the world's 1st `decentralised data brokerage`. The platform transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty and fair compensation for data usage - and this positions Itheum as the `data platform for the Metaverse`.
+Itheum is the world's 1st `decentralised data brokerage` platform that transforms your personal data into a highly tradable asset class.  It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralised governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and enables many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
 
 **Editor’s Note: This blog is not meant to be investment advice nor a solicitation for acquisition of Itheum's tokens. Full Disclaimers are available at the bottom of this document**
 
@@ -21,7 +21,7 @@ Itheum is the world's 1st `decentralised data brokerage`. The platform transform
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
-        [The Data Metaverse and NFMe Avatar Technology](#nfme-1)
+        [The Data Metaverse and N.F.Me Avatar Technology](#nfme-1)
         [Decentralised Governance](#governance)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
@@ -35,7 +35,7 @@ Everyday, billions of people give away their personal data to organisations in r
 
 These organisations then use your personal data to learn more about you and people like you. They then create more products and services for you to buy and get hooked onto to… they call this "stickiness"; and their objective is for you to keep coming back and to share more data.
 
-Some organisations (usually the largest and most influential) can even use your data to influence your thinking and ideas or even resell your data to [3rd Party Data Brokers](https://www.avast.com/c-data-brokers) (independent commercial organisations). These 3rd Party Data Brokers lurk in the shadows and "deal in the personal data trade" making millions of dollars of profit by packaging and selling your data to other organisations. There are over 4000 3rd Party Data Brokers in the world today and they have over 3000 Data Points collected on each one of you! The entire Data Brokerage industry is worth over $300 Billion USD each year and the person generating this data (You!) have no idea how your data is used nor do you get any form of compensation.
+Some organisations (usually the largest and most influential) can even use your data to influence your thinking and ideas or even resell your data to [3rd Party Data Brokers](https://www.avast.com/c-data-brokers) (independent commercial organisations). These 3rd Party Data Brokers lurk in the shadows and "deal in the personal data trade" making millions of dollars of profit by packaging and selling your data to other organisations. There are over 4000 3rd Party Data Brokers in the world today and they have over 3000 Data Points collected on each one of you! The entire Data Brokerage industry is worth over $200 Billion USD each year and the person generating this data (You!) have no idea how your data is used nor do you get any form of compensation.
 
 At Itheum, we believe that YOUR DATA IS YOUR BUSINESS!
 
@@ -49,22 +49,26 @@ At Itheum, we believe that YOUR DATA IS YOUR BUSINESS!
 
 Itheum wants to change this current toxic model for personal data collection and exchange and level the playing field — where the commercial enterprise and “you” (the data creator) equally benefit from the trade of personal data.
 
-Itheum empowers data ownership in the metaverse and brings new market value to your data. It enables this by providing “decentralised data brokerage” technology. It’s a suite of tools that enable for high-value data to be bridged from web2 to web3 and then be traded via peer-to-peer sales. It allows for “viral adoption” via our creative Data NFT technology and our innovative Data Coalition DAOs (which bulk sell your data). It also aims to be fully privacy-preserving, regulation-friendly and cross-chain; making it the most comprehensive core blockchain data infrastructure available in the market with use-cases in both the enterprise and consumer space.
+Itheum empowers data ownership in the metaverse and brings new market value to your data. It enables this by providing “decentralised data brokerage” technology. It’s a suite of tools that enable for high-value data to be bridged from web2 to web3 and then be traded via peer-to-peer sales. It allows for “viral adoption” via our creative N.F.Me (Non Fungible Me) and Data NFT technology and our innovative Data Coalition DAOs (which bulk trade your data). It also aims to be fully privacy-preserving, regulation-friendly and cross-chain; making it the most comprehensive core blockchain data infrastructure available in the market with use-cases in both the enterprise and consumer space.
 
-It provides 2 fundamental products (that when used together) will flip the dynamic of personal data collection and exchange.
+It provides 3 fundamental products (that when used together) will flip the dynamic of personal data collection and exchange.
 
 
 ---
 
 
 
-# Our Core Products <a name="intro-2"></a>
+# Our Core Products <a name="core-prod-1"></a>
+Itheum has 3 Core Products that work in unison to enable for new data to be generated and collected from the web2 world and for that data to then flow seamlessly into the web3 domain (via our Data Collection & Analytics Toolkit). This data can be claimed by the Data Creators (users who originally generated the data) and traded using our innovative peer-to-peer data trading technology (via our Data DEX). 
 
+For a platform like Itheum to reach it's highest potential it also needs to have mass adoption (more users = more data = more data trade) - we aim to achieve this via our final core product (called the Data Metaverse) - where we provide "viral", "sexy" and "low barrier to entry" consumer products that will appeal to the masses and in-turn fuel mass adoption.
 
-## Data Collection & Analytics Toolkit <a name="intro-2"></a>
+<br />
+
+## Data Collection & Analytics Toolkit <a name="core-prod-2"></a>
 *Tools for structured and rich personal data collection and analytics.*
 
-Organisations can use the Itheum “data collection and analytics toolkit” to seamlessly build apps and programs that can collect structured and rich personal data from users and and also provide visual trends and patterns on the collected data (usually using fully anonymous or semi-anonymous analytics to protect the “data creator” — i.e. the user who provides the data)
+Anyone can use the Itheum “data collection and analytics toolkit” to seamlessly build apps and programs that can collect structured and rich personal data from users and and also provide visual trends and patterns on the collected data (usually using fully anonymous or semi-anonymous analytics to protect the “data creator” — i.e. the user who provides the data)
 
 With this product, Itheum provides **real-world value and adoption** — and in return we generate **highly structured and outcome oriented personal datasets** (i.e we normalise what user data looks like across organisation silos)
 
@@ -74,18 +78,16 @@ This product is essentially a fully featured personal data and analytics platfor
 
 2. A financial organisation can use the Itheum data collection and analytics toolkit to collect scheduled data via customised surveys or questionnaires, triggered by certain actions related to spending patterns — the trends and patterns can then give them more context of their customers’ spending habits.
 
-Itheum already has multiple apps and programs using the collection and analytics toolkit — your can read about these real-world [case studies](https://itheum.com/#case-studies) here
+Itheum already has multiple apps and programs using the collection and analytics toolkit — your can read about these real-world [case studies](https://itheum.io/#case-studies) here
 
-With this product offering, we are enabling the creation of **highly-structured, outcome-oriented and normalised personal datasets** ([for e.g. have a look at the data that is collected as part of the OKPulse program built on Itheum](https://okpulse.life/#insights))
-
-… and this leads us to our 2nd and **more important product** offering.
+With this product offering; we are enabling the creation of **highly-structured, outcome-oriented and normalised personal datasets** ([for e.g. have a look at the data that is collected as part of the OKPulse program built on Itheum](https://okpulse.life/#insights)). This data can then be **briged from web2 to web3** and unlocked by our `core web3 data protocol - called the Data DEX`.
 
 
 
-## Decentralised Data Exchange (Data DEX)  <a name="intro-2"></a>
+## Decentralised Data Exchange (Data DEX)  <a name="core-prod-3"></a>
 *Suite of web3 tools for seamless trade of personal data.*
 
-This product enables you (the owner and data creator on personal data) to own and trade your personal data that was collected by the organisations who built on the Itheum “data collection and analytics toolkit” product. It unlocks the personal data form these organisation silos and lets you earn a passive income by trading your personal data on the open market with other organisations who can derive value from the datasets.
+This product enables you (the Data Creator) to own and trade your personal data that was collected by the organisations who built apps on Itheum's “data collection and analytics toolkit” product. It unlocks the personal data from these organisation silos and lets you earn a passive income by trading your personal data on the open market with other organisations who can derive value from the datasets.
 
 So in those same examples given above:
 
@@ -101,9 +103,35 @@ Using the Itheum Data DEX, you can sell your data via a peer-to-peer, direct sal
 
 The Data DEX is extremely powerful; it allows you to secure sensitive personal data in secure data vaults, it allows you to wrap your data as a NFT so you can earn royalties on any re-sale of your data (all these revolutionary features are provided in detail in below sections). It’s also fully cross-chain compliant (all EVM basked blockchains).
 
-**In summary;** Itheum converts personal data into a new asset class that can be traded in the new blockchain based economy. It provides the complete package - data collection and analytics toolkits that increase the quantity of high quality personal data and the decentralised cross-chain personal data trading platform. Enabling the creation + exchange of high value personal datasets.
+The Data DEX can also be thought of as the `core protocol layer` that enables decentralised data ownership and trade. This protocol can be abstracted with more products build on top of it; the `Data Metaverse` being an example of such a consumer friendly, "viral" product suite.
 
-So what are you waiting for? Read on to learn more about the Itheum platform and join the Itheum community and be part of the real-world revolution in personal data sovereignty technology.
+
+## Data Metaverse <a name="core-prod-4"></a>
+*Suite of Metaverse, gaming and NFT aligned consumer products that appeal to the masses with a goal to enable mass adoption.*
+
+The concepts behind data trading and blockchain backed data technology can be overwhelming for most people to grasp. This is a key reason why many of the current web3 data platforms have very low adoption and hype. For platforms such as Itheum to change the dynamic of data ownership we need large-scale bottom-up adoption - and this kind of adoption can only come if we build consumer products that "everyone wants to use".
+
+In web3; we have observed that this viral adoption is most present in the gaming industry where there are large groups of people from varying socioeconomic and demographic backgrounds who are readily willing to participate in new gaming platforms. The growth in play-to-earn games like "Axie Infinity" and Metaverse games like "The Sandbox" are evidence to this (with new platforms coming to market weekly and still having rapid adoption and growth)
+
+The challenge for Itheum was to take "serious and complex ideas around data ownership" and abstract them with "sexy and easy-to-use consumer products". We knew that if we achieve this we can drive large adoption for our platform and in turn normalise the concepts around data ownership and trade. In turn; Itheum gets a large user base to test our core protocol layer and also to increase the volumes of data available for trade.
+
+### The key products that forms our Data Metaverse ecosystem are:
+
+1. N.F.Me (Non Fungible Me)
+Every person on earth can be thought of as a "non-fungible human", as we have data that is unique to each one of us (like our DNA or even our fingerprints -- which are non-fungible). N.F.Me is a digital avatar identity that is built on dynamic NFT technology and backed by real personal data. Everyone in the world can mint a N.F.Me on Itheum's platform and "truly own" it. As more data is collected by the "N.F.Me host" and pushed into the N.F.Me; more "accessorises" are minted and linked to the N.F.Me. These accessories are NFTs themselves and can be freely traded. N.F.Me are the next generation "Profile Picture NFT" and/or gaming avatars and the goal is to have it evolve into being a universal avatar for each human on earth. They will be portable in the real-world and interoperable in all web2 and web3 metaverse platforms (e.g Meta, The SandBox, Axie Infinity, Decentraland); backed by real value (in the form of personal data) and powered by true ownership (NFT technology)
+
+2. Data NFTs
+The N.F.Me host can choose to take subsets of their base data and mint them into seperate Data NFTs. These Data NFTs are linked to the base N.F.Me but can be independently traded in our own Data NFT marketplace or secondary marketplaces (e.g. OpenSea). As an example; the user can add more data to their N.F.Me by joining a app like the Red Heart Challenge (an app built on Itheum's Data Collection & Analytics Toolkit), as the user participates in the data collection as part of this app; data will flow into the N.F.Me. The user can then choose to mint a Data NFT that only holds the subset of data generated via the Red Heart Challenge. This Data NFT can then be traded to a commercial enterprise or researcher who may be keen to collect similar datasets from multiple people and trade them in bulk. Ownership of a Data NFT provides access to the underlying data (so long as the "terms of use" are followed)
+
+3. Data Coalition DAOs
+A more detailed explanation of Data Coalitions DAOs are provided in a below section {LINK HERE} ; but within the context of the Data Metaverse - you can think of Data Coalition DAOs as enterprises or groups who are keen to trade bulk datasets on behalf of a large group of individual users. As personal data is much more valuable when traded in bulk, it makes sense to align to Data Coalition DAO and have your data grouped into a large dataset. In the Data Metaverse - a Data Coalition may occupy some "land" and setup up their "virtual DAO premise" and your N.F.Me will be able to visit this premise and choose to align to the Data Coalition DAO which in turn will make sure the user's best interests are taken care off during any trade of data that happens as part of this interaction.
+
+4. Greenroom Protocol
+We envision a future where Metaverse interoperability can be achieved via open-standard digital avatars and your N.F.Me avatars aim to be these open-standard avatars. Interoperability between Metaverses is a very early-stage idea but the primary use case is to have the "players" move their digital assets and avatars between independent Metaverse platforms. As an example; a player on The Sandbox can move their avatars and assets to Decentraland or possibly even into centralised Metaverse platforms like Meta (formally facebook) and participate in the native gameplay and ecosystem exploration. The Greenroom protocol is Itheum's initiative for open-standard Metaverse interoperability. It will consist of two parts:
+
+- A set-of rules and standards to define NFT metadata that can then be implemented across Metaverse platforms. The metadata can indicate the data for the visual characteristics of a character and (possibly) the standards for animation rigging to ensure the character appears as a native character in any Metaverse platform. 
+
+- A Metaverse interoperability "virtual waiting room" called the Greenroom - This is where your N.F.Me will exist (visually) and you will be able to see your "accessories" and possible see other N.F.Me characters and trade accessories with them. The Greenroom is where the Itheum Data Metaverse will integrate with other Metaverse platforms like The Sandbox -- once open Metaverse integrations are built with 3rd party platforms, they will appear as a portal inside your Greenroom and you will be able to enter it and teleport your N.F.Me avatar into other Metaverse ecosystem. In show business; a Greenroom is a waiting room where performers hang out until they are called on stage - similarly; Itheum's Metaverse Greenroom is where your N.F.Me can hang-out until you can teleport to other metaverse platforms.
 
 
 
@@ -297,7 +325,7 @@ The core Itheum platform is a general purpose personal data collection platform 
 Examples of these structured data collection applications are:
 - Red Heart Challenge (https://itheum.com/redheartchallenge)
 - OKPulse (https://okpulse.life/)
-- Other Programs (https://itheum.com/#case-studies)
+- Other Programs (https://itheum.io/#case-studies)
 
 The applications are called “programs” within the Itheum platform and these programs can onboard their own “end users’. These end users generate a lot of personal data and have a “Itheum user portal (called CareView)” for them to have full visibility of the data they have provided.
 
@@ -648,27 +676,27 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 > This feature is currently in the "Research:Labs" stage.
 
 
-# The Data Metaverse and NFMe Avatar Technology <a name="nfme-1"></a>
+# The Data Metaverse and N.F.Me Avatar Technology <a name="nfme-1"></a>
 
-NFMe (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own NFMe minted and stored in your wallet. NFMe's have "personal data categories" (PDC) linked to it; these feed data into the NFMe's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
+N.F.Me (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own N.F.Me minted and stored in your wallet. N.F.Me's have "personal data categories" (PDC) linked to it; these feed data into the N.F.Me's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
 
-Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your NFMe.
+Apps built on Itheum's `data collection and analytics toolkit` feed data into the PDCs, these apps are run by Itheum as well as other organisations who want to generate high value data and then incentivise you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your N.F.Me.
 
-As more data is added to the NFMe; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your NFMe. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your NFMe is organic and grows like a human as more data is added to it.
+As more data is added to the N.F.Me; it's "data signature" changes and more "accessories" and "evolution traits" are made available to your N.F.Me. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your N.F.Me is organic and grows like a human as more data is added to it.
 
-## What can I do with an NFMe?
+## What can I do with an N.F.Me?
 
-- NFMe's are NFT tokens; so it supports all NFT capabilities. But you can never completely sell your NFMe, you can only lease it to others and they can use it to access your data. It's an "authorisation key" you provide to a 3rd party for fair use of your data in return for shared value.
-- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other NFMe avatars and engage is missions or trade "accessories" or "evolution traits".
-- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your NFMe and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
+- N.F.Me's are NFT tokens; so it supports all NFT capabilities. But you can never completely sell your N.F.Me, you can only lease it to others and they can use it to access your data. It's an "authorisation key" you provide to a 3rd party for fair use of your data in return for shared value.
+- Explore Itheum's `Virtual Data Metaverse` which is a digital metaverse data marketplace and interact with other N.F.Me avatars and engage is missions or trade "accessories" or "evolution traits".
+- Participate in governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your N.F.Me and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
 - Slice out certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and sell these in secondary markets.
 
-In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the NFMe.
+In the web2 world; your personal data is exploited by 3rd parties and large corporates... in Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the N.F.Me.
 
 
-## NFMe Interoperability 
+## N.F.Me Interoperability 
 
-NFMe's are your virtual data avatar; so they ideally need to be interoperable with other digital Metaverses so you can explore other virtual world's and ecosystems and interact with more digital assets. Itheum will have it's own `Virtual Data Metaverse` but we are looking at methods to "port" our NFMe avatars into other virtual worlds. 
+N.F.Me's are your virtual data avatar; so they ideally need to be interoperable with other digital Metaverses so you can explore other virtual world's and ecosystems and interact with more digital assets. Itheum will have it's own `Virtual Data Metaverse` but we are looking at methods to "port" our N.F.Me avatars into other virtual worlds. 
 
 The concept of interoperable Metaverse avatars are in it's very early stages of development but there is some promising progress being made by projects like [WorlWideWeb3](https://www.playtoearn.online/2021/11/11/worldwideweb3-going-for-nft-avatar-interoperability/) - who will allow for external NFT Avatars to be ported into their virtual world. We will also actively follow progress in this new space by following the developments of organisations like the [Open Metaverse Interoperability Group](https://omigroup.org/home) and also contribute to help create open-standards for future Metaverse Interoperability.
 
@@ -751,18 +779,12 @@ MYDA can be moved between chains via native bridges that already exist. For exam
 
 
 
-# Itheum Token <a name="intro-2"></a>
+# Itheum Token <a name="tokenomics-1"></a>
 The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for trading of data is very critical for adoption of a platform like Itheum, we may move the primary token to a chains like Polygon, BSC, Avalanche or Elrond).
 
 The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
 
 ## Token Utility <a name="tokenomics-2"></a>
-The MYDA token is a pure “utility token” as without owning MYDA you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
-
-At this point, the following tasks will REQUIRE the MYDA token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take a MYDA 1st approach to aligning incentives so we can ensure that MYDA’s position as a utility token can’t be disputed:
-
-**1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
-
 The MYDA token is a pure “utility token” as without owning MYDA you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
 
 At this point, the following tasks will REQUIRE the MYDA token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take a MYDA 1st approach to aligning incentives so we can ensure that MYDA’s position as a utility token can’t be disputed:
@@ -802,21 +824,28 @@ The following parties can Stake/Bond MYDA:
 
 
 ## Token Metrics <a name="tokenomics-3"></a>
-
 Please note that the following details are likely to change as we are currently planning for our token launch and as we adjust our token offering based on our planned token utility forecast.
 
-**Total MYDA Supply: 1,000,000,000**
+### Total MYDA Supply: 1,000,000,000
 
-Token Generation Event (TGE) Offering:
-- Hard Cap on Launch: 6.5 million
-- Liquidity on DEX: 400k
-- Total MYDA offered (13.8%): 138,000,000 (seed + private = 130,000,000, Public IDO = 8,000,000)
-- Price per MYDA: 0.10
-- Initial Market Cap: $450,000
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1yhdk5jekmby4nj2s0om.png)
+### $MYDA Token Allocation
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ac8n5c0r8elw2mdydlrl.png)
  
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5p1usdq7u755ks33rce6.png)
+
+### Use of Token Sale Funds
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/biis1fnut15zzz0j3ftz.png)
+ 
+
+### Circulating Supply
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9blrt9gwc308lb1qryh9.png)
+ 
+
+### Vesting Schedule
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/diocbctpju7yqzdc6y44.png)
+ 
+ 
+
+---
 
 
 ## Token Distribution <a name="tokenomics-3"></a>
@@ -1041,7 +1070,8 @@ To ensure we continually innovate and delivery tangible web3 / blockchain featur
 <br />
 - *Data NFT:* The alternate way to sell data is by wrapping it in a NFT and then trading it as a regular NFT product in the NFT marketplace.
 
-
+<br />
+- *N.F.Me host:* This is the person who minted their own N.F.Me avatar. The host's data is what will generate the base N.F.Me and continue to populate the N.F.Me with new accessories (evolution) as more data is attached to the N.F.Me
 
 --- 
 
