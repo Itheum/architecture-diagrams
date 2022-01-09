@@ -193,7 +193,6 @@ The following are the key components that come together to make up the Data Coll
 
 
 ## Smart Data Types
-[IMAGE]
 
 The core element of the Data Collection & Analytics Toolkit is a concept called “Smart Data Types”. There are core building blocks that you can use to build advanced data collection apps. Think of them as the “composable elements” that can be used to generate high value data.
 
@@ -206,7 +205,6 @@ Here are all the other available Smart Data Types: https://itheum.com/smartdatat
 
 
 ## App Builder
-[IMAGE]
 
 The Data Collection & Analytics Toolkit provides interfaces for app developers to build highly flexible data collection and analytics experiences. Apps can be built using our "no-code" toolkit available in the "Management Portal". The "no-code" approach allows for a click and build approach to data collection and analytics, where you can reuse prebuilt templates for scheduled data collection or build out your own custom schedules and include tools from a already built collection of Smart Data Types, engagement channels (e.g. Email, SMS, Telegram), data visualisations, machine learning analysis layers (e.g. sentiment analysis), reports, alerts/thresholds (e.g. irregular data pattern detection), video education and many more tools. 
 
@@ -214,7 +212,6 @@ You can also freely "clone" existing apps and build on top of them. As an exampl
 
 
 ## Omnichannel Data Collection
-[IMAGE]
 
 In order to reach the broadest user base and bridge as much highly structured, outcome oriented data from the web2 world into the web3 world; Itheum aims to support a wide range of data collection "channels". Channels are pathways from which data is actively and passively collected from users. 
 
@@ -224,7 +221,6 @@ The platform will also support various 3rd party, on-chain and off-chain (Data A
 
 
 ## Automated Data Collection Schedular
-[IMAGE]
 
 Apps built on the Itheum will actively and passively collect data from users and bridge seamlessly this data into web3. Highly structured, outcome oriented data can be collected by using Smart Data Types and these data types usually need to be collected at a pre-defined, structured schedule for them to provide the most value. 
 
@@ -233,7 +229,6 @@ Using the built in `Automated Data Collection Schedular`, you can schedule data 
 For example; in the "Red Heart Challenge" program - blood pressure from you left arm is collected daily but on the weekends, blood pressure data is collected from your right arm. Using this schedule, we can derive using data analytics on the "variance of left vs right arm collection" and "weekday vs weekend collection". The automated Data Collection Schedular provides the ability to enable rich data collection and increase the value of the final data.
 
 ## User Portal
-[IMAGE]
 
 Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) will get access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at anytime. The user portal enables full visibility, management and control of the user's interactions with Itheum Apps. 
 
@@ -243,14 +238,13 @@ The user portal will also be the central hub for "data and privacy control and r
 
 
 ## Powerful analytics and insights engine
-[IMAGE]
 
 As described above in the Smart Data Types section, each Data Type will have built in `composable analytics modules`. These modules are built by developers and data analysts and will overlay on top of all the collected data to provide unparalleled insights. As these analytics modules are composable, you can piece them together to generate powerful analytics and gain insights on the data collected via your apps. 
 
 The insights engine can also make use of some core analytics modules built by the core Itheum team. As example of such a module is the `AI Sentiment Analysis` layer - this layer can be applied to any user-entered input collected by your apps. In the OkPulse App, the AI Sentiment Analysis module is used to analyse the written sentiment of an Employee as they interact with the app. The output from this layer is then used to detect levels of stress and anxiety among employees as they respond to certain data collection metrics. 
 
+
 ## Management Portal
-[IMAGE]
 
 Users who build and run Itheum Apps will get access to a management portal, this is akin to an admin portal that provides full management features over the the apps they are running and the users who are enrolled into those apps. This portal will allow an admin user the tools to manage their Itheum apps (update app configurations and settings, add new apps, change engagement channels for data collation, upload new education modules etc) and also manage their users (manually onboard new users, change password and access control for users, see user progress, add users to new programs etc). 
 
@@ -258,7 +252,6 @@ The portal will also provide the comprehensive data reporting features that allo
 
 
 ## Built In Video Education Studio
-[IMAGE]
 
 Itheum aims to generate very high quality personal data but this can be a challenge as the problems of bad data quality are very common in the data tech industry. Especially when the data is generated by an end user and not a machine (like a sensor). For example; in the health and wellness industry - the problems associated with bad "patient generated data" makes it very hard for clinical staff to make automated diagnosis or dispositions, as there is a high possibility that the data might have been incorrectly generated or entered by the end user (patient). These problems are not unique to the health and wellness industry and are common across any sectors where end-users are responsible for generating and submitting their own data.
 
@@ -267,7 +260,6 @@ To improve the quality of data that is produced by Itheum apps, we have implemen
 the Itheum Management portal has a video studio that allows you to record videos or reuse videos from public channels like YouTube. Users are also rewarded for watching these videos, with engagement points being handed to users as they complete video education modules. With users earning rewards to be educated of data collection, their engagement rates increase and Itheum generates higher quality data. In future, Itheum will also allow 3rd party education content provides to generate education videos for use within the Itheum App ecosystem.
 
 ## Dispense rewards for compliance
-[IMAGE]
 
 The data collection apps built on Itheum aim to have built in mechanisms to boost user engagement and compliance. As higher user engagement leads to higher quantities of data, these incentive mechanisms are invaluable to the system. Users who join the `Data DEX` to connect their Itheum Apps and then bridge and trade their data on the blockchain, are able to earn MYDA tokens in return for access to their data. But this requires users to have web3 experience and it can be a limiting factor initially where Itheum's apps may have many users who are yet to enter the web3 technology  ecosystem (wallet usage, token purchase on DEX/CEX etc).
 
@@ -275,7 +267,6 @@ To enable the widest adoption of Itheum in web2 and web3; the Itheum platform al
 
 
 ## Full White label Support
-[IMAGE]
 
 Apps developed on the Data Collection and Analytics toolkit will be built by commercial enterprises and also academic and research institutes. We have seen this already with OKPulse, which was built by a corporate wellness institute and Red Heart Challenge which was co-designed and built by an academic institute. These entities will usually have a target user-case they'd like to engage with and often require the entire app experience and data collection communication to be "white labeled". 
 
@@ -283,7 +274,6 @@ White Labelling includes using your own domain names, logos and branding, email 
 
 
 ## App & Smart Data Type Marketplace
-[IMAGE]
 
 Anyone can participate in the Data Collection and Analytics toolkit ecosystem and build Smart Data Types and Apps. For Apps built for use within the not-for-profit and academic sectors, Itheum will offer the toolkit absolutely free of charge. For commercial use-cases Itheum will charge a nominal fee (we will offer it as a Platform-as-a-service with a nominal fee that ensures that the price point is accessible to small-to-medium businesses to ensure they can participate in the personal data collection industry). 
 
@@ -327,7 +317,7 @@ Examples of these structured data collection applications are:
 - OKPulse (https://okpulse.life/)
 - Other Programs (https://itheum.io/#case-studies)
 
-The applications are called “programs” within the Itheum platform and these programs can onboard their own “end users’. These end users generate a lot of personal data and have a “Itheum user portal (called CareView)” for them to have full visibility of the data they have provided.
+The applications are called “programs” within the Itheum platform and these programs can onboard their own “end users". These end users generate a lot of personal data and have a “Itheum user portal (called CareView)” for them to have full visibility of the data they have provided.
 
 This demo video shows you an example of the end user portal (CareView)for OKPulse (https://www.youtube.com/watch?v=ITONnseBFV4)
 
@@ -359,7 +349,6 @@ The data DEX also allows for the on-chain sale of any other type of data. For ex
 
 
 ---
-
 
 
 ## Types of Direct Sale <a name="types-on-1"></a>

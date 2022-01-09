@@ -7,26 +7,30 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [Introduction](#intro-1)
         [What is Itheum?](#intro-2)
         [Our Core Products](#core-prod-1)
-        [Data Collection & Analytics Toolkit](#core-prod-2)
-        [Decentralised Data Exchange (Data DEX)](#core-prod-3)
-        [Data Metaverse](#core-prod-4)
-        [Multi-Chain Strategy](#multi-chain-1)
-        [Multi-Chain Technical Design Goals](#multi-chain-design-1)
-        [Cross Chain Tokens](#cross-chain-1)
-        [Itheum Token](#tokenomics-1)
-        [Selling Data](#selling-1)
+        [1) Data Collection & Analytics Toolkit](#core-prod-2)
+        [2) Decentralised Data Exchange (Data DEX)](#core-prod-3)
+        [3) Data Metaverse](#core-prod-4)
+        [Decentralised Data Trade](#data-trade-1)
         [Types of Direct Sale](#types-on-1)
-        [Buying Data](#buying-data-1)
-        [Enabling Personal Data "Proofs" within Smart Contracts](#data-proofs-1)
+        [Methods for Buying Data](#buying-data-1)
         [Our 5-stage Product Development Process](#product-process-1)
-        [Data Coalitions](#data-coalitions-1)
+        [Data DEX Components](#data-dex)
+        [Peer to Peer Data Trade](#peer-trade-1)
         [Data NFTs](#data-nfts-1)
+        [Data Coalitions](#data-coalitions-1)
+        [Personal Data Proofs](#data-proofs-1)
         [Data Streams](#data-streams-1)
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
         [Regional Decentralisation Hubs](#decen-hubs-1)
         [The Data Metaverse and N.F.Me Avatar Technology](#nfme-1)
+        [Technology Philosophy](#tech-philosophy-1)
+        [Multi-Chain Strategy](#multi-chain-1)
+        [Multi-Chain Technical Design Goals](#multi-chain-design-1)
+        [Cross Chain Tokens](#cross-chain-1)
+        [Itheum Token (Tokenomics)](#tokenomics-1)
         [Decentralised Governance](#governance)
+        [Data Collection & Analytics Toolkit Components (Web2 Data Bridge)](#web2-bridge-1)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
         [Disclaimers](#disclaimers)
@@ -64,11 +68,11 @@ It provides 3 fundamental products (that when used together) will flip the dynam
 # Our Core Products <a name="core-prod-1"></a>
 Itheum has 3 Core Products that work in unison to enable new data to be generated and collected from the web2 world and for that data to then flow seamlessly into the web3 domain (via our Data Collection & Analytics Toolkit). This data can be claimed by the Data Creators (users who originally generated the data) and traded using our innovative peer-to-peer data trading technology (via our Data DEX). 
 
-For a platform like Itheum to reach its highest potential it also needs to have mass adoption (more users = more data = more data trade) - we aim to achieve this via our final core product (called the Data Metaverse) - where we provide "viral", "sexy" and "low barrier to entry" consumer products that will appeal to the masses and in-turn fuel mass adoption.
+For a platform like Itheum to reach its highest potential it also needs to have mass adoption (**more users = more data = more data trade**) - we aim to achieve this via our final core product (called the Data Metaverse) - where we provide "viral", "sexy" and "low barrier to entry" consumer products that will appeal to the masses and in-turn fuel mass adoption.
 
 <br />
 
-## Data Collection & Analytics Toolkit <a name="core-prod-2"></a>
+## 1) Data Collection & Analytics Toolkit <a name="core-prod-2"></a>
 *Tools for structured and rich personal data collection and analytics.*
 
 Anyone can use the Itheum “data collection and analytics toolkit” to seamlessly build apps and programs that can collect structured and rich personal data from users and also provide visual trends and patterns on the collected data (usually using fully anonymous or semi-anonymous analytics to protect the “data creator” — i.e. the user who provides the data)
@@ -87,7 +91,7 @@ With this product offering; we are enabling the creation of **highly-structured,
 
 
 
-## Decentralised Data Exchange (Data DEX)  <a name="core-prod-3"></a>
+## 2) Decentralised Data Exchange (Data DEX)  <a name="core-prod-3"></a>
 *Suite of web3 tools for seamless trade of personal data.*
 
 This product enables you (the Data Creator) to own and trade your personal data that was collected by the organizations who built apps on Itheum's “data collection and analytics toolkit” product. It unlocks the personal data from these organization silos and lets you earn a passive income by trading your personal data on the open market with other organizations that can derive value from the datasets.
@@ -109,7 +113,7 @@ The Data DEX is extremely powerful; it allows you to secure sensitive personal d
 The Data DEX can also be thought of as the `core protocol layer` that enables decentralized data ownership and trade. This protocol can be abstracted with more products built on top of it; the `Data Metaverse` being an example of such a consumer-friendly, "viral" product suite.
 
 
-## Data Metaverse  <a name="core-prod-4"></a>
+## 3) Data Metaverse  <a name="core-prod-4"></a>
 *Suite of Metaverse, gaming and NFT aligned consumer products that appeal to the masses with a goal to enable mass adoption.*
 
 The concepts behind data trading and blockchain-backed data technology can be overwhelming for most people to grasp. This is a key reason why many of the current web3 data platforms have very low adoption and hype. For platforms such as Itheum to change the dynamic of data ownership we need large-scale bottom-up adoption - and this kind of adoption can only come if we build consumer products that "everyone wants to use".
@@ -139,121 +143,16 @@ We envision a future where Metaverse interoperability can be achieved via open-s
 - A Metaverse interoperability "virtual waiting room" called the Greenroom - This is where your N.F.Me will exist (visually in 3D) and you will be able to see your "accessories" and other N.F.Me characters and trade accessories whilst interacting with them. The Greenroom is where the "Itheum Data Metaverse" will integrate with other Metaverse platforms like The Sandbox - once open Metaverse integrations are built with 3rd party platforms, they will appear as a portal inside your Greenroom and you will be able to enter it and teleport your N.F.Me avatar into other Metaverse ecosystems. In show business; a Greenroom is a waiting room where performers hang out until they are called on stage - similarly; Itheum's Metaverse Greenroom is where your N.F.Me can hang out until you can teleport to other metaverse platforms.
 
 
-
 ---
 
-
-
-# Multi-Chain Strategy <a name="multi-chain-1"></a>
-The Itheum Data DEX will work across EVM and non-EVM compatible chains from day one of its mainnet launch. We already have Ethereum, Polygon, BSC, Harmony, PlatON and Parastate working and will be deploying into Avalanche shortly. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Algorand, Hedera, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain (Multi-Chain Architecture).
-
-We are working on cross-chain advertising and purchasing of data facilitated via cross-chain oracles that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn of chain native tokens to balance the chain specific token repositories (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains). This will be our Cross-Chain Architecture initiative.
-
-{% youtube 63BE4plzDzw %}
-> _Demo video of the Itheum Data DEX working on Ethereum and Polygon_
-
----
-
-# Multi-Chain Technical Design Goals <a name="multi-chain-design-1"></a>
-
-- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. So this protocol can be implemented on any blockchain.
-- The Itheum protocol is built into the smart contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
-- Therefore the protocol can be implemented in any blockchain and on any native runtime (does not have to be EVM). So long as the native chain supports transaction consensus and token standards; Itheum can be built on it.
-- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable Smart Contracts which coordinate how data will be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they form the foundation for future web3 core infrastructure. This also makes sure we can work across private, permissioned, and public chains to reach maximum adoption.
-- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain smart-contract-coordinators on any other chain and runtime; and they can talk to each other via bridges, relays, middleware, and oracles.
-- The future of blockchain is interoperability, so we are designing it this way.
-
----
-
-# Cross Chain Tokens <a name="cross-chain-1"></a>
-The core Itheum Data DEX token is an ERC20 token called MYDA (short for MYDAta). The MYDA token will allow for the purchasing of data from data creators as well as from Data Coalitions. The MYDA token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
-
-As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of MYDA bridged and distributed as more chains are added.
-
-- MYDA — Token deployed on Ethereum
-- mMYDA — Token deployed on Polygon/Matic
-- bMYDA — Token deployed on Binance Smart Chain (BSC)
-- aMYDA — Token deployed on Avalanche
-
-MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert your MYDA to mMYDA and vice versa.
-
----
-
-# Itheum Token <a name="tokenomics-1"></a>
-The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for the trading of data is very critical for the adoption of a platform like Itheum, we may move the primary token to chains like Elrond, Polygon, BSC or Avalanche).
-
-The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
-
-## Token Utility <a name="tokenomics-2"></a>
-The MYDA token is a pure “utility token” as without owning MYDA you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
-
-At this point, the following tasks will REQUIRE the MYDA token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take an MYDA 1st approach to align incentives so we can ensure that MYDA’s position as a utility token can’t be disputed:
-
-**1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
-
-A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of MYDA between the parties. MYDA is essentially the key to using the data from an authorization perspective. The primary goal would be to use the transaction of MYDA (between the 2 parties as logged on-chain) as:
-
-- Evidence of access rights being granted by the Data Owner to another party
-- To trace and have evidence of the lineage of data access
-- To trace back access rights to a Provenance (Data Creator)
-
-If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the MYDA is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
-
-- To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
-
-- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept the risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
-
-See point number (3) below for more details…
-
-**2) Stake MYDA to have relative voting rights in the Itheum Foundation (IF) DAO**
-
-The IF DAO will vote on "Proposals'' on how the MYDA Treasury will be spent to further Itheum's community development and roadmap.
-
-**3) Stake/Bond MYDA to create a new Data Coalition (DC) (which is governed by a DAO)**
-
-By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
-
-The following parties can Stake/Bond MYDA:
-
-- Board Members will bond MYDA to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in until the Board Member leaves the DC.
-
-- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have a genuine interest in supplying good quality data to the DC.
-
-- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd-Sourced Data Curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a DPOS gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA is incentivized relative to their role and stake and earns micropayments after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
-
-
-
-## Token Metrics <a name="tokenomics-3"></a>
-Please note that the following details are likely to change as we are currently planning for our token launch and as we adjust our token offering based on our planned token utility forecast.
-
-### Total MYDA Supply: 1,000,000,000
-
-### $MYDA Token Allocation
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ac8n5c0r8elw2mdydlrl.png)
- 
-
-### Use of Token Sale Funds
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/biis1fnut15zzz0j3ftz.png)
- 
-
-### Circulating Supply
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9blrt9gwc308lb1qryh9.png)
- 
-
-### Vesting Schedule
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/diocbctpju7yqzdc6y44.png)
- 
- 
-
----
 
 # Important disclaimer on usage of certain words in following sections
 
-> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our MYDA utility token. Please read our (Token Utility section)[#tokenomics-2] for more on this.
+> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our MYDA utility token. Please read our [Token Utility section](#tokenomics-2) for more on this.
 
 ---
 
-# Selling Data <a name="selling-1"></a>
+# Decentralised Data Trade <a name="data-trade-1"></a>
 The DEX allows for the seamless trade of personal data by “Data Creators”. The sale, verification, and ownership accreditation of the data are handled on-chain but the actual data being sold is kept off-chain. 
 
 There are a few reasons for this:
@@ -328,7 +227,7 @@ A data creator should choose to sell data as a Data Pack if they have the follow
 - Only allow for their personal data to be sold on the Itheum Data DEX (no other decentralized marketplace will display the Data Pack for sale — this is because it’s not built on any open blockchain standard like ERC 20 or ERC 721 that allows for interoperability). This can be looked at as a benefit if the Data Creator wants to limit exposure of their data (as it’s for sale in only one marketplace)
 
 ## Sale of Data NFTs <a name="types-on-3"></a>
-A Data Creator can also choose to sell their personal data as an NFT (Non-Fungible Token). This makes a lot of sense as personal data is very unique and NOT fungible (watch this short video to understand the difference between (fungible and non-fungible)[https://www.youtube.com/watch?v=OXCJxy0f4Ic]). This allows for the Data Creator to have more control of their data and can align to NFT features that make their data grow in value (rarity/scarcity) and increase the exposure of their data assets due to the interoperability and portability NFT standards have in the blockchain ecosystem.
+A Data Creator can also choose to sell their personal data as an NFT (Non-Fungible Token). This makes a lot of sense as personal data is very unique and NOT fungible (watch this short video to understand the difference between [fungible and non-fungible](https://www.youtube.com/watch?v=OXCJxy0f4Ic]). This allows for the Data Creator to have more control of their data and can align to NFT features that make their data grow in value (rarity/scarcity) and increase the exposure of their data assets due to the interoperability and portability NFT standards have in the blockchain ecosystem.
 
 Data NFTs are described in more detail below and use the ERC 721 open standard to coordinate and facilitate the NFT contract between parties involved in the trade.
 
@@ -348,14 +247,16 @@ A Data Creator should choose to sell data as a Data NFT if they have the followi
 {% youtube f5FtZl6XGSY %}
 > _Demo 1: minting and selling Genomics data as a Data NFT_
 
-<br /><br />{% youtube SmDGCt45qZU %}
+<br /><br />
+
+{% youtube SmDGCt45qZU %}
 > _Demo 2: minting and selling Blood tests results as a Data NFT on OpenSea_
 
 ---
 
-# Buying Data <a name="buying-data-1"></a>
+# Methods for Buying Data <a name="buying-data-1"></a>
 
-One-off datasets advertised for sale on the Data DEX are called “Data Packs”. As described in the above section “Selling Data”, there are various types of data that can be put up for sale on the DEX. On top of the one-off data sets, the Itheum Data DEX also allows for the sale to “Data Stream subscriptions” (see in a below section titled Data Streams)
+One-off datasets advertised for sale on the Data DEX are called “Data Packs”. As described in the above section “Decentralised Data Trade”, there are various types of data that can be put up for sale on the DEX. On top of the one-off data sets, the Itheum Data DEX also allows for the sale to “Data Stream subscriptions” (see in a below section titled Data Streams)
 
 Data is sold via two channels:
 
@@ -370,37 +271,9 @@ Anyone with a crypto wallet can become a buyer of Data Packs or data streams und
 
 3. If the purchase is via an authorized Data Coalition, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of MYDA for a certain period of time (until the buyer earns a higher credibility score) – data sold via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
 
----
-
-# Enabling Personal Data "Proofs" within Smart Contracts <a name="data-proofs-1"></a>
-
-In the decentralized DApps ecosystem (DeFi, DAOs or any other application use cases enabled via DApps); *Smart Contracts* enable for agreements between parties to execute based on "indisputable truths". For example, in a DeFi exchange, a trade transaction between two parties can happen backed by the on-chain state data that confirms that the transaction can indeed proceed (e.g. party A has the tokens to transfer and Party B is entitled to receive the tokens based on some pre-agreed above condition). So Smart Contracts enable trust-less interaction to happen between multiple counter-parties. Traditionally, transactions such as these in finance require a trusted intermediary such as a Bank to coordinate.
-
-But *Smart Contracts do have a key limitation in that the data they have access to on-chain to facilitate such trust-less behavior is very limited*. We only have data around transaction history and other such on-chain information (e.g. voting outcomes etc). For more complex trust-less applications to migrate to the blockchain, we need "richer, real-world data" to flow into Smart Contracts. *[ChainLink](https://chain.link/) provides this real-world data via their Decentralised Oracle Networks* and enables the technology of "hybrid smart contracts". These hybrid smart contracts use real-world Oracle data to make decisions and carry out transactions between parties. ChainLink enables smart contracts to tap into real-world data like exchange price feeds, weather, or sensor data and allows for the contracts to mediate transactions between multiple parties based on outcomes resulting from smart contract code execution backed by real-world data.
-
-But if Blockchain technology was to branch out and handle many more mainstream use-cases, we will need a wider variety of real-world data to flow into the smart contract world. One type of data, in particular, that is not available today (even via Chainlink Oracle networks) but is crucial for richer blockchain use-cases - *is Personal Data*.
- 
-As described in the above section titled "Types of Direct Sale" - the Itheum platform enables *Data Creators to place their personal data for direct peer-to-peer direct sale on-chain*. One of the *underlying qualities of this type of trade is that a "proof of the personal data" is stored on-chain*. This proof is then used (by a Buyer) to verify that the *data's veracity is untampered* before the trade happens. 
-
-These features enabled by the Itheum Data DEX can *also be used as a "Personal Data Proof" by smart contracts to execute specific rules that enable transactions on-chain to happen that are backed by personal data*.
-
-## This revolutionary concept is best explained with an example:
-
-**Home Loan Application - Real Word Scenario**
-Jack wants to buy a house. He heads over to his bank and requests a bank loan. The bank needs to carry out a detailed assessment to make sure Jack is eligible for the loan (i.e. can he make repayments? what is the risk he will default on it? etc). The bank does a credit check on Jack and finds that his credit history is good. The bank's home loan broker then does an extended personal due-diligence assessment. Jack is asked to provide his financial history, income history, and other details about his spending habits, family, dependents and work history. This information is collected using a detailed bank loan application form the bank has prepared as a standard document. Once Jack fills the form he needs to attest the form as holding "true" information (via a form of statutory declaration that is legally binding). The bank assesses the details on the form and makes a decision to give Jack the loan. Jack uses the loan and buys a house.
-
-Now let's imagine that we want to port this entire scenario to the blockchain and remove as many intermediaries as we can (the bank, the credit history provider, the home loan broker, etc.)
-
-**Home Loan Application - DeFi Scenario**
-Jack wants to buy a house. He visits a DeFi Lending DApp  that is a DAO (modeled after a real-world credit union but fully decentralized) that allows for borrowing based on voting-based approval and on-chain evidence of collateral (e.g. other assets that Jack owns in the same DeFi DApp or other DApps). Jack requests a loan and the DApp begins its automated due diligence process. As part of this process; the DApp invokes another DeFi DApp's Smart Contracts that allows for deep credit history checks (possibly via deep index lookups or via [the Graph](https://thegraph.com/) for more advanced lookups). The credit checks come back positive for Jack. The DeFi Lending DApp then refers Jack to an application form built and run using *Itheum's data collection and analytics toolkit*. It includes all the regular questions asked by banks during loan applications that needs to be asked to an applicant directly (e.g. what is your employment history? your spending habits? your family details and other financial responsibilities? basically, all the personal information that is needed to make an informed decision about a borrowing risk but cannot be obtained using blockchain lookups). Jack completes the form and his responses are stored inside the *Itheum Data DEX as a "Data Pack"*. Jack then *Advertises this Data Pack on-chain* and the *proof of his response is published on-chain* and sent to the DeFi Lending DApp as a "Personal Data Proof" and attestation to his responses to the form. The DeFi Lending DApp now has all the information it has to take his application to the final DAO voting panel. The members of the DAO have all the attested information and proof to make a decision on the home loan (collateral confirmation, positive credit history, application form due-diligence responses and on-chain proof). The DeFi Lending DApp is happy with the application and approves the loan and Jack receives the money.
-
-Itheum provides the complete platform for these kinds of *Personal Data Proofs* that can be used for on-chain decision-making. Think of Itheum as the next layer of data inflow into the blockchain world. Core blockchains provide transaction data, ChainLink provides real-world event data and Itheum provides Personal Data Proofs direct from the end-user. When used in unison; we can replicate many real-world scenarios using smart contracts and remove redundant intermediaries.
-
-{% youtube xq60uTA844c %}
-> _Watch more real-world use cases and code demos_
-
 
 ---
+
 
 # Our 5-stage Product Development Process <a name="product-process-1"></a>
 
@@ -415,65 +288,29 @@ To ensure we continually innovate and deliver tangible web3 / blockchain feature
 
 ---
 
-# Data Coalitions <a name="data-coalitions-1"></a>
 
-Independently selling personal data is inefficient and time-consuming. Continuing to curate and monitor the “terms and conditions” for each sale as well as to keep track of what data will be used for and by whom will quickly become overwhelming.
-
-Your personal data (both the longitudinal data from your structured programs and highly personal & sensitive data from your vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep analytics.
-
-Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond MYDA to form and run it. The creators are called Board Members and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Coalition as robust as possible to attract new Members (and therefore more Data). 
-
-Itheum envisions a future where the most successful Data Coalitions will be run by enterprises and SMEs (subject matter experts like legal and regulation experts, commercial data warehouses, academic/research institutes, government departments, etc) and will be the perfect balance between commercialization of data and accountability to end-users (Data Providers). Board Members vote to agree on the terms and conditions and the governance (privacy and security) of the data trade, the parameters they agree to will be made visible to anyone who wants to join the Data Coalition. Users (called Members) can then align to the Coalition who they feel acts in their best interests. 
-
-You then delegate the ownership of your datasets, data streams, and Data NFTs. The Coalition will group your data into clusters of similar data and sell the data in bulk to a larger column of buyers. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Coalitions network. 
-
-Data Coalitions also allow for "staking" of MYDA, where anyone can stake their MYDA with a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd-Sourced Data Curation), this allows for Itheum to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data at that point in time. All parties involved in the Data Coalition (Board Members who bond MYDA, Members who share data, Members who stake MYDA are all incentivized relative to their role and stake and earn micropayments after each sale is finalized)
-
-Itheum's Data Coalitions are modeled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
-
-<br />
-## Decentralised Board Members <a name="data-coalitions-2"></a>
-As introduced above; Data Coalitions are formed and run by a virtual board — they have additional governance responsibility and can mediate/provide conflict resolution, negotiate terms of sale of data with real-world entities and other Coalitions, etc. Board Members have to bond MYDA into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by other board members. To prevent hard centralization, Board Members will serve a fixed term (if required by the Members - it's not mandatory), and after which they will need to rotate out and be replaced with a new board. Board members earn a share of the sale in data (paid out in MYDA) that is housed within the Data Coalition. They can also lose MYDA in case they don’t represent their member’s best interests or conduct an incorrect sale of data (that breaks the terms of sale contract) and need to revoke it and pay back the buyers and compensate sellers for the damage. Although not mandatory, Members will be able to participate in ongoing period votes to express their satisfaction with the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause. 
-
-### Other Notable Properties of Data Coalitions
-- Data Coalitions enable "collective bargaining power" for end-users and will be a viable solution to the problem of centralized enterprise data silos that don't provide any value to the Data Creator.
-
-<br />
-- DAO-based governance and modified proof-of-authority-based decision making will be involved in ongoing operations of the Data Coalition. 
-
-<br />
-- They will also be delegated custodians of “Data Vaults” and can autonomously trade high-value data from the Vaults by attaching it to the other datasets within the Data Coalition.
-
-<br />
-- They will also be able to link with the "Trusted Computation Framework" and facilitate the privacy-preserving compute-to-data technology handshake, where 3rd parties will be able to run algorithms on the datasets housed within the Coalition without having the identity and privacy of the original Data Creators leaked.
-
-<br />
-- They can efficiently facilitate "micropayments" to all its members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk sales. After each sale, the 1000 members will be sent a share of the earnings via micropayments. Traditional banking payment systems are unable to handle these kinds of micropayments due to the overhead of fees and charges - but crypto will be able to facilitate this well.
-
-<br />
-- Data Coalitions in future will also trade with other Coalitions and be connected to autonomous machines via a machine-to-machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
-
-<br />
-- They can allow (if voted by members) for "anonymous cohort analysis" of data trends via tooling provided via our "data collection and analytics toolkit" feature. For example; there may be a data coalition set up for the collection of "fitness and demographic data" - where you, as a Data Creator can align to and sell your wearable data from Fitbit or Garmin as well as append specific demographic data from your Data Vault (e.g. Gender, Age, Ethnicity) to enhance its value. Anonymous cohort analysis can then be enabled to visualize the type of data under the control of this Data Coalition. This adds more appeal to buyers who can preview data with more detail before committing to buying at a premium price.
-
-![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/avoyaf20ah58ysvutla5.png)
-> _Anonymous cohort analysis via our data collection and analytics toolkit integration_
-
-<br />
-- By default, the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
-
-<br />
-- Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under its control. E.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to Bond MYDA for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and MYDA stakes from regular users (members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so you must have some commercial experience in data-related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validators reputation and past performance. So for a Data Coalition to be successful - it will need to be in an "operational mode" and have some credible "board members" whilst maintaining ongoing trade operational credibility.
-
-<br />
-
-> This feature is currently in the "Detailed Design & Prototyping" stage.
+# Data DEX Components <a name="data-dex"></a>
+The following key components form our Data DEX product, they work to provide the `core data protocol` required to make Itheum a fully featured decentralized data platform.
 
 
 ---
 
 
-# Data NFTs <a name="data-nfts-1"></a>
+## Peer to Peer Data Trade <a name="peer-trade-1"></a>
+
+The base functionality that's available when you first log into the Data DEX is the ability to discover and trade data with your "direct peers". You will be able to see all "advertised data" from others and also "advertise" your own data in the data marketplace. As detailed in the section (Decentralised Data Trade)[#data-trade], you can advertise your data from apps that you have joined that are built on Itheum's `Data Collection and Analytics toolkit` or you can also advertise any "arbitrary data" that you own.  
+
+When you place data for sale you will nominate a purchase price in MYDA, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the MYDA requested and in return get access to the data for use based on the "Terms of Use" that you specify. The market operates completely in a "peer-to-peer" manner where there are no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
+
+<br />
+
+> Data NFTs are currently in the "Available in Testnet" stage.
+
+
+---
+
+
+## Data NFTs <a name="data-nfts-1"></a>
 
 Data is an asset in itself and personal data is a “unique asset” as no two personal datasets are the same. Highly personal or sensitive datasets can essentially function as an NFT allowing for uniqueness and limited availability.
 
@@ -544,13 +381,56 @@ In this example, let's assume *you want to sell your Genomics dataset as a Data 
 ---
 
 
-# Data Streams <a name="data-streams-1"></a>
+## Data Coalitions <a name="data-coalitions-1"></a>
 
-You can let buyers subscribe to “personal data streams” — unlike the on-off datasets that can also be purchased on the Data Dex, data streams will continue to feed data once a “subscription” is purchased.
+Independently selling personal data is inefficient and time-consuming. Continuing to curate and monitor the “terms and conditions” for each sale as well as to keep track of what data will be used for and by whom will quickly become overwhelming.
 
-Streams are a more powerful way for buyers to subscribe to longitudinal datasets that grow over time. For example, health and wellness data like activity, sleep quality, blood pressure, or financial activity like spend habits, etc.
+Your personal data (both the longitudinal data from your structured programs and highly personal & sensitive data from your vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep analytics.
 
-When paired with context-rich data from your “data vault” — streams become a valuable and steady source of passive income for you in exchange for your personal data.
+Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond MYDA to form and run it. The creators are called Board Members and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Coalition as robust as possible to attract new Members (and therefore more Data). 
+
+Itheum envisions a future where the most successful Data Coalitions will be run by enterprises and SMEs (subject matter experts like legal and regulation experts, commercial data warehouses, academic/research institutes, government departments, etc) and will be the perfect balance between commercialization of data and accountability to end-users (Data Providers). Board Members vote to agree on the terms and conditions and the governance (privacy and security) of the data trade, the parameters they agree to will be made visible to anyone who wants to join the Data Coalition. Users (called Members) can then align to the Coalition who they feel acts in their best interests. 
+
+You then delegate the ownership of your datasets, data streams, and Data NFTs. The Coalition will group your data into clusters of similar data and sell the data in bulk to a larger column of buyers. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Coalitions network. 
+
+Data Coalitions also allow for "staking" of MYDA, where anyone can stake their MYDA with a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd-Sourced Data Curation), this allows for Itheum to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data at that point in time. All parties involved in the Data Coalition (Board Members who bond MYDA, Members who share data, Members who stake MYDA are all incentivized relative to their role and stake and earn micropayments after each sale is finalized)
+
+Itheum's Data Coalitions are modeled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
+
+<br />
+
+### Decentralised Board Members <a name="data-coalitions-2"></a>
+As introduced above; Data Coalitions are formed and run by a virtual board — they have additional governance responsibility and can mediate/provide conflict resolution, negotiate terms of sale of data with real-world entities and other Coalitions, etc. Board Members have to bond MYDA into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by other board members. To prevent hard centralization, Board Members will serve a fixed term (if required by the Members - it's not mandatory), and after which they will need to rotate out and be replaced with a new board. Board members earn a share of the sale in data (paid out in MYDA) that is housed within the Data Coalition. They can also lose MYDA in case they don’t represent their member’s best interests or conduct an incorrect sale of data (that breaks the terms of sale contract) and need to revoke it and pay back the buyers and compensate sellers for the damage. Although not mandatory, Members will be able to participate in ongoing period votes to express their satisfaction with the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause. 
+
+### Other Notable Properties of Data Coalitions
+- Data Coalitions enable "collective bargaining power" for end-users and will be a viable solution to the problem of centralized enterprise data silos that don't provide any value to the Data Creator.
+
+<br />
+- DAO-based governance and modified proof-of-authority-based decision making will be involved in ongoing operations of the Data Coalition. 
+
+<br />
+- They will also be delegated custodians of “Data Vaults” and can autonomously trade high-value data from the Vaults by attaching it to the other datasets within the Data Coalition.
+
+<br />
+- They will also be able to link with the "Trusted Computation Framework" and facilitate the privacy-preserving compute-to-data technology handshake, where 3rd parties will be able to run algorithms on the datasets housed within the Coalition without having the identity and privacy of the original Data Creators leaked.
+
+<br />
+- They can efficiently facilitate "micropayments" to all its members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk sales. After each sale, the 1000 members will be sent a share of the earnings via micropayments. Traditional banking payment systems are unable to handle these kinds of micropayments due to the overhead of fees and charges - but crypto will be able to facilitate this well.
+
+<br />
+- Data Coalitions in future will also trade with other Coalitions and be connected to autonomous machines via a machine-to-machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
+
+<br />
+- They can allow (if voted by members) for "anonymous cohort analysis" of data trends via tooling provided via our "data collection and analytics toolkit" feature. For example; there may be a data coalition set up for the collection of "fitness and demographic data" - where you, as a Data Creator can align to and sell your wearable data from Fitbit or Garmin as well as append specific demographic data from your Data Vault (e.g. Gender, Age, Ethnicity) to enhance its value. Anonymous cohort analysis can then be enabled to visualize the type of data under the control of this Data Coalition. This adds more appeal to buyers who can preview data with more detail before committing to buying at a premium price.
+
+![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/avoyaf20ah58ysvutla5.png)
+> _Anonymous cohort analysis via our data collection and analytics toolkit integration_
+
+<br />
+- By default, the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
+
+<br />
+- Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under its control. E.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to Bond MYDA for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and MYDA stakes from regular users (members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so you must have some commercial experience in data-related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validators reputation and past performance. So for a Data Coalition to be successful - it will need to be in an "operational mode" and have some credible "board members" whilst maintaining ongoing trade operational credibility.
 
 <br />
 
@@ -560,7 +440,38 @@ When paired with context-rich data from your “data vault” — streams become
 ---
 
 
-# Data Vault <a name="data-vault-1"></a>
+## Personal Data Proofs <a name="data-proofs-1"></a>
+
+In the decentralized DApps ecosystem (DeFi, DAOs or any other application use cases enabled via DApps); *Smart Contracts* enable for agreements between parties to execute based on "indisputable truths". For example, in a DeFi exchange, a trade transaction between two parties can happen backed by the on-chain state data that confirms that the transaction can indeed proceed (e.g. party A has the tokens to transfer and Party B is entitled to receive the tokens based on some pre-agreed above condition). So Smart Contracts enable trust-less interaction to happen between multiple counter-parties. Traditionally, transactions such as these in finance require a trusted intermediary such as a Bank to coordinate.
+
+But *Smart Contracts do have a key limitation in that the data they have access to on-chain to facilitate such trust-less behavior is very limited*. We only have data around transaction history and other such on-chain information (e.g. voting outcomes etc). For more complex trust-less applications to migrate to the blockchain, we need "richer, real-world data" to flow into Smart Contracts. *[ChainLink](https://chain.link/) provides this real-world data via their Decentralised Oracle Networks* and enables the technology of "hybrid smart contracts". These hybrid smart contracts use real-world Oracle data to make decisions and carry out transactions between parties. ChainLink enables smart contracts to tap into real-world data like exchange price feeds, weather, or sensor data and allows for the contracts to mediate transactions between multiple parties based on outcomes resulting from smart contract code execution backed by real-world data.
+
+But if Blockchain technology was to branch out and handle many more mainstream use-cases, we will need a wider variety of real-world data to flow into the smart contract world. One type of data, in particular, that is not available today (even via Chainlink Oracle networks) but is crucial for richer blockchain use-cases - *is Personal Data*.
+ 
+As described in the above section titled "Types of Direct Sale" - the Itheum platform enables *Data Creators to place their personal data for direct peer-to-peer direct sale on-chain*. One of the *underlying qualities of this type of trade is that a "proof of the personal data" is stored on-chain*. This proof is then used (by a Buyer) to verify that the *data's veracity is untampered* before the trade happens. 
+
+These features enabled by the Itheum Data DEX can *also be used as a "Personal Data Proof" by smart contracts to execute specific rules that enable transactions on-chain to happen that are backed by personal data*.
+
+### This revolutionary concept is best explained with an example:
+
+**Home Loan Application - Real Word Scenario**
+Jack wants to buy a house. He heads over to his bank and requests a bank loan. The bank needs to carry out a detailed assessment to make sure Jack is eligible for the loan (i.e. can he make repayments? what is the risk he will default on it? etc). The bank does a credit check on Jack and finds that his credit history is good. The bank's home loan broker then does an extended personal due-diligence assessment. Jack is asked to provide his financial history, income history, and other details about his spending habits, family, dependents and work history. This information is collected using a detailed bank loan application form the bank has prepared as a standard document. Once Jack fills the form he needs to attest the form as holding "true" information (via a form of statutory declaration that is legally binding). The bank assesses the details on the form and makes a decision to give Jack the loan. Jack uses the loan and buys a house.
+
+Now let's imagine that we want to port this entire scenario to the blockchain and remove as many intermediaries as we can (the bank, the credit history provider, the home loan broker, etc.)
+
+**Home Loan Application - DeFi Scenario**
+Jack wants to buy a house. He visits a DeFi Lending DApp  that is a DAO (modeled after a real-world credit union but fully decentralized) that allows for borrowing based on voting-based approval and on-chain evidence of collateral (e.g. other assets that Jack owns in the same DeFi DApp or other DApps). Jack requests a loan and the DApp begins its automated due diligence process. As part of this process; the DApp invokes another DeFi DApp's Smart Contracts that allows for deep credit history checks (possibly via deep index lookups or via [the Graph](https://thegraph.com/) for more advanced lookups). The credit checks come back positive for Jack. The DeFi Lending DApp then refers Jack to an application form built and run using *Itheum's data collection and analytics toolkit*. It includes all the regular questions asked by banks during loan applications that needs to be asked to an applicant directly (e.g. what is your employment history? your spending habits? your family details and other financial responsibilities? basically, all the personal information that is needed to make an informed decision about a borrowing risk but cannot be obtained using blockchain lookups). Jack completes the form and his responses are stored inside the *Itheum Data DEX as a "Data Pack"*. Jack then *Advertises this Data Pack on-chain* and the *proof of his response is published on-chain* and sent to the DeFi Lending DApp as a "Personal Data Proof" and attestation to his responses to the form. The DeFi Lending DApp now has all the information it has to take his application to the final DAO voting panel. The members of the DAO have all the attested information and proof to make a decision on the home loan (collateral confirmation, positive credit history, application form due-diligence responses and on-chain proof). The DeFi Lending DApp is happy with the application and approves the loan and Jack receives the money.
+
+Itheum provides the complete platform for these kinds of *Personal Data Proofs* that can be used for on-chain decision-making. Think of Itheum as the next layer of data inflow into the blockchain world. Core blockchains provide transaction data, ChainLink provides real-world event data and Itheum provides Personal Data Proofs direct from the end-user. When used in unison; we can replicate many real-world scenarios using smart contracts and remove redundant intermediaries.
+
+{% youtube xq60uTA844c %}
+> _Watch more real-world use cases and code demos_
+
+
+---
+
+
+## Data Vault <a name="data-vault-1"></a>
 
 You can store highly sensitive personal data in your data vault. For example; details about your gender, race, sexual preference, prior health conditions, financial history etc.
 
@@ -581,10 +492,27 @@ As the data is encrypted using the user’s private key we need to enable a fric
 > This feature is currently in the "Detailed Design & Prototyping" stage.
 
 
+
 ---
 
 
-# Trusted Computation Framework <a name="trusted-1"></a>
+## Data Streams <a name="data-streams-1"></a>
+
+You can let buyers subscribe to “personal data streams” — unlike the on-off datasets that can also be purchased on the Data Dex, data streams will continue to feed data once a “subscription” is purchased.
+
+Streams are a more powerful way for buyers to subscribe to longitudinal datasets that grow over time. For example, health and wellness data like activity, sleep quality, blood pressure, or financial activity like spend habits, etc.
+
+When paired with context-rich data from your “data vault” — streams become a valuable and steady source of passive income for you in exchange for your personal data.
+
+<br />
+
+> This feature is currently in the "Detailed Design & Prototyping" stage.
+
+
+---
+
+
+## Trusted Computation Framework <a name="trusted-1"></a>
 
 As personal datasets under the control of Data Coalitions grow over time, certain end use-cases may require access to highly sensitive, identifiable data — often these use-cases will provide the most “payout” for data usage (as such they are considered high-value use-cases). In such situations, a Trusted Computation Framework can be used to ensure computation is handled off-chain with tamper-proof integrity. The Data Coalition will coordinate these computation jobs on-chain (with possible coordination assistance of [Chainlink’s Attested Oracles](https://blog.chain.link/driving-demand-for-enterprise-smart-contracts-using-the-trusted-computation-framework-and-attested-oracles-via-chainlink/)
 
@@ -600,7 +528,7 @@ The Trusted Computation Framework is tethered to the “regional decentralizatio
 ---
 
 
-# Regional Decentralisation Hubs <a name="decen-hubs-1"></a>
+## Regional Decentralisation Hubs <a name="decen-hubs-1"></a>
 
 Highly sensitive data like medical data from hospitals, personal health records, financial transactions, or credit history are protected by regional or local sovereignty laws. To unlock the trade of this data we cannot use fully decentralized global storage or compute. For example; we may want to limit trade, storage, and compute on data to only the EU region so that it complies with laws like GDPR and yet prevent a central hoarding of these resources
 
@@ -615,6 +543,12 @@ Regional Decentralised Hubs are a novel idea we are exploring around regional de
 
 
 # The Data Metaverse and N.F.Me Avatar Technology <a name="nfme-1"></a>
+
+<br />
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7lw4jkmy6qwekhh3lldj.png)
+
+<br /> 
 
 N.F.Me (Non Fungible ME) are your `Data Avatars of the Metaverse`. Join the Data DEX and complete a "seed profiler job" and have your very own N.F.Me minted and stored in your wallet. N.F.Me's have "personal data categories" (PDC) linked to it; these feed data into the N.F.Me's and this data is secured in personal `Data Vaults`. Example PDCs are [social, financial, historical, internal and external.](https://iapp.org/media/pdf/resource_center/Categories-of-personal-information.pdf)
 
@@ -643,6 +577,137 @@ Itheum may also eventually become the `world's 1st fully decentralized Metaverse
 <br />
 
 > This feature is currently in the "Research:Labs" stage.
+
+
+---
+
+
+# Technology Philosophy <a name="tech-philosophy-1"></a>
+The following sections are the underlying technology principles that we aim to use as the foundation for our evolving solution design and architecture for our multi-chain, cross-chain communication, and token design elements.
+
+
+---
+
+
+## Multi-Chain Strategy <a name="multi-chain-1"></a>
+The Itheum Data DEX will work across EVM and non-EVM compatible chains from day one of its mainnet launch. We already have Ethereum, Polygon, BSC, Harmony, PlatON and Parastate working and will be deploying into Avalanche shortly. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Algorand, Hedera, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain (Multi-Chain Architecture).
+
+We are working on cross-chain advertising and purchasing of data facilitated via cross-chain oracles that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn of chain native tokens to balance the chain specific token repositories (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains). This will be our Cross-Chain Architecture initiative.
+
+{% youtube 63BE4plzDzw %}
+> _Demo video of the Itheum Data DEX working on Ethereum and Polygon_
+
+
+---
+
+
+## Multi-Chain Technical Design Goals <a name="multi-chain-design-1"></a>
+
+- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. So this protocol can be implemented on any blockchain.
+- The Itheum protocol is built into the smart contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
+- Therefore the protocol can be implemented in any blockchain and on any native runtime (does not have to be EVM). So long as the native chain supports transaction consensus and token standards; Itheum can be built on it.
+- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable Smart Contracts which coordinate how data will be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they form the foundation for future web3 core infrastructure. This also makes sure we can work across private, permissioned, and public chains to reach maximum adoption.
+- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain smart-contract-coordinators on any other chain and runtime; and they can talk to each other via bridges, relays, middleware, and oracles.
+- The future of blockchain is interoperability, so we are designing it this way.
+
+
+---
+
+
+## Cross Chain Tokens <a name="cross-chain-1"></a>
+The core Itheum Data DEX token is an ERC20 token called MYDA (short for MYDAta). The MYDA token will allow for the purchasing of data from data creators as well as from Data Coalitions. The MYDA token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
+
+As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of MYDA bridged and distributed as more chains are added.
+
+- MYDA — Token deployed on Ethereum
+- mMYDA — Token deployed on Polygon/Matic
+- bMYDA — Token deployed on Binance Smart Chain (BSC)
+- aMYDA — Token deployed on Avalanche
+
+MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert your MYDA to mMYDA and vice versa.
+
+
+---
+
+
+# Itheum Token <a name="tokenomics-1"></a>
+The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for the trading of data is very critical for the adoption of a platform like Itheum, we may move the primary token to chains like Elrond, Polygon, BSC or Avalanche).
+
+The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
+
+
+---
+
+
+## Token Utility <a name="tokenomics-2"></a>
+The MYDA token is a pure “utility token” as without owning MYDA you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
+
+At this point, the following tasks will REQUIRE the MYDA token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take an MYDA 1st approach to align incentives so we can ensure that MYDA’s position as a utility token can’t be disputed:
+
+**1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
+
+A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of MYDA between the parties. MYDA is essentially the key to using the data from an authorization perspective. The primary goal would be to use the transaction of MYDA (between the 2 parties as logged on-chain) as:
+
+- Evidence of access rights being granted by the Data Owner to another party
+- To trace and have evidence of the lineage of data access
+- To trace back access rights to a Provenance (Data Creator)
+
+If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the MYDA is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
+
+- To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
+
+- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept the risk of remediating and mediating contentious sales. The transfer of MYDA to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
+
+See point number (3) below for more details…
+
+**2) Stake MYDA to have relative voting rights in the Itheum Foundation (IF) DAO**
+
+The IF DAO will vote on "Proposals'' on how the MYDA Treasury will be spent to further Itheum's community development and roadmap.
+
+**3) Stake/Bond MYDA to create a new Data Coalition (DC) (which is governed by a DAO)**
+
+By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked MYDA goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
+
+The following parties can Stake/Bond MYDA:
+
+- Board Members will bond MYDA to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in until the Board Member leaves the DC.
+
+- Data Creators or Contributors (called Members) can link their data to a DC and also stake some MYDA to flag that they have a genuine interest in supplying good quality data to the DC.
+
+- Anyone (even those who do not want to provide data themselves) can stake MYDA into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd-Sourced Data Curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a DPOS gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds MYDA is incentivized relative to their role and stake and earns micropayments after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
+
+
+---
+
+
+## Token Metrics <a name="tokenomics-3"></a>
+Please note that the following details are likely to change as we are currently planning for our token launch and as we adjust our token offering based on our planned token utility forecast.
+
+**Total MYDA Supply: 1,000,000,000**
+
+<br />
+<br />
+
+**$MYDA Token Allocation**
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vxej5fx5i0y5c2ekl2zx.png)
+ 
+<br />
+<br />
+
+**Use of Token Sale Funds**
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtyu82s7bhg27ypezl38.png)
+
+<br />
+<br />
+
+**Circulating Supply** 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/24lu0w9frsgl68d6yibq.png)
+ 
+<br />
+<br />
+
+**Vesting Schedule**
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w8gf8b3q8bsne6dp8jiu.png)
 
 
 ---
@@ -766,10 +831,10 @@ This approach will organically generate a sort of **confidence score** for each 
 >_OpenSea Confidence Score notification for purchases_
 
 <br />
-- Multi-Account Detection and Blacklisting: We currently use Moralis for user account management. (Moralis)[https://moralis.io/] allows for multiple addresses to be linked behind the scenes to a single user. This enables us to have an audit trail of users trying to launch any potential address-based Sybil attacks and allows us to blacklist transactions in near real-time.
+- Multi-Account Detection and Blacklisting: We currently use Moralis for user account management. [Moralis](https://moralis.io/) allows for multiple addresses to be linked behind the scenes to a single user. This enables us to have an audit trail of users trying to launch any potential address-based Sybil attacks and allows us to blacklist transactions in near real-time.
 
 <br />
-- Verified Identity and/or KYC of Data Seller: One method to prevent most attacks described above would be to use a Verified Identity or KYC platform to ensure that the Data Seller has gone through a verification process before they can sell their data. To prevent a high barrier to entry and boost adoption with a better UX, we may allow for an “unverified” sale of data which will allow for the sale of data but with limited functionality in the DEX and/or much lower MYDA earnings (this is to incentivize the user to verify — this is similar to CEX’s like Binance which allow for trading smaller amount without verification). We are also investigating the (BrightID)[https://www.brightid.org/] project for fully decentralized proof of uniqueness and other mainstream KYC platforms like CIVIC as potential solutions.
+- Verified Identity and/or KYC of Data Seller: One method to prevent most attacks described above would be to use a Verified Identity or KYC platform to ensure that the Data Seller has gone through a verification process before they can sell their data. To prevent a high barrier to entry and boost adoption with a better UX, we may allow for an “unverified” sale of data which will allow for the sale of data but with limited functionality in the DEX and/or much lower MYDA earnings (this is to incentivize the user to verify — this is similar to CEX’s like Binance which allow for trading smaller amount without verification). We are also investigating the [BrightID](https://www.brightid.org/) project for fully decentralized proof of uniqueness and other mainstream KYC platforms like CIVIC as potential solutions.
 
 <br />
 - To increase the legitimacy of Data DEX user accounts and to prevent the attacks that we describe above; we are also considering using a mobile phone number as a 2nd factor on the user identity record. This solution path makes sense should we not want to proceed with a full KYC tool and to yet ensure each user has a 2nd factor they need to *prove they own* before using the Data DEX. As obtaining a mobile number has compliance and audit trail attached to it (you need to provide your driver's license or prove your identity and address for example), this makes attacking the system very impractical as each user will generally only have access to one mobile number (of course, there are exceptions to this but a single user can't own hundreds of mobile numbers for example).
@@ -782,7 +847,110 @@ This approach will organically generate a sort of **confidence score** for each 
 
 We are sure that there will be many more methods malicious users will use to try and game and disrupt the Itheum Data DEX and marketplace ecosystem. As part of our core governance model and token distribution, we will reserve a potion for the community to investigate new attack vectors and incentivize this type of white-hat hacking and remediation behavior to continue to boost the security of our Data DEX.
 
+
 ---
+
+
+# Data Collection & Analytics Toolkit Components (Web2 Data Bridge) <a name="web2-bridge-1"></a>
+The following are the key components that come together to make up the Data Collection & Analytics Toolkit.
+
+
+---
+
+
+## Smart Data Types
+
+The core element of the Data Collection & Analytics Toolkit is a concept called “Smart Data Types”. There are core building blocks that you can use to build advanced data collection apps. Think of them as the “composable elements” that can be used to generate high-value data.
+
+Smart Data Types is a revolutionary concept for data collection that’s native to the Itheum platform. The core Itheum team will regularly build new Smart Data Types and add them to the library. There will also be a public marketplace of 3rd party Smart Data Types produced by our community. 3rd party Smart Data Type developers will be incentivized to contribute their work with token incentives and grants released by the "Itheum Ecosystem Fund".
+
+Here is an example of a Smart Data Type that is available for use today for the Health and Wellness industry: https://itheum.com/smartdatatypes/blood-pressure-left-arm-sitting
+
+Here are all the other available Smart Data Types: https://itheum.com/smartdatatypes
+
+
+## App Builder
+
+The Data Collection & Analytics Toolkit provides interfaces for app developers to build highly flexible data collection and analytics experiences. Apps can be built using our "no-code" toolkit available in the "Management Portal". The "no-code" approach allows for a click and build approach to data collection and analytics, where you can reuse prebuilt templates for scheduled data collection or build out your own custom schedules and include tools from an already built collection of Smart Data Types, engagement channels (e.g. Email, SMS, Telegram), data visualizations, machine learning analysis layers (e.g. sentiment analysis), reports, alerts/thresholds (e.g. irregular data pattern detection), video education and many more tools. 
+
+You can also freely "clone" existing apps and build on top of them. As an example; if you like the [OKPulse employee wellness app](https://okpulse.life) - you can clone it and build on top of it by adding new  Smart Data Types and data visualizations. We are also working on releasing an SDK and API for people who would like to build apps on Itheum using a programming interface.
+
+
+## Omnichannel Data Collection
+
+To reach the broadest user base and bridge as much highly structured, outcome-oriented data from the web2 world into the web3 world; Itheum aims to support a wide range of data collection "channels". Channels are pathways from which data is actively and passively collected from users. 
+
+Itheum currently supports automated data collection via email, SMS, Telegram, and Facebook Messenger. We are also actively working to support Slack, Voice (via automated telephony calling and speech-to-text collection of data), and WhatsApp. Itheum is also building an iOS and Android mobile app that will be able to integrate with your mobile platform's existing secure data vaults (Apple Health and Google Fit) and automate the collection of valuable health and wellness data. 
+
+The platform will also support various 3rd party, on-chain, and off-chain Data Adaptors [Fitbit, Garmin, Open APIs, The Graph, ChainLink, etc)
+
+
+## Automated Data Collection Scheduler
+
+Apps built on the Itheum will actively and passively collect data from users and bridge seamlessly this data into web3. Highly structured, outcome-oriented data can be collected by using Smart Data Types and these data types usually need to be collected at a pre-defined, structured schedule for them to provide the most value. 
+
+Using the built-in `Automated Data Collection Scheduler, you can schedule data collection based on granular conditions and timetables. You can pick the day and time data needs to be collected, you can skip certain days or collect weekly, forth-nightly, or monthly, you can trigger other specific data to be collected based on results of a previous data point or result and also use other customized logic for scheduled data collection. 
+
+For example; in the "Red Heart Challenge" program - blood pressure from your left arm is collected daily but on the weekends, blood pressure data is collected from your right arm. Using this schedule, we can derive using data analytics on the "variance of left vs right arm collection" and "weekday vs weekend collection". The automated Data Collection Scheduler provides the ability to enable rich data collection and increase the value of the final data.
+
+
+## User Portal
+
+Every user who joins and participates in Itheum programs (e.g. Red heart Challenge, OKPulse) will get access to their very own `user portal`. The user portal provides them with full visibility on the data that have been collected on them and will provide the user with the tools to edit or delete data at any time. The user portal enables full visibility, management, and control of the user's interactions with Itheum Apps. 
+
+Along with providing users with control over their app subscriptions and data, the portal can also be used by users to manage their account preferences, watch education modules (see below), participate in rewards programs (swap engagement reward points for gift cards), and join new programs. 
+
+The user portal will also be the central hub for "data and privacy control and regulation", where the user can opt into having their data stored in specific regions or to even completely exit from the Itheum ecosystem and request a full delete of their data assets and history (e.g. "forget-me"). In future; When Data Coalitions provide services like "delegated data usage policy approver" - the user portal can use used by the user to manage this delegation interface.
+
+
+## Powerful Analytics and Insights Engine
+
+As described above in the Smart Data Types section, each Data Type will have built-in `composable analytics modules`. These modules are built by developers and data analysts and will overlay on top of all the collected data to provide unparalleled insights. As these analytics modules are composable, you can piece them together to generate powerful analytics and gain insights into the data collected via your apps. 
+
+The insights engine can also make use of some core analytics modules built by the core Itheum team. An example of such a module is the `AI Sentiment Analysis` layer - this layer can be applied to any user-entered input collected by your apps. In the OkPulse App, the AI Sentiment Analysis module is used to analyze the written sentiment of an Employee as they interact with the app. The output from this layer is then used to detect levels of stress and anxiety among employees as they respond to certain data collection metrics. 
+
+
+## Management Portal
+
+Users who build and run Itheum Apps will get access to a management portal, this is akin to an admin portal that provides full management features over the apps they are running and the users who are enrolled in those apps. This portal will allow an admin user the tools to manage their Itheum apps (update app configurations and settings, add new apps, change engagement channels for data collation, upload new education modules, etc) and also manage their users (manually onboard new users, change password and access control for users, see user progress, add users to new programs, etc). 
+
+The portal will also provide comprehensive data reporting features that allow the user to view cutting-edge data analytics which are produced by the `Powerful analytics and insights engine`. The management portal is the "control panel" for everyone who runs itheum apps.
+
+
+## Built-In Video Education Studio
+
+Itheum aims to generate very high-quality personal data but this can be a challenge as the problems of bad data quality are very common in the data tech industry. Especially when the data is generated by an end-user and not a machine (like a sensor). For example; in the health and wellness industry - the problems associated with bad "patient-generated data" makes it very hard for clinical staff to make automated diagnosis or dispositions, as there is a high possibility that the data might have been incorrectly generated or entered by the end-user (patient). These problems are not unique to the health and wellness industry and are common across any sector where end-users are responsible for generating and submitting their data.
+
+To improve the quality of data that is produced by Itheum apps, we have implemented an "education layer" that's built into the Itheum platform. App developers can create or reuse education videos that guide the end-user on the proper methods of data generation and collection. In the "Red Heart Challenge" app, for example, all the users of the app are presented with educational videos on the correct method to take blood pressure from their arms whilst at home and how they should submit it. 
+
+the Itheum Management portal has a video studio that allows you to record videos or reuse videos from public channels like YouTube. Users are also rewarded for watching these videos, with engagement points being handed to users as they complete video education modules. With users earning rewards to be educated of data collection, their engagement rates increase and Itheum generates higher quality data. In the future, Itheum will also allow 3rd party education content provides to generate education videos for use within the Itheum App ecosystem.
+
+
+## Dispense Rewards for Compliance
+
+The data collection apps built on Itheum aim to have built-in mechanisms to boost user engagement and compliance. As higher user engagement leads to higher quantities of data, these incentive mechanisms are invaluable to the system. Users who join the `Data DEX` to connect their Itheum Apps and then bridge and trade their data on the blockchain can earn MYDA tokens in return for access to their data. But this requires users to have web3 experience and it can be a limiting factor initially where Itheum's apps may have many users who are yet to enter the web3 technology ecosystem (wallet usage, token purchase on DEX/CEX, etc).
+
+To enable the widest adoption of Itheum in web2 and web3; the Itheum platform also introduces a `web2 rewards system` - where users earn "traditional rewards points" as they engage with the apps they join. Users can earn points for completing data collection tasks on time, watching education videos, logging into the platform to check progress, etc. This reward system is very similar to the mainstream royalty points system that users will be familiar with, where you can earn points for credit card usage, frequent travel, and shopping at the grocery stores. The Itheum app platform's rewards points can then be redeemed in the reward store for real-world gift cards or redeemed for MYDA tokens in the Data DEX.
+
+
+## Full White label Support
+
+Apps developed on the Data Collection and Analytics toolkit will be built by commercial enterprises and also academic and research institutes. We have seen this already with OKPulse, which was built by a corporate wellness institute, and Red Heart Challenge which was co-designed and built by an academic institute. These entities will usually have a target use case they'd like to engage with and often require the entire app experience and data collection communication to be "white-labeled". 
+
+White Labelling includes using your own domain names, logos and branding, email and mobile numbers, support ticketing systems, etc. By white labeling an Itheum App, app developers can boost adoption with their users as the entire user experience will be branded to something they can be trusted. To enable this requirement we have built-in full white label support for Itheum Apps and feel that this is a huge selling point for mass adoption in both the commercial and non-commercial sectors.
+
+
+## App & Smart Data Type Marketplace
+
+Anyone can participate in the Data Collection and Analytics toolkit ecosystem and build Smart Data Types and Apps. For Apps built for use within the not-for-profit and academic sectors, Itheum will offer the toolkit free of charge. For commercial use-cases, Itheum will charge a nominal fee (we will offer it as a Platform-as-a-service with a nominal fee that ensures that the price point is accessible to small-to-medium businesses to ensure they can participate in the personal data collection industry). 
+
+As detailed above, all Smart Data Types and Apps are "modular"; which means that you can clone them and build on top of them. This makes Itheum highly composable and extensible and will provide huge opportunities for innovative data collection and analytics solutions to come into existence.
+
+All-new Smart Data Types and Apps build built on Itheum will be available in an `Itheum Marketplace`. Most of them will be available free of charge, but we will also provide a mechanism for Smart Data Types and App developers to build solutions that can be sold or licensed. This provides a dynamic marketplace for data collection and analytics innovation and an opportunity for 3rd party developers, data analysis, data scientists, product owners to earn some income.
+
+
+---
+
 
 # Key Terms of Reference <a name="refs-1"></a>
 - **Data Creator:** The type of user who generates the raw data (i.e. the data is an extension to them and would not exist if they did not generate it). This is usually the user who uses an app built using Itheum’s data collection and analytics toolkit.
