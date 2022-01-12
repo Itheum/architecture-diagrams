@@ -183,7 +183,7 @@ The applications are called “programs” within the Itheum platform and these 
 
 This demo video shows you an example of the end-user portal for OKPulse (https://www.youtube.com/watch?v=ITONnseBFV4)
 
-The end-user portal allows the user (data creator) to link their Ethereum, Polygon, BSC, Avalanche (or other supported Blockchain) account to their Itheum platform account. Once they have done this they can then use the Data DEX to load the raw datasets they have generated and put them up for sale.
+The end-user portal allows the user (data creator) to link their Elrond, Ethereum, Polygon, BSC, Avalanche (or other supported Blockchain) account to their Itheum platform account. Once they have done this they can then use the Data DEX to load the raw datasets they have generated and put them up for sale.
 
 As the data collected via an Itheum program/application is **fully structured and outcome-oriented**, for example — Red Heart Challenge data is centered around the self-management of Cardiovascular disease management and OKPulse is around the proactive monitoring of Employee health and wellness issues — it is very valuable for a data buyer/consumer who wants to align analytics discovery or outcome analysis around a certain topic.
 
@@ -619,22 +619,26 @@ The core Itheum Data DEX token is an ERC20 token called MYDA (short for MYDAta).
 
 As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of MYDA bridged and distributed as more chains are added.
 
-- MYDA — Token deployed on Ethereum
+As an example:
+
+- MYDA — Token deployed on Elrond
+- eMYDA — Token deployed on Ethereum
 - mMYDA — Token deployed on Polygon/Matic
 - bMYDA — Token deployed on Binance Smart Chain (BSC)
 - aMYDA — Token deployed on Avalanche
 
-MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Polygon <> Ethereum token bridge to convert your MYDA to mMYDA and vice versa.
+MYDA can be moved between chains via native bridges that already exist. For example, you can use the native Elrond <> Ethereum token bridge to convert your MYDA to eMYDA and vice versa.
 
 
 ---
 
 
 # Itheum Token <a name="tokenomics-1"></a>
-The “primary token” will exist on the Ethereum blockchain (Note that this is subject to change as we continue weighing the pros/cons of cross-chain adoption — as low transaction cost for the trading of data is very critical for the adoption of a platform like Itheum, we may move the primary token to chains like Elrond, Polygon, BSC or Avalanche).
+The “primary token” will exist on the Elrond blockchain (Note that this may be subject to change as we continue weighing the pros/cons of multi-chain adoption. As low transaction cost, high transaction throughput and security is very critical for the trading of data; we continue to evaluate the best candidate blockchain for our "primary token".
 
-The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA).
+The primary token will have the token symbol MYDA and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. mMYDA, bMYDA). This "prefix design decision" is also subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single MYDA token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
 
+>The final decision on the “Primary Token Blockchain” and the "Token Prefix Naming Design" will be announced prior to our Token Generation Event (TGE).
 
 ---
 
@@ -689,26 +693,20 @@ Please note that the following details are likely to change as we are currently 
 <br />
 
 **$MYDA Token Allocation**
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vxej5fx5i0y5c2ekl2zx.png)
- 
-<br />
-<br />
-
-**Use of Token Sale Funds**
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtyu82s7bhg27ypezl38.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hvp1n16n2n5mqyt1tibl.png) 
 
 <br />
 <br />
 
 **Circulating Supply** 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/24lu0w9frsgl68d6yibq.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l8v1q816u7ch8syn4a2t.png) 
  
 <br />
 <br />
 
 **Vesting Schedule**
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w8gf8b3q8bsne6dp8jiu.png)
-
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/byv1xgg918xcexgwqthz.png)
+ 
 
 ---
 
