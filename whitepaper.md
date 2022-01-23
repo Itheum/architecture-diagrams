@@ -838,31 +838,54 @@ Please note that the following details are likely to change as we are currently 
 
 
 ## Token Distribution <a name="tokenomics-3"></a>
-As with all blockchain based projects, there will be an allocation of tokens that are not for public sale, these non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity and incentives needed for continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, that brings the best value to the community and eventually be governed by the community. The allocations will be as follows:
+As with all blockchain based projects; there will be an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity and incentives needed for continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader,  brings the best value to the community and eventually be governed by the community. The non-sale allocations will be as follows:
 
-### Foundation Reserve
-
-
-### Liquidity
-
+### Foundation & Community Treasury
+- liqudity reserves
+- There will be two treasuries. The Foundation Treasure and the COmmuntiy Treasure
+- The Foundation Treasure funds are used to support Itheum's roadmap in the long term and will be eveually controlled by the Itheum FOundation DAO
+- The COmmuntiy Treasury is the pool of funds that collected from the data trade fees and will be reserved for long term MYDA stakers and community campaigns
 
 ### Community & Ecosystem
-
+- comunnity growth campaigns
+- community edication campaigns
+- community feature testing rewards
 
 ### Partners
-
+- incetivise creation of itheum apps
+- data "market making"
+- data coalition grants
+- rectuitment of "data protection guild" - SMEs in the data privacry. regulation, personal data protecton advocats, legal experts who will be abailable for data coaltions DOA to utilitise as needed
 
 ### Team & Advisors
+- Team : 12%. Icnetivise core team and new members to deliver roadmap
+- Advisors: 5.5% stragic advisors who wil lhelp itheum bootstrap and reahc optimum growth. 
 
 
 
+## Data Trading fees <a name="tokenomics-3"></a>
+Itheum We will have 3 data amarketplaces. The Data Pack, Data NFT and Data Coaltion DAO marketplaces. Of these we forsee the Data NFT having the higest trade volumn during initially followed by Data Coaltion marketplace. All data trade within itheum will apply a 2% seller fee and 2% buyer fee. With a totla of 4% marketplace fee. The buyer or seller will be able to take on each other's fees. So an active data buyer who is a large enterprise may choose to take on entire 4% fee to incetivise more sellers and therfore more data or an active seller may choose to take on the fee to incetivise more buyers. We fee this dynamic will create a competitive data marketplace which will faciliate the best deal for both the Data Creator and Data Cuncumer. This pricing model is similar to the fee model from Rarible which has proven to be very successful.
+
+For e.g.:
+- User wraps personal data into a Data NFT and list it for sale in Itheum's Data NFT Marketplace
+- User selects a price of 1000 MYDA
+- The lisitng will price will show as 1020 MYDA (with 2% commision passed onto buyer)
+- Once the trade is commplete, user gets 980 MYDA (with 2% commision passed onto Seller)
+- In totak, 40 MYDA fee wil be charged to the buyer and seller (4% of 1000 MYDA)
 
 
+## Distrubution of Trading Fees & Communnity Fee Sharing <a name="tokenomics-3"></a>
+As menione din the above section, 4% of every data trade is charged by the Itheum platform as a the marketplace fee. But Itheum will have a gemneraous fee-sharing module with community members via a staking program. OF the 4% collected, 2% will be sent to the Foundation treasure, 1% to the Partners program and 1% to the community treasury.
 
-## Active Community and Loyalty Incentives <a name="tokenomics-3"></a>
--------- Talk about how we are planning to put in tx fees for trade and have that money moved to a special tresury. This treasury is then split and shared with the ecosystem, Where a % goes to tokens holders and % goes to fund more apps, data coaltions and integrations
+- The Foundation treasure is lokced and will be used for long term roadmap development
+- The Partners program is used to icnetivise more dsts trade via creating a data "market making" synamics
+- The community treasury is sent direct to stakers in the core MYDA "Community Staking Pool"
 
----
+Fees sent to community treasury can be claimed in a weekly basic by stakers.
+
+
+## MYDA staking opportunities
+Itheum will have multiple opportunities for staking, this is to ensure we incentive lonr term holders who will in turn ensure that the Itheum network has price stability, high participation, and security for key featurs that we intend to role out in fute; liek our decentralised key pools (to power the Data Vault) and privacy preservig compute and regianl decentralsied hub layers which may interface with decentralsied node operators to operate.  Data Coaltions DAOs will allow for people to stake MYDA against them to show support for their data trading missions. Itheum will also have a internal, geneakp urpose staking pool called "Community Staking Pool".  Data Coaltion DAO stakers earn a feww from teades that happen via that Data Coaltion and stakers in the "Community Staking Pool" will earn a share of the marketplace fee (see section above on Distrubution of Trading Fees & Communnity Fee Sharing )
 
 
 # Usage, Utility & Fraud <a name="intro-2"></a>

@@ -142,6 +142,18 @@ We envision a future where Metaverse interoperability can be achieved via open-s
 
 - A Metaverse interoperability "virtual waiting room" called the Greenroom - This is where your N.F.Me will exist (visually in 3D) and you will be able to see your "accessories" and other N.F.Me characters and trade accessories whilst interacting with them. The Greenroom is where the "Itheum Data Metaverse" will integrate with other Metaverse platforms like The Sandbox - once open Metaverse integrations are built with 3rd party platforms, they will appear as a portal inside your Greenroom and you will be able to enter it and teleport your N.F.Me avatar into other Metaverse ecosystems. In show business; a Greenroom is a waiting room where performers hang out until they are called on stage - similarly; Itheum's Metaverse Greenroom is where your N.F.Me can hang out until you can teleport to other metaverse platforms.
 
+<br />
+<br />
+
+### Solution Overview Diagram
+The below high-level solution overview diagram details how all our key components and features align and enable Itheum's comprehensive technology solution for the web3 and metaverse ecosystem.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3m5dwgt8i8zqxo4pkwk2.png)
+
+>[Click here to view the larger version](https://raw.githubusercontent.com/Itheum/architecture-diagrams/0a463b8b8d2bccf9b3ba5c6604adf8e6ecad199e/resources/3-tier-diagram.png)
+ 
+<br />
+<br />
 
 ---
 
@@ -687,25 +699,29 @@ The following parties can Stake/Bond MYDA:
 ## Token Metrics <a name="tokenomics-3"></a>
 Please note that the following details are likely to change as we are currently planning for our token launch and as we adjust our token offering based on our planned token utility forecast.
 
-**Total MYDA Supply: 1,000,000,000**
+<br />
+<br />
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hbp1ey1vemm1raefbuvc.png)
 
 <br />
 <br />
 
 **$MYDA Token Allocation**
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hvp1n16n2n5mqyt1tibl.png) 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b0odxwyria50zb2oot42.png) 
 
 <br />
 <br />
 
 **Circulating Supply** 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l8v1q816u7ch8syn4a2t.png) 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lc1vpzlhu6ouvd0yem2b.png) 
  
 <br />
 <br />
 
 **Vesting Schedule**
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/byv1xgg918xcexgwqthz.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fkl5sxxka8ffv7zn60ji.png)
+ 
  
 
 ---
