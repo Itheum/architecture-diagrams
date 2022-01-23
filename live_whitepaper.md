@@ -722,7 +722,37 @@ Please note that the following details are likely to change as we are currently 
 **Vesting Schedule**
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fkl5sxxka8ffv7zn60ji.png)
  
- 
+
+---
+
+## Token Distribution <a name="tokenomics-4"></a>
+As with all blockchain-based projects; Itheum will have an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity, security, and various incentives needed for the continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, brings the best value to the community and eventually be governed by the community. The non-sale allocation groups and their initiatives are as follows *(please be aware that the full initiatives under the groups are still an evolving topic of discussion but we aim to cover the following key items as a minimum)*:
+
+### Community & Ecosystem - 37%
+- Ambassador programs
+- Community growth campaigns
+- Community education campaigns
+- Community feature testing rewards (Beta feature user testing)
+- Development grants, hackathons & incentives 
+- Grants to run **Data Coalition DAOs**
+- Grants to build apps on Itheum's **Data Collection & Analytics toolkit**
+- Ongoing multi-chain liquidity reserves
+- Technical audits and white-hat hacking bounty programs, code reviews, and platform stability incentives
+- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term MYDA stakers
+
+### Foundation & Treasury - 17.85%
+- Home of the **Foundation Treasury**: funds are used to support Itheum's roadmap for the long term and will be eventually be controlled by the **Itheum Foundation DAO**
+- Funds to cover unexpected expenses that might come up relating to platform operations, stability, security, and growth
+
+### Partners - 2.5%
+- Key partnerships to enable "data market-making" (i.e. to ensure there is a constant demand for data)
+- Recruitment of a **consumer data protection guild** - These are global SMEs (Subject Matter Experts) in data privacy, data regulation, personal data protection advocacy, academia, and law.  The **consumer data protection guild** will be available for **Data Coalitions DOAs** to utilize as needed to ensure that data trade happening via Itheum is always in the best interest of all parties rights
+- Funds for key operational & marketing supporters and ambassadors
+
+### Team & Advisors - 17.5%
+- Team (12%): Incentivise the core team and new team members to work and deliver the initial roadmap (until the community-run Itheum Foundation DAO is put into place)
+- Advisors (5.5%): Strategic advisors who will help Itheum bootstrap and reach optimum global growth
+
 
 ---
 

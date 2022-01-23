@@ -837,30 +837,36 @@ Please note that the following details are likely to change as we are currently 
 ---
 
 
-## Token Distribution <a name="tokenomics-3"></a>
-As with all blockchain based projects; there will be an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity and incentives needed for continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader,  brings the best value to the community and eventually be governed by the community. The non-sale allocations will be as follows:
+## Token Distribution <a name="tokenomics-4"></a>
+As with all blockchain-based projects; Itheum will have an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity, security, and various incentives needed for the continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, brings the best value to the community and eventually be governed by the community. The non-sale allocation groups and their initiatives are as follows *(please be aware that the full initiatives under the groups are still an evolving topic of discussion but we aim to cover the following key items as a minimum)*:
 
-### Foundation & Community Treasury
-- liqudity reserves
-- There will be two treasuries. The Foundation Treasure and the COmmuntiy Treasure
-- The Foundation Treasure funds are used to support Itheum's roadmap in the long term and will be eveually controlled by the Itheum FOundation DAO
-- The COmmuntiy Treasury is the pool of funds that collected from the data trade fees and will be reserved for long term MYDA stakers and community campaigns
+### Community & Ecosystem - 37%
+- Ambassador programs
+- Community growth campaigns
+- Community education campaigns
+- Community feature testing rewards (Beta feature user testing)
+- Development grants, hackathons & incentives 
+- Grants to run **Data Coalition DAOs**
+- Grants to build apps on Itheum's **Data Collection & Analytics toolkit**
+- Ongoing multi-chain liquidity reserves
+- Technical audits and white-hat hacking bounty programs, code reviews, and platform stability incentives
+- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term MYDA stakers
 
-### Community & Ecosystem
-- comunnity growth campaigns
-- community edication campaigns
-- community feature testing rewards
+### Foundation & Treasury - 17.85%
+- Home of the **Foundation Treasury**: funds are used to support Itheum's roadmap for the long term and will be eventually be controlled by the **Itheum Foundation DAO**
+- Funds to cover unexpected expenses that might come up relating to platform operations, stability, security, and growth
 
-### Partners
-- incetivise creation of itheum apps
-- data "market making"
-- data coalition grants
-- rectuitment of "data protection guild" - SMEs in the data privacry. regulation, personal data protecton advocats, legal experts who will be abailable for data coaltions DOA to utilitise as needed
+### Partners - 2.5%
+- Key partnerships to enable "data market-making" (i.e. to ensure there is a constant demand for data)
+- Recruitment of a **consumer data protection guild** - These are global SMEs (Subject Matter Experts) in data privacy, data regulation, personal data protection advocacy, academia, and law.  The **consumer data protection guild** will be available for **Data Coalitions DOAs** to utilize as needed to ensure that data trade happening via Itheum is always in the best interest of all parties rights
+- Funds for key operational & marketing supporters and ambassadors
 
-### Team & Advisors
-- Team : 12%. Icnetivise core team and new members to deliver roadmap
-- Advisors: 5.5% stragic advisors who wil lhelp itheum bootstrap and reahc optimum growth. 
+### Team & Advisors - 17.5%
+- Team (12%): Incentivise the core team and new team members to work and deliver the initial roadmap (until the community-run Itheum Foundation DAO is put into place)
+- Advisors (5.5%): Strategic advisors who will help Itheum bootstrap and reach optimum global growth
 
+
+---
 
 
 ## Data Trading fees <a name="tokenomics-3"></a>
@@ -886,6 +892,23 @@ Fees sent to community treasury can be claimed in a weekly basic by stakers.
 
 ## MYDA staking opportunities
 Itheum will have multiple opportunities for staking, this is to ensure we incentive lonr term holders who will in turn ensure that the Itheum network has price stability, high participation, and security for key featurs that we intend to role out in fute; liek our decentralised key pools (to power the Data Vault) and privacy preservig compute and regianl decentralsied hub layers which may interface with decentralsied node operators to operate.  Data Coaltions DAOs will allow for people to stake MYDA against them to show support for their data trading missions. Itheum will also have a internal, geneakp urpose staking pool called "Community Staking Pool".  Data Coaltion DAO stakers earn a feww from teades that happen via that Data Coaltion and stakers in the "Community Staking Pool" will earn a share of the marketplace fee (see section above on Distrubution of Trading Fees & Communnity Fee Sharing )
+
+
+## Use of Funds
+Development : 45%
+build the Itheum platform and perform blockchain-related upgrades to the tech stack, including team recruiting, infrastructure, and development grants.
+
+Marketing : 21%
+Reserved for Marketing activities and including continuous promotion and education of the Itheum platform. It will be used for various activities (ads, events, promotions, etc.) to help Itheum attract active users to the platform.
+
+
+Operations, Compliance, Legal and Security: 8%
+Runnning of the core platform and reserve for Legal and Security Audits or to cope with unexpected and administrative topics that might come up.
+
+
+Ecosystem: 24%
+Fiat for Liqudity * used for other immediate expenses post launch (CEX listing, legal, compliance, tax, consultants, extra post sale liquidity etc)
+
 
 
 # Usage, Utility & Fraud <a name="intro-2"></a>
