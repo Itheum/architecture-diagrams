@@ -28,7 +28,10 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [Multi-Chain Strategy](#multi-chain-1)
         [Multi-Chain Technical Design Goals](#multi-chain-design-1)
         [Cross Chain Tokens](#cross-chain-1)
+        [Data Trading Fees](#fees-1)
+        [Distribution of Trading Fees & Community Fee Sharing](#fees-2)
         [Itheum Token (Tokenomics)](#tokenomics-1)
+        [MYDA Staking Opportunities](#staking-1)
         [Decentralised Governance](#governance)
         [Data Collection & Analytics Toolkit Components (Web2 Data Bridge)](#web2-bridge-1)
         [Fraud Detection — “Gaming” the system](#fraud-1)
@@ -645,6 +648,38 @@ MYDA can be moved between chains via native bridges that already exist. For exam
 ---
 
 
+## Data Trading Fees <a name="fees-1"></a>
+Theoretically speaking; Itheum consists of three data marketplaces - The Data Pack, Data NFT, and Data Coalition DAO marketplaces. Of these three we foresee the Data NFT marketplaces having the highest data trade volume during the initial phases of our platform launch - given that our Data NFT product (and our related N.F.Me product) will appeal to a broad range of users in the NFT, Gaming and Metaverse ecosystems. 
+
+All data traded within Itheum will attract a **2% seller fee and a 2% buyer fee - adding to a total of a 4% marketplace fee per trade**. Please note that the buyer or seller will be able to take on each other's fees - so an active data buyer (who may be a large, established enterprise) may choose to take on the entire 4% fee to incentivize more sellers to share data. Alternatively, an active seller may choose to take on the entire 4% fee to incentivize more buyers. We feel this dynamic will create a competitive data marketplace that will facilitate the best deals for both the Data Creator and Data Consumer (This pricing model is similar to the fee model from Rarible which has proven to be very successful)
+
+**Example:**
+- A Data Creator wraps personal data into a Data NFT and lists it for trade-in Itheum's Data NFT Marketplace
+- The Data Creator (Seller) selects a listing price of 100 MYDA for their Data NFT
+- For a Buyer to procure the Data NFT; they will need to pay 102 MYDA to complete the purchase (with 2% buyer commission added to the listing price)
+- Once the trade is complete; the Data Creator gets 98 MYDA (with 2% seller commission passed onto them)
+- Therefore; 4 MYDA fee will be charged in total and split between the Buyer and Data Creator (i.e. 4% of 100 MYDA)
+
+
+---
+
+
+## Distribution of Trading Fees & Community Fee Sharing <a name="fees-2"></a>
+As mentioned above; 4% of every data trade is charged by the Itheum platform as a data marketplace fee. Itheum will have a generous fee-sharing system in place with community members via a staking incentives and also fund an operational budget to ensure the Itheum platform can sustain long-term roadmap development and community growth. 
+
+**Here is how the 4% will be distributed and used:**
+- 2% will be sent to the Foundation Treasury
+- 1% to the Partners program
+- 1% to the Community Treasury
+
+The funds contributed via the marketplace fee to the Community Treasury are sent directly to stakers in the core MYDA **Community Staking Pool** where relative distributions can be claimed weekly by stakers. (see section titled [MYDA staking opportunities](#staking-1))
+
+For details on the "Foundation Treasury" and the "Partners" program and what it will be used for please read the section titled [Token Distribution](#tokenomics-4)
+
+
+---
+
+
 # Itheum Token <a name="tokenomics-1"></a>
 The “primary token” will exist on the Elrond blockchain (Note that this may be subject to change as we continue weighing the pros/cons of multi-chain adoption. As low transaction cost, high transaction throughput and security is very critical for the trading of data; we continue to evaluate the best candidate blockchain for our "primary token".
 
@@ -752,6 +787,19 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 ### Team & Advisors - 17.5%
 - Team (12%): Incentivise the core team and new team members to work and deliver the initial roadmap (until the community-run Itheum Foundation DAO is put into place)
 - Advisors (5.5%): Strategic advisors who will help Itheum bootstrap and reach optimum global growth
+
+
+---
+
+
+## MYDA Staking Opportunities <a name="staking-1"></a>
+Itheum will have multiple opportunities for staking; this is to ensure we incentivize long-term HODLs who will, in turn, ensure that the Itheum network has **price stability and high participation**. 
+
+1. **Data Coalition DAO Staking:**  Data Coalition DAOs will allow for people to stake MYDA against them to show support for their data trading operations and to flag support for data quality and credibility. Data Coalition DAO stakers earn a percentage from bulk trades that happen via that Data Coalition. Learn more about this in the [Data Coalitions](#data-coalitions-1) section.
+
+2. **Community Staking Pool:** Itheum will also have an internal, general-purpose staking pool called the "Community Staking Pool". MYDA stakers in pool will earn a share of the data marketplace fees (see section  titled [Distribution of Trading Fees & Community Fee Sharing](#fees-2))
+
+3. **Core Protocol Staking:** The locking of tokens via staking incentives will lay strong network security dynamic for key features that we intend to roll out in the future; like our decentralized key pools (to power the per-user encrypted Data Vault feature) and privacy-preserving compute and regional decentralized hubs - key infrastructure that may interface with decentralized node operators and 3rd party specialized protocols to function.
 
 
 ---
@@ -1022,7 +1070,7 @@ All-new Smart Data Types and Apps build built on Itheum will be available in an 
 
 
 # Disclaimers <a name="disclaimers"></a>
-This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this White Paper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
+This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this Whitepaper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
 The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
 Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
 This Whitepaper describes a future project and contains forward-looking statements that are based on our beliefs and assumptions at the present time. The project envisaged in this Whitepaper is under development and being constantly updated and accordingly, if and when the project is completed, it may differ significantly from the project set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in the Documents is or should be relied upon as a promise or representation as to the future.
