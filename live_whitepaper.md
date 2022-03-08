@@ -1,9 +1,8 @@
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
 
-**Editor’s Note: This blog is not meant to be investment advice nor a solicitation for the acquisition of Itheum's tokens. Full Disclaimers are available at the bottom of this document**
-
       Table Of Contents
+        [Disclaimers](#disclaimers)
         [Introduction](#intro-1)
         [What is Itheum?](#intro-2)
         [Our Core Products](#core-prod-1)
@@ -31,12 +30,24 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [Data Trading Fees](#fees-1)
         [Distribution of Trading Fees & Community Fee Sharing](#fees-2)
         [Itheum Token (Tokenomics)](#tokenomics-1)
-        [🔼ITHEUM Staking Opportunities](#staking-1)
+        [$ITHEUM Staking Opportunities](#staking-1)
         [Decentralized Governance](#governance)
         [Data Collection & Analytics Toolkit Components (Web2 Data Bridge)](#web2-bridge-1)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
-        [Disclaimers](#disclaimers)
+        
+
+# Disclaimers <a name="disclaimers"></a>
+This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this Whitepaper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
+The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
+Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
+This Whitepaper describes a future project and contains forward-looking statements that are based on our beliefs and assumptions at the present time. The project envisaged in this Whitepaper is under development and being constantly updated and accordingly, if and when the project is completed, it may differ significantly from the project set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in the Documents is or should be relied upon as a promise or representation as to the future.
+The laws of various jurisdictions may apply to the Tokens.  The regulatory treatment of the Tokens may change from time to time which may affect the offering and use of the Token and the development of the project described in this Whitepaper.
+
+
+
+---
+
 
 
 # Introduction <a name="intro-1"></a>
@@ -163,7 +174,7 @@ The below high-level solution overview diagram details how all our key component
 
 # Important disclaimer on usage of certain words in following sections
 
-> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our 🔼ITHEUM utility token. Please read our [Token Utility section](#tokenomics-2) for more on this.
+> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our $ITHEUM utility token. Please read our [Token Utility section](#tokenomics-2) for more on this. It must also be duly noted that we use the $ symbol as a prefix to the $ITHEUM utility token as a means to simplify our written communication in this whitepaper and for the reader to be able to differentiate the $ITHEUM token from the "Itheum platform" - the $ is in no way, form or shape an indication that it's a form of currency, it is purely a "software-based utility key" that is needed to unlock access to data stored within the Itheum platform.
 
 ---
 
@@ -227,9 +238,9 @@ As described in the above section - you can use the Itheum Data DEX to trade per
 let’s now dive into these two types individually and understand the difference.
 
 ## Trade of Data Packs <a name="types-on-2"></a>
-Once a Data Creator decides to trade their personal data, the default method of trade is via Data Packs. Data Packs hold a reference to the type of dataset they are advertising and contains some metadata around it. For example, it provides a preview of the data, when it was created, terms of use, the link to where the data can be securely downloaded from (after trade is complete), etc. Once the user creates a Data Pack it gets advertised for sale ‘on-chain’. Once this on-chain advertising process is completed, the original “data hash” and the “transaction reference” of the advertising process are stored as metadata against the Data Pack. A 🔼ITHEUM price is automatically calculated based on the type of data and market demand for the type of data. In the future, we will also support for the Data Creator to set a starting price for their data. The sale of Data Packs can be described as direct peer-to-peer trade.
+Once a Data Creator decides to trade their personal data, the default method of trade is via Data Packs. Data Packs hold a reference to the type of dataset they are advertising and contains some metadata around it. For example, it provides a preview of the data, when it was created, terms of use, the link to where the data can be securely downloaded from (after trade is complete), etc. Once the user creates a Data Pack it gets advertised for sale ‘on-chain’. Once this on-chain advertising process is completed, the original “data hash” and the “transaction reference” of the advertising process are stored as metadata against the Data Pack. A $ITHEUM price is automatically calculated based on the type of data and market demand for the type of data. In the future, we will also support for the Data Creator to set a starting price for their data. The sale of Data Packs can be described as direct peer-to-peer trade.
 
-Once the on-chain advertising process is complete, buyers will see the advertised Data Packs in the “Buy Data” section of the Data DEX. The buyer can pay the 🔼ITHEUM cost for the data and then “own” access to the underlying data (these copies are called **Data Orders** and appear in the **Purchased Data** section of the Data DEX). As part of the buying process, they agree (on-chain) to abide by the “terms of use”. A record of this agreement is stored on-chain as part of the transaction and serves as an immutable audit trail for this agreement. One key point to note is that in this type of peer-to-peer trade — **the re-sale of data is NOT permitted.**
+Once the on-chain advertising process is complete, buyers will see the advertised Data Packs in the “Buy Data” section of the Data DEX. The buyer can pay the $ITHEUM cost for the data and then “own” access to the underlying data (these copies are called **Data Orders** and appear in the **Purchased Data** section of the Data DEX). As part of the buying process, they agree (on-chain) to abide by the “terms of use”. A record of this agreement is stored on-chain as part of the transaction and serves as an immutable audit trail for this agreement. One key point to note is that in this type of peer-to-peer trade — **the re-sale of data is NOT permitted.**
 
 A Data Creator should choose to trade data as a Data Pack if they have the following requirements:
 
@@ -271,7 +282,7 @@ A Data Creator should choose to trade data as a Data NFT if they have the follow
 
 # Methods for Buying Data <a name="buying-data-1"></a>
 
-One-off datasets advertised for trade on the Data DEX are called “Data Packs”. As described in the above section “Decentralized Data Trade”, there are various types of data that can be put up for trade on the Data DEX. On top of the one-off data sets, the Itheum Data DEX also allows for the trade to “Data Stream subscriptions” (see in a below section titled Data Streams)
+One-off datasets advertised for trade on the Data DEX are called “Data Packs”. As described in the above section “Decentralized Data Trade”, there are various types of data that can be put up for trade on the Data DEX. Along with one-off data sets (Data Packs), the Itheum Data DEX also allows for the trade to “Data Stream subscriptions” (see in a below section titled Data Streams)
 
 Data is traded via two channels:
 
@@ -280,11 +291,11 @@ Data is traded via two channels:
 
 Anyone with a crypto wallet can procure access to Data Packs or Data Streams under certain conditions:
 
-1. They need to have 🔼ITHEUM token to pay for the data. The 🔼ITHEUM token is sent directly to the Data Creator (if the sale is directly between Data Creator and buyer) or to a Data Coalition if the Coalition is “brokering the trade”.
+1. They need to have $ITHEUM tokens to pay for the data. The $ITHEUM token is sent directly to the Data Creator (if the sale is directly between Data Creator and buyer) or to a Data Coalition if the Coalition is “brokering the trade”.
 
 2. Each Data Pack or Stream will have an associated “terms of use”, the buyer agrees to abide by these nominated terms. There will be dispute and conflict resolution processes in the future to protect the seller from misuse. (if the sale is directly between Data Creator and buyer)
 
-3. If the purchase is via an authorized Data Coalition, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of 🔼ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
+3. If the purchase is via an authorized Data Coalition, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of $ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
 
 
 ---
@@ -315,7 +326,7 @@ The following key components form our Data DEX product, they work to provide the
 
 The base functionality that's available when you first log into the Data DEX is the ability to discover and trade data with your "direct peers". You will be able to see all "advertised data" from others and also "advertise" your own data in the data marketplace. As detailed in the section (Decentralized Data Trade)[#data-trade], you can advertise your data from apps that you have joined that are built on Itheum's `Data CAT` or you can also advertise any "arbitrary data" that you own.  
 
-When you place data for sale you will nominate a purchase price in 🔼ITHEUM tokens, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the 🔼ITHEUM tokens requested and in return get access to the data for use based on the "Terms of Use". The market operates completely in a "peer-to-peer" manner where there are no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
+When you place data for sale you will nominate a purchase price in $ITHEUM tokens, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the $ITHEUM tokens requested and in return get access to the data for use based on the "Terms of Use". The market operates completely in a "peer-to-peer" manner where there are no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
 
 <br />
 
@@ -402,22 +413,22 @@ Independently trading personal data is inefficient and time-consuming. Continuin
 
 Your personal data (both the longitudinal data from your structured programs and highly personal & sensitive data from your Data Vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep analytics.
 
-Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond 🔼ITHEUM tokens to form and run it. The creators are called "Board Members" and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Data Coalition as robust as possible to attract new Members (and therefore more Data). 
+Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond $ITHEUM tokens to form and run it. The creators are called "Board Members" and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Data Coalition as robust as possible to attract new Members (and therefore more Data). 
 
 Itheum envisions a future where the most successful Data Coalitions will be run by enterprises and SMEs (subject matter experts like legal and regulation experts, commercial data warehouses, academic/research institutes, government departments, etc) and will be the perfect balance between the commercialization of data and accountability to end-users (Data Providers). Board Members vote to agree on the terms and conditions and the governance (privacy and security) of the data trade, the parameters they agree to will be made visible to anyone who wants to join the Data Coalition. 
 
 Users (called Members) can then align to the Data Coalition who they feel acts in their best interests. You then delegate the ownership of your Data Packs, Data Streams, and Data NFTs to your preferred Data Coalitions. The Data Coalition will group your data into clusters of similar data and advertise the bulk datasets to interested Data Consumers, who can then procure access to the bulk datasets. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Data Coalitions that you support. 
 
-Data Coalitions also allow for "staking" of 🔼ITHEUM tokens, where anyone can stake their 🔼ITHEUM tokens with a Data Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data is good (Crowd-Sourced Data Curation). This allows for the Itheum platform to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data for trade. All parties involved in the Data Coalition (Board Members who bond 🔼ITHEUM tokens, Members who share data, Members who stake 🔼ITHEUM tokens are all incentivized relative to their role and stake and earn micropayments after each trade is finalized)
+Data Coalitions also allow for "staking" of $ITHEUM tokens, where anyone can stake their $ITHEUM tokens with a Data Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data is good (Crowd-Sourced Data Curation). This allows for the Itheum platform to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data for trade. All parties involved in the Data Coalition (Board Members who bond $ITHEUM tokens, Members who share data, Members who stake $ITHEUM tokens are all incentivized relative to their role and stake and earn micropayments after each trade is finalized)
 
 Itheum's Data Coalitions are modeled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
 
 <br />
 
 ### Decentralized Board Members <a name="data-coalitions-2"></a>
-As introduced above; Data Coalitions are formed and run by a virtual board — they have additional governance responsibility and can mediate/provide conflict resolution, negotiate terms of sale of data with real-world entities and other Data Coalitions, etc. Board Members have to bond 🔼ITHEUM tokens into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by other board members. 
+As introduced above; Data Coalitions are formed and run by a virtual board — they have additional governance responsibility and can mediate/provide conflict resolution, negotiate terms of sale of data with real-world entities and other Data Coalitions, etc. Board Members have to bond $ITHEUM tokens into the Data Coalition to ensure they have a “stake in the game”, after which they can stand for election and be voted in by other board members. 
 
-To prevent hard centralization, Board Members will serve a fixed term (if required by the Members - i.e. it's not mandatory), after which they will need to rotate out and be replaced with a new board. Board members earn a share of the sale in data (paid out in 🔼ITHEUM tokens) that is housed within the Data Coalition. They can also lose 🔼ITHEUM tokens in the event they don’t represent their member’s best interests or conduct an incorrect sale of data (i.e. a trade that breaks the terms of sale contract) which then needs to be revoked and damage compensation needs to be paid to both the sellers and buyers. 
+To prevent hard centralization, Board Members will serve a fixed term (if required by the Members - i.e. it's not mandatory), after which they will need to rotate out and be replaced with a new board. Board members earn a share of the sale in data (paid out in $ITHEUM tokens) that is housed within the Data Coalition. They can also lose $ITHEUM tokens in the event they don’t represent their member’s best interests or conduct an incorrect sale of data (i.e. a trade that breaks the terms of sale contract) which then needs to be revoked and damage compensation needs to be paid to both the sellers and buyers. 
 
 Although not mandatory, Members will be able to participate in ongoing period votes to express their satisfaction with the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause. 
 
@@ -449,7 +460,7 @@ Although not mandatory, Members will be able to participate in ongoing period vo
 - By default, the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
 
 <br />
-- Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under its control. E.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to bond 🔼ITHEUM tokens for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and 🔼ITHEUM token stakes from regular users (Members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so you must have some commercial experience in data-related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validator's reputation and past performance. So for a Data Coalition to be successful - it will need to be in an "operational mode" and have some credible "Board Members" whilst maintaining ongoing trade operational credibility.
+- Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under its control. E.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to bond $ITHEUM tokens for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and $ITHEUM token stakes from regular users (Members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so you must have some commercial experience in data-related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validator's reputation and past performance. So for a Data Coalition to be successful - it will need to be in an "operational mode" and have some credible "Board Members" whilst maintaining ongoing trade operational credibility.
 
 <br />
 
@@ -496,7 +507,7 @@ You can store highly sensitive personal data in your data vault. For example; de
 
 This sensitive data is encrypted using your own encryption keys (no one else can unlock and view it) and stored in decentralized, redundant storage (no one else can destroy it)
 
-You can then choose to append data from your vault to the regular data you trade on the Data DEX. As this gives the “dataset” more context, it becomes more valuable to the buyer — and you will earn more 🔼ITHEUM tokens.
+You can then choose to append data from your vault to the regular data you trade on the Data DEX. As this gives the “dataset” more context, it becomes more valuable to the buyer — and you will earn more $ITHEUM tokens.
 
 As the data is encrypted using the user’s private key we need to enable a frictionless UX during trade between buyer and seller where keys need to change hands with minimum manual involvement between parties; For this purpose, “symmetric key pools” (decentralized middleware) are used to enforce secure authorization between seller and buyer in real-time. Symmetric key pools will operate using a modified proof-of-authority mechanism to enforce the highest security with balanced decentralization (Please note that the specific technical design is still being finalized).
 
@@ -609,9 +620,9 @@ The following sections provide an overview of the underlying technology principl
 
 
 ## Multi-Chain Strategy <a name="multi-chain-1"></a>
-The Itheum Data DEX will work across EVM and non-EVM compatible chains from day one of its mainnet launch. We already have Ethereum, Polygon, BSC, Harmony, PlatON and Parastate working and will be deploying into Avalanche shortly. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Algorand, Hedera, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain (Multi-Chain Architecture).
+The Itheum Data DEX will work across EVM and non-EVM compatible chains. We already have the Data DEX deployed to the Ethereum, Polygon, BSC, Avalanche, Harmony, PlatON and Parastate (Future Polkadot Parachain) testnets. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Hedera, Algorand, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain. This design is called the `Multi-Chain Architecture`.
 
-We are working on cross-chain advertising and purchasing of data facilitated via cross-chain oracles that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn of chain native tokens to balance the chain specific token repositories (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains). This will be our Cross-Chain Architecture initiative.
+We are working on cross-chain advertising and purchasing of data facilitated via cross-chain oracles, relays, and bridges that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn/lock of chain native tokens to balance the maximum token supply across the chains (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains). This will be our `Cross-Chain Architecture` initiative.
 
 {% youtube 63BE4plzDzw %}
 > _Demo video of the Itheum Data DEX working on Ethereum and Polygon_
@@ -622,61 +633,61 @@ We are working on cross-chain advertising and purchasing of data facilitated via
 
 ## Multi-Chain Technical Design Goals <a name="multi-chain-design-1"></a>
 
-- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. So this protocol can be implemented on any blockchain.
-- The Itheum protocol is built into the smart contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
-- Therefore the protocol can be implemented in any blockchain and on any native runtime (does not have to be EVM). So long as the native chain supports transaction consensus and token standards; Itheum can be built on it.
-- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable Smart Contracts which coordinate how data will be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they form the foundation for future web3 core infrastructure. This also makes sure we can work across private, permissioned, and public chains to reach maximum adoption.
-- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain smart-contract-coordinators on any other chain and runtime; and they can talk to each other via bridges, relays, middleware, and oracles.
-- The future of blockchain is interoperability, so we are designing it this way.
+- Itheum is a "protocol" and not just a set of EVM contracts that make up a DApp. This protocol can be implemented on any blockchain platform.
+- The Itheum protocol is built into the Smart Contract layer. The protocol enforces 3 elements needed for data trade to happen on the blockchain; `Proof of Lineage, Provenance, and Veracity`. We have pioneered a way to deliver this via a nice UX that abstracts all the complexity from the end-user.
+- Therefore the protocol can be implemented in any blockchain and on any native runtime (EVM and non-EVM). As long as the native chain supports transaction consensus and token standards; Itheum can be ported to run on it.
+- Itheum aims to be chain-agnostic and fully interoperable. We follow the same design principles as Chainlink - we define the standard set of rules (i.e. protocol), enforced in immutable Smart Contracts which coordinate how data can be traded between parties. We will have interfaces in multiple blockchains that can coordinate the workload. Data platforms (like Itheum and Chainlink) need to be architectured this way as they can form the foundation for future web3 core infrastructure. This also positions the technology to work across private, permissioned, and public chains to reach maximum adoption.
+- Itheum will have a single "primary chain" and multiple "side chains". The "primary chain" needs the best performance and have cost-efficiency (so we intend to pick the best EVM or non-EMV blockchain as our primary chain). We can then build our side chain Smart Contract Coordinators on any other chain and runtime; and they can talk to each other via bridges, relays, middleware, and oracles.
+- The future of blockchain is interoperability; so we are designing Itheum this way from day one.
 
 
 ---
 
 
 ## Cross Chain Tokens <a name="cross-chain-1"></a>
-The core Itheum Data DEX token is an ERC20 token called 🔼ITHEUM. The 🔼ITHEUM token will allow for the purchasing of data from Data Creators as well as from Data Coalitions. The 🔼ITHEUM token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
+The core Itheum utility token is an ERC20 token called $ITHEUM. The $ITHEUM token will allow for purchasing access rights for data from Data Creators and Data Coalitions. The $ITHEUM token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
 
-As the Itheum Data DEX operates cross-chain, there will be core tokens that represent each chain with the total supply of 🔼ITHEUM bridged and distributed as more chains are added.
+As the Itheum Data DEX operates multi-chain, there will be core tokens that represent each chain with the total supply of $ITHEUM bridged and distributed as more chains are added.
 
 As an example:
 
-- 🔼ITHEUM — Token deployed on Elrond
-- eITHEUM — Token deployed on Ethereum
-- mITHEUM — Token deployed on Polygon/Matic
-- bITHEUM — Token deployed on Binance Smart Chain (BSC)
-- aITHEUM — Token deployed on Avalanche
+- $ITHEUM — Token deployed on Elrond
+- $eITHEUM — Token deployed on Ethereum
+- $mITHEUM — Token deployed on Polygon/Matic
+- $bITHEUM — Token deployed on Binance Smart Chain (BSC)
+- $aITHEUM — Token deployed on Avalanche
 
-🔼ITHEUM can be moved between chains via native bridges that already exist. For example, you can use the native Elrond <> Ethereum token bridge to convert your 🔼ITHEUM to 🔼eITHEUM and vice versa.
+$ITHEUM token can be moved between chains via native bridges that already exist. For example, you can use the native Elrond <> Ethereum token bridge to convert your $ITHEUM to $eITHEUM and vice versa.
 
 
 ---
 
 
 ## Data Trading Fees <a name="fees-1"></a>
-Theoretically speaking; Itheum consists of three data marketplaces - The Data Pack, Data NFT, and Data Coalition DAO marketplaces. Of these three we foresee the Data NFT marketplaces having the highest data trade volume during the initial phases of our platform launch - given that our Data NFT product (and our related NFMe ID product) will appeal to a broad range of users in the NFT, gaming and metaverse ecosystems. 
+Theoretically speaking; Itheum consists of three data marketplaces - The Data Pack, Data NFT, and Data Coalition DAO data marketplaces. Of these three we foresee the Data NFT marketplaces having the highest data trade volume during the initial phases of our platform launch - given that our Data NFT product (and our related NFMe ID avatar product) will appeal to a broad range of users in the NFT, gaming and metaverse ecosystems. 
 
-All data traded within Itheum will attract a **2% seller fee and a 2% buyer fee - adding to a total of a 4% marketplace fee per trade**. Please note that the buyer or seller will be able to take on each other's fees - so an active data buyer (who may be a large, established enterprise) may choose to take on the entire 4% fee to incentivize more sellers to share data. Alternatively, an active seller may choose to take on the entire 4% fee to incentivize more buyers. We feel this dynamic will create a competitive data marketplace that will facilitate the best deals for both the Data Creator and Data Consumer (This pricing model is similar to the fee model from Rarible which has proven to be very successful)
+All data traded within Itheum will attract a **2% seller fee and a 2% buyer fee - adding to a total of a 4% marketplace fee per trade**. Please note that the buyer or seller will be able to accept each other's fees - so an active data buyer (who may be a large, established enterprise) may choose to take on the entire 4% fee to incentivize more sellers to share data. Alternatively, an active seller may choose to take on the entire 4% fee to incentivize more buyers. We feel this dynamic will create a competitive data marketplace that will facilitate the best deals for both the Data Creator and Data Consumer (This pricing model is similar to the fee model from Rarible which has proven to be very successful)
 
 **Example:**
-- A Data Creator wraps personal data into a Data NFT and lists it for trade-in Itheum's Data NFT Marketplace
-- The Data Creator (Seller) selects a listing price of 100 🔼ITHEUM for their Data NFT
-- For a Buyer to procure the Data NFT; they will need to pay 102 🔼ITHEUM to complete the purchase (with 2% buyer commission added to the listing price)
-- Once the trade is complete; the Data Creator gets 98 🔼ITHEUM (with 2% seller commission passed onto them)
-- Therefore; 4 🔼ITHEUM fee will be charged in total and split between the Buyer and Data Creator (i.e. 4% of 100 🔼ITHEUM)
+- A Data Creator wraps personal data into a Data NFT and lists it for trade in Itheum's Data NFT Marketplace
+- The Data Creator (Seller) selects a listing price of 100 $ITHEUM for their Data NFT
+- For a Buyer to procure the Data NFT; they will need to pay 102 $ITHEUM to complete the purchase (with 2% buyer commission added to the listing price)
+- Once the trade is complete; the Data Creator gets 98 $ITHEUM (with 2% seller commission passed onto them)
+- Therefore; 4 $ITHEUM fee will be charged in total and split between the Buyer and Data Creator (i.e. 4% of 100 $ITHEUM)
 
 
 ---
 
 
 ## Distribution of Trading Fees & Community Fee Sharing <a name="fees-2"></a>
-As mentioned above; 4% of every data trade is charged by the Itheum platform as a data marketplace fee. Itheum will have a generous fee-sharing system in place with community members via a staking incentives and also fund an operational budget to ensure the Itheum platform can sustain long-term roadmap development and community growth. 
+As mentioned above; 4% of every data trade is charged by the Itheum platform as a data marketplace fee. Itheum will have a generous fee-sharing system in place with community members via staking incentives and also fund an operational budget to ensure the Itheum platform can sustain long-term roadmap development and community growth. 
 
 **Here is how the 4% will be distributed and used:**
 - 2% will be sent to the Foundation Treasury
 - 1% to the Partners program
 - 1% to the Community Treasury
 
-The funds contributed via the marketplace fee to the Community Treasury are sent directly to stakers in the core 🔼ITHEUM **Community Staking Pool** where relative distributions can be claimed weekly by stakers. (see section titled [🔼ITHEUM staking opportunities](#staking-1))
+The funds contributed via the marketplace fee to the Community Treasury are sent directly to stakers in the core $ITHEUM **Community Staking Pool** where relative distributions can be claimed weekly by stakers. (see section titled [$ITHEUM staking opportunities](#staking-1))
 
 For details on the "Foundation Treasury" and the "Partners" program and what it will be used for please read the section titled [Token Distribution](#tokenomics-4)
 
@@ -685,51 +696,49 @@ For details on the "Foundation Treasury" and the "Partners" program and what it 
 
 
 # Itheum Token <a name="tokenomics-1"></a>
-The “primary token” will exist on the Elrond blockchain (Note that this may be subject to change as we continue weighing the pros/cons of multi-chain adoption. As low transaction cost, high transaction throughput and security is very critical for the trading of data; we continue to evaluate the best candidate blockchain for our "primary token".
+The “primary token” will exist on the Elrond blockchain (Note that this may be subject to change as we continue weighing the pros/cons of multi-chain adoption. As low transaction cost, high transaction throughput, and security are very critical for the trading of data; we continue to evaluate the best candidate blockchain for our "primary token".
 
-The primary token will have the token symbol 🔼ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. 🔼mITHEUM, 🔼bITHEUM). This "prefix design decision" is also subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single 🔼ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
+The primary token will have the token symbol $ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. $mITHEUM, $bITHEUM). This "prefix design decision" is also subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single $ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
 
->The final decision on the “Primary Token Blockchain” and the "Token Prefix Naming Design" will be announced prior to our Token Generation Event (TGE).
+>The final decision on the “Primary Token Blockchain” will be announced before our Token Generation Event (TGE).
 
 ---
 
 
 ## Token Utility <a name="tokenomics-2"></a>
-The 🔼ITHEUM token is a pure “utility token” as without owning 🔼ITHEUM you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
+The $ITHEUM token is a pure “utility token” as without owning $ITHEUM you will not be able to use many features on the Itheum Data DEX to facilitate the open exchange of personal data.
 
-At this point, the following tasks will REQUIRE the 🔼ITHEUM token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take an 🔼ITHEUM 1st approach to align incentives so we can ensure that 🔼ITHEUM’s position as a utility token can’t be disputed:
+At this point, the following tasks will REQUIRE the $ITHEUM token (or corresponding Side Tokens) — as we design and write our smart contracts we will also take an $ITHEUM first approach to align incentives so we can ensure that $ITHEUM’s position as a utility token can’t be disputed:
 
 **1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
 
-A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of 🔼ITHEUM between the parties. 🔼ITHEUM is essentially the key to using the data from an authorization perspective. The primary goal would be to use the transaction of 🔼ITHEUM (between the 2 parties as logged on-chain) as:
+A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of $ITHEUM between the parties. $ITHEUM is essentially the "software key" to using the data from an authorization perspective. The primary goal would be to use the transaction of $ITHEUM (between the 2 parties as logged on-chain) as:
 
 - Evidence of access rights being granted by the Data Owner to another party
 - To trace and have evidence of the lineage of data access
 - To trace back access rights to a Provenance (Data Creator)
 
-If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the 🔼ITHEUM is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
+If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the $ITHEUM is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
 
 - To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
 
-- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality and accept the risk of remediating and mediating contentious sales. The transfer of 🔼ITHEUM to these parties is also used as lineage and audit to trace all parties involved in the data transfer process.
+- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality issues and accept the risk of remediating and mediating contentious sales. The transfer of $ITHEUM to these parties is also used as a lineage and audit to trace all parties involved in the data transfer process. See point number (3) below for more details on this.
 
-See point number (3) below for more details…
+**2) Stake $ITHEUM to have relative voting rights in the Itheum Foundation (IF) DAO**
 
-**2) Stake 🔼ITHEUM to have relative voting rights in the Itheum Foundation (IF) DAO**
+The Itheum Foundation (IF) DAO will vote on "Proposals'' on how the $ITHEUM Treasury will be spent to further Itheum's community development and roadmap. Please note that the full decentralization of the platform and the operation of the voting mechanism will be put into place at a future date. Read more about this in the [Decentralized Governance](#governance) section.
 
-The IF DAO will vote on "Proposals'' on how the 🔼ITHEUM Treasury will be spent to further Itheum's community development and roadmap.
+**3) Stake/Bond $ITHEUM to create a new Data Coalition (DC) (which is governed by a DAO)**
 
-**3) Stake/Bond 🔼ITHEUM to create a new Data Coalition (DC) (which is governed by a DAO)**
+By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked $ITHEUM goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
 
-By doing so; you receive relative voting rights in return to manage the operation of the Data Coalition DAO (DC DAO). Staked 🔼ITHEUM goes into the "DC Fund Pool" - which is then used for arbitration and dispute resolution in contentious sales of data. The DC DOA votes on "Motions" related to the bulk sale of data via the DC. 
+The following parties can Stake/Bond $ITHEUM:
 
-The following parties can Stake/Bond 🔼ITHEUM:
+- Board Members will bond $ITHEUM to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in until the Board Member leaves the DC.
 
-- Board Members will bond 🔼ITHEUM to flag their commitment to the DC and to act in the best interest of the Members. The bond is locked in until the Board Member leaves the DC.
+- Data Creators or Contributors (called Members) can link their data to a DC and also stake some $ITHEUM to flag that they have a genuine interest in supplying good quality data to the DC.
 
-- Data Creators or Contributors (called Members) can link their data to a DC and also stake some 🔼ITHEUM to flag that they have a genuine interest in supplying good quality data to the DC.
-
-- Anyone (even those who do not want to provide data themselves) can stake 🔼ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd-Sourced Data Curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a DPOS gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds 🔼ITHEUM is incentivized relative to their role and stake and earns micropayments after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
+- Anyone (even those who do not want to provide data themselves) can stake $ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd-Sourced Data Curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a Delegated Proof-of-stake (DPOS) system gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds $ITHEUM is incentivized relative to their role and stake and earns micropayments after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
 
 
 ---
@@ -752,7 +761,7 @@ Please note that the following details are being actively updated as we are curr
 ## Token Distribution <a name="tokenomics-4"></a>
 As with all blockchain-based projects; Itheum will have an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity, security, and various incentives needed for the continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, brings the best value to the community and eventually be governed by the community. The non-sale allocation groups and their initiatives are as follows *(please be aware that the full initiatives under the groups are still an evolving topic of discussion but we aim to cover the following key items as a minimum)*:
 
-### Community & Ecosystem - 37%
+### Community (17%) & Ecosystem (23.5%)
 - Ambassador programs
 - Community growth campaigns
 - Community education campaigns
@@ -762,16 +771,17 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 - Grants to build apps on Itheum's **Data CAT**
 - Ongoing multi-chain liquidity reserves
 - Technical audits and white-hat hacking bounty programs, code reviews, and platform stability incentives
-- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term 🔼ITHEUM stakers
+- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term $ITHEUM stakers
+- Support "Partners"
 
-### Foundation & Treasury - 17.85%
+### Partners (2.5% - this is part of the Ecosystem bucket)
+- Key partnerships to enable "data market-making" (i.e. to ensure there is a constant demand for data)
+- Recruitment of a **consumer data protection guild** - These are global SMEs (Subject Matter Experts) in data privacy, data regulation, personal data protection advocacy, academia, and law.  The **consumer data protection guild** will be available for **Data Coalitions DOAs** to utilize as needed to ensure that data trade happening via Itheum is always in the best interest of all parties' rights
+- Funds for key operational & marketing supporters and ambassadors
+
+### Treasury (17%)
 - Home of the **Foundation Treasury**: funds are used to support Itheum's roadmap for the long term and will be eventually be controlled by the **Itheum Foundation DAO**
 - Funds to cover unexpected expenses that might come up relating to platform operations, stability, security, and growth
-
-### Partners - 2.5%
-- Key partnerships to enable "data market-making" (i.e. to ensure there is a constant demand for data)
-- Recruitment of a **consumer data protection guild** - These are global SMEs (Subject Matter Experts) in data privacy, data regulation, personal data protection advocacy, academia, and law.  The **consumer data protection guild** will be available for **Data Coalitions DOAs** to utilize as needed to ensure that data trade happening via Itheum is always in the best interest of all parties rights
-- Funds for key operational & marketing supporters and ambassadors
 
 ### Team & Advisors - 17.5%
 - Team (12%): Incentivise the core team and new team members to work and deliver the initial roadmap (until the community-run Itheum Foundation DAO is put into place)
@@ -781,12 +791,12 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 ---
 
 
-## 🔼ITHEUM Staking Opportunities <a name="staking-1"></a>
-Itheum will have multiple opportunities for staking; this is to ensure we incentivize long-term HODLs who will, in turn, ensure that the Itheum network has **price stability and high participation**. 
+## $ITHEUM Staking Opportunities <a name="staking-1"></a>
+Itheum will have multiple opportunities for staking; this is to ensure we incentivize long-term HODLers who will, in turn, ensure that the Itheum network has **price stability and high participation**. 
 
-1. **Data Coalition DAO Staking:**  Data Coalition DAOs will allow for people to stake 🔼ITHEUM against them to show support for their data trading operations and to flag support for data quality and credibility. Data Coalition DAO stakers earn a percentage from bulk trades that happen via that Data Coalition. Learn more about this in the [Data Coalitions](#data-coalitions-1) section.
+1. **Data Coalition DAO Staking:**  Data Coalition DAOs will allow for people to stake $ITHEUM against them to show support for their data trading operations and to flag support for data quality and credibility. Data Coalition DAO stakers earn a percentage from bulk trades that happen via that Data Coalition. Learn more about this in the [Data Coalitions](#data-coalitions-1) section.
 
-2. **Community Staking Pool:** Itheum will also have an internal, general-purpose staking pool called the "Community Staking Pool". 🔼ITHEUM stakers in pool will earn a share of the data marketplace fees (see section  titled [Distribution of Trading Fees & Community Fee Sharing](#fees-2))
+2. **Community Staking Pool:** Itheum will also have an internal, general-purpose staking pool called the "Community Staking Pool". $ITHEUM stakers in pool will earn a share of the data marketplace fees (see the section titled [Distribution of Trading Fees & Community Fee Sharing](#fees-2))
 
 3. **Core Protocol Staking:** The locking of tokens via staking incentives will lay strong network security dynamic for key features that we intend to roll out in the future; like our decentralized key pools (to power the per-user encrypted Data Vault feature) and privacy-preserving compute and regional decentralized hubs - key infrastructure that may interface with decentralized node operators and 3rd party specialized protocols to function.
 
@@ -796,11 +806,11 @@ Itheum will have multiple opportunities for staking; this is to ensure we incent
 
 # Decentralized Governance <a name="governance"></a>
 
-The Itheum platform will aim to be a `public-goods platform that's fully decentralized`. Public goods in the sense that all the technological developments that are made as part of Itheum's vision will always be available in the public domain and not privatized in any way. Although it will take some time to fully get there; especially in the area of our web2 data on-ramp/bridge technology (e.g. Data Collection and Analytics Toolkit). But it's worth noting that our web3 technology stacks will be fully available in the public domain from day one. 
+The Itheum platform will aim to be a `public-goods platform that's fully decentralized`. Public goods in the sense that all the technological developments that are made as part of Itheum's vision will always be available in the public domain and not privatized in any way. Although it will take some time to fully get there; especially in the area of our web2 data on-ramp/bridge technology (e.g. Data CAT). But it's worth noting that our web3 technology stacks will be fully available in the public domain from day one. 
 
-With our technology deliverables aligned to be made available as a fully public-goods platform, the next important aspect to decentralization is to have our technology development roadmap DAO controlled with 🔼ITHEUM token holders being able to collectively and fairly decide on the technology strategy and direction of roadmap delivery. It's worth noting that "fully DAO controlled" platforms are complex to set up and will require some platform operating maturity before implementing, but the ultimate intention of Itheum is full decentralization and this will happen progressively over time to ensure the Itheum platform will remain in the hands of the public - but at the same time, be a robust operating technology solution that will be around for the next 100 years. Until the platform roadmap is progressively transformed into a fully DOA-controlled element, the Core Team will manage the prioritized of the roadmap items with some pathways detailed on how the platform will transition to decentralization. This is described below in the "Foundation DAO" section.
+With our technology deliverables aligned to be made available as a fully public-goods platform, the next important aspect to decentralization is to have our technology development roadmap DAO controlled with $ITHEUM token holders being able to collectively and fairly decide on the technology strategy and direction of the roadmap delivery. It's worth noting that "fully DAO controlled" platforms are complex to set up and will require some platform operating maturity before implementing, but the ultimate intention of Itheum is full decentralization and this will happen progressively over time to ensure the Itheum platform will remain in the hands of the public - but at the same time, be a robust operating technology solution that will be around for the next 50 years. Until the platform roadmap is progressively transformed into a fully DOA-controlled element, the Core Team will manage the prioritization and delivery of the roadmap items with some pathways detailed on how the platform will transition to decentralization. This is described below in the "Foundation DAO" section.
 
-Once the Itheum platform transforms into having its operations and roadmap strategy DAO controlled, the intention is to have the native token (🔼ITHEUM) be the governance token. New advanced yet seamless DAO schemes will be built around the 🔼ITHEUM token that will increase the utility of the 🔼ITHEUM token and also ensure the best user experience for our platform users and token holders. People who own 🔼ITHEUM will be able to participate in DAO votes and collectively make decisions on the future of Itheum.
+Once the Itheum platform transforms into having its operations and roadmap strategy DAO controlled, the intention is to have the native token ($ITHEUM) be the governance token. New advanced yet seamless DAO schemes will be built around the $ITHEUM token that will increase the utility of the $ITHEUM token and also ensure the best user experience for our platform users and token holders. People who own $ITHEUM will be able to participate in DAO votes and collectively make decisions on the future of Itheum.
 
 Itheum has 2 high-level forms of DAO schemes that will be implemented in our platform:
 1. Foundation DAO: This is the platform governance DAO that will eventually be responsible for the future direction of Itheum's technology strategy and roadmap. 
@@ -811,27 +821,27 @@ Itheum has 2 high-level forms of DAO schemes that will be implemented in our pla
 As detailed above; the Foundation DAO will be responsible for the core platform's governance activities. Until the Itheum platform reaches the `operational maturity` required to fully decentralize the Foundation DAO, the Core Team will provide the governance in a way that's fully open to public visibility and accountability.
 
 ### Operational Maturity <a name="governance-1-1"></a>
-In this section, we will detail what it means when we say `operational maturity` and this dictates when Itheum will progressively transition to a fully DAO controlled Foundation DAO. For an ambitious platform like Itheum to gain widespread mainstream adoption and deliver robust technology solutions in the midst of high competition from other commercial and public organizations - we will need to have fast iterative delivery of roadmap items and make objective decisions to ensure we get Itheum to the Mainnet in a state that makes it the number 1 data platform for web3.
+In this section, we will detail what it means when we say `operational maturity` and this dictates when Itheum will progressively transition to a fully DAO controlled Foundation DAO. For an ambitious platform like Itheum to gain widespread mainstream adoption and deliver robust technology solutions amid high competition from other commercial and public organizations - we will need to have fast iterative delivery of roadmap items and make objective decisions to ensure we get Itheum to the Mainnet in a state that makes it the number 1 data platform for web3.
 
-It's a well-known observation that putting in a fully decentralized DAO too early can slow down decision making and delay competitive timelines and therefore we need to be cognisant and pragmatics on how early we embrace full decentralization, as failure to do so will put the entire Itheum platform delivery at risk and affect all of the itheum community and token holders. Once Itheum has been deployed to the Mainnet and the day-to-day operations of the platform are in a stable and controlled state and we are ready to move into iterative continuous improvements; we will then begin rolling out the Foundation DAO schemes and start opening up public voting for further roadmap upgrades. Such an approach will ensure the long-term success of itheum and is in the best interests of the entire community.
+It's a well-known observation that putting in a fully decentralized DAO too early can slow down decision making and delay competitive timelines and therefore we need to be cognisant and pragmatic on how early we embrace full decentralization, as failure to do so will put the entire Itheum platform delivery at risk and affect all of the Itheum community and token holders. Once Itheum has been deployed to the Mainnet and the day-to-day operations of the platform are in a stable and controlled state and we are ready to move into iterative continuous improvements; we will then begin rolling out the Foundation DAO schemes and start opening up public voting for further roadmap upgrades. Such an approach will ensure the long-term success of Itheum and is in the best interests of the entire community.
 
 ### Roadmap methodology <a name="governance-1-2"></a>
 Itheum's roadmap has always been public and is available for everyone to view. It can be accessed here: https://itheum.com/roadmap
 
-As seen in the roadmap board; all items that need to be considered to be included in the roadmap are added here and are voted on by the Foundation DAO to transition them to the appropriate lanes for delivery. We follow the Kanban methodology to manage the transition of items from inception to delivery. An idea is registered in the `IdeaBox` and can then move to `Research and Development` after the Foundation DAO voting agrees that the core team can spend the time and effort to commence R&D activity on the task. Once R&D is complete and the team is ready to ready to begin design and estimation; the task will then move to the `Estimating` lane. The Foundation DAO then can decide when to schedule the work. Once it's ready to start the development phase it will then move to the "Sprint Candidate" lane and then development and testing begins. The final lane is called `shipped` and an item moves there once it's deployed to production (and/or mainnet).
+As seen in the roadmap board; all items that need to be considered to be included in the roadmap are added here and are voted on by the Foundation DAO to transition them to the appropriate lanes for delivery. We follow the Kanban methodology to manage the transition of items from inception to delivery. An idea is registered in the `IdeaBox` and can then move to `Research and Development` after the Foundation DAO voting agrees that the core team can spend the time and effort to commence R&D activity on the task. Once R&D is complete and the team is ready to ready to begin design and estimation; the task will then move to the `Estimating` lane. The Foundation DAO then can decide when to schedule the work. Once it's ready to start the development phase it will then move to the "Sprint Candidate" lane and then development and testing begin. The final lane is called `shipped` and an item moves there once it's deployed to production (and/or mainnet).
 
 ### DAO Technology Schemes <a name="governance-1-2"></a>
 The Foundation DAO feature is still under development but we detail our current design schemes goals below, please note that this is subject to change as we iterate on our design and we will continue to keep this section of the whitepaper updated with any changes and also inform our community via our channels of any changes.
 
-- The 🔼ITHEUM token also plays the role of a Governance Token. There won't be any other, dedicated governance token in Itheum. This ensures 🔼ITHEUM has more utility in the Itheum ecosystem and that there also won't be a proliferation of bespoke governance and other tokens in Itheum - this boosts the user experience of the platform as it keeps things simple.
+- The $ITHEUM token also plays the role of a Governance Token. There won't be any other, dedicated governance token in Itheum. This ensures that the $ITHEUM token has more utility in the Itheum ecosystem and that there also won't be a proliferation of bespoke governance and other tokens in Itheum - this boosts the user experience of the platform as it keeps things simple.
 - Voting is by `Quorum + Direct Democracy`
-- 🔼ITHEUM holders can stake their tokens into the Governance contract and in turn, they will be able to vote on `proposals`
+- $ITHEUM holders can stake their tokens into the Governance contract and in turn, they will be able to vote on `proposals`
 - The weight of each user’s vote is proportionate to the number of tokens they have staked
 - Users can exist their stake anytime, but their vote will be withdrawn if they exit during an active voting round
 - `Proposals` can be decisions to `roadmap updates` or `changes to core platform parameters`
 - **Core Platform Parameters** can be tasks like `Update Quorum %`, `Approve new Data Coalition applications`, `Manage core Data Coalition parameters (min:max members / min fees to join)`, `Setting Harberger Tax rate on Coalitions managing Data NFTs`, `Manage Key-pool parameters for Personal Data Vault nodes (max / min / rotation / bonds)`, `Manage node parameters for Trusted Computation framework (max / min / rotation / bonds)` etc.
 - **Roadmap updates** are proposals to move the development roadmap future (see above in Roadmap methodology section)
-- Potential issues with this scheme that we will need to design around are `Governance Locks if a quorum is not reached` and `Whale dominance`
+- Potential issues with this scheme that we will need to design around are `Governance Locks if a quorum is not reached` and `whale dominance`
 
 
 ## Data Coalition DAOs <a name="governance-2"></a>
@@ -840,22 +850,22 @@ Details about the Data Coalition DAOs are explained in the above section titled 
 
 - These DAOs are generated each time a new Data Coalition is formed and approved by the Foundation DAO to operate.
 - These DAOs are programmatically built via a factory contract that generates the base Data Coalition DAO according to the core parameters (these parameters can be altered later by the Board Members of the DOA).
-- Anyone can form a Data Coalition DAO by bonding 🔼ITHEUM. The creator is called the `Chairman` but they don't have any special rights. They have the same rights as `Board Members`.
-- Once the Chairman creates the DAO, it goes into a phase where new Board Members need to be recruited. Board Members also need to bond 🔼ITHEUM and be voted in by the other Board Members. This is akin to `Permissioned entry` where existing Board Members need to recommend you via a `Motion`
+- Anyone can form a Data Coalition DAO by bonding $ITHEUM. The creator is called the `Chairman` but they don't have any special rights. They have the same rights as `Board Members`.
+- Once the Chairman creates the DAO, it goes into a phase where new Board Members need to be recruited. Board Members also need to bond $ITHEUM and be voted in by the other Board Members. This is akin to `Permissioned entry` where existing Board Members need to recommend you via a `Motion`
 - Only Board Members can vote on Motions; which follows a `representative democracy` scheme. A Motion can be anything that ranges from `adding more Board Members` to `changing the parameters of DAO (min:max members / min fees to join, terms of sale, sale price etc)` and also to `agree on which purchase request to approve (i.e. who to sell data to)`.
 - Voting is by `Simple Majority (no quorum needed)`, this allows for fast decisions to be made on potential new data sales.
 - All funds raised via bonds and stakes go into a `DC Fund Pool` which is then used for arbitration and dispute resolution in contentious sales of data.
 - The DC Fund Pool will be controlled by a Multi-Sig Wallet that will require a minimum set of Board Member signatures to process transactions.
 - Once the minimum Board members have joined the Data Coalition, it will enter into "operational mode" where it can start accepting `Members`.
-- Board Members will provide some public profile information to provide transparency on who they are, this is to provide some information for future Members to make informed decisions on if they should join the Coalition. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validators reputation and past performance.
-- Anyone can link their data to a Data Coalition and join as a `Member`. They can also choose to Stake 🔼ITHEUM along with their data to provide more guarantee that they are aligned to the long-term mission of the Data Coalition.
+- Board Members will provide some public profile information to provide transparency on who they are, this is to provide some information for future Members to make informed decisions on if they should join the Coalition. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validator's reputation and past performance.
+- Anyone can link their data to a Data Coalition and join as a `Member`. They can also choose to Stake $ITHEUM along with their data to provide more guarantee that they are aligned to the long-term mission of the Data Coalition.
 - Everyone who joins the Data Coalition (Board Members and Members who contribute data) - starts with a low reputation score that builds up over time with each successful data trade.
-- Data Coalitions also allow for "pure staking" of 🔼ITHEUM, where anyone can stake their 🔼ITHEUM into a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd-Sourced Data Curation). They are also considered to be a `Member`.
-- Members who staked 🔼ITHEUM and Board Members get a majority share of each sale. A minority share is available for pure stakers, data providers who did not “stake” and/or who have a low reputation
+- Data Coalitions also allow for "pure staking" of $ITHEUM, where anyone can stake their $ITHEUM into a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd-Sourced Data Curation). They are also considered to be a `Member`.
+- Members who staked $ITHEUM and Board Members get a majority share of each sale. A minority share is available for pure stakers, data providers who did not “stake” and/or who have a low reputation
 - Members can exit anytime but Board Members need a Motion passed to leave or be replaced. Board Members also need to wait until the bond period ends to exit.
 - Although not mandatory, Members will be able to participate in ongoing period votes to express their satisfaction with the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause.
-- Although not mandatory, Members will be able to expect the Board to have a fixed term, and after which they will need to rotate out and be replaced with a new board. 
-- A Data Coalition can only be shut down if it's not `operational`, if it does not have any outstanding disputes to resolve, all Board Members and Members have been compensated for any sales made in the past. The final decision will be made by the foundation DAO to terminate the operation.
+- Although not mandatory, Members will be able to expect the Board to have a fixed term, after which they will need to rotate out and be replaced with a new board. 
+- A Data Coalition can only be shut down if it's not `operational`, if it does not have any outstanding disputes to resolve, all Board Members and Members have been compensated for any sales made in the past. The final decision will be made by the Foundation DAO to terminate the operation.
 
 
 ---
@@ -863,15 +873,15 @@ Details about the Data Coalition DAOs are explained in the above section titled 
 
 # Fraud Detection — “Gaming” the system <a name="fraud-1"></a>
 
-As detailed in the above sections, the Itheum Data DEX allows for the sale of personal datasets. The reward for each sale will be paid out in the platform’s native 🔼ITHEUM utility tokens. As the demand for 🔼ITHEUM tokens grows we anticipate there will be malicious individuals or parties that try and “game the system” with the intention of obtaining 🔼ITHEUM or disrupting the market activity of legitimate data trade. 
+As detailed in the above sections, the Itheum Data DEX allows for the trade of personal data. The reward for each trade will be distributed in the platform’s native $ITHEUM utility tokens. As the demand for $ITHEUM tokens grows we anticipate there will be malicious individuals or parties that try and “game the system” to obtain $ITHEUM tokens or disrupt the market activity of legitimate data trade. 
 
 ## Types of Attacks <a name="fraud-2"></a>
 The following are some attack scenarios we anticipate:
 
 ### 1. Selling Fake Data
-A malicious user or a botnet can potentially spin up 100s of addresses and upload fake data files. The intention here would be to spray attack dummy datasets and mask them as legitimate datasets. For e.g. If a Data Coalition that aligns with the “sale of health data for commercial use-cases” has a high return in terms of sales — the malicious party can upload fake data and tag it as legitimate blood pressure readings. The malicious party can then align to the above Data Coalition and the data is then piped into the Data Coalition’s data pool. This kind of attack will diminish the data quality of the overall Data Coalition as buyers will rate the pool data quality as low and/or request refunds. The malicious party would intend to attempt to pass for legitimate data and in return earn some 🔼ITHEUM tokens before the act is discovered and blacklisted.
+A malicious user or a botnet can potentially spin up 100s of addresses and upload fake data files. The intention here would be to spray attack dummy datasets and mask them as legitimate datasets. E.g. If a Data Coalition that aligns with the “sale of health data for commercial use-cases” has a high return in terms of sales — the malicious party can upload fake data and tag it as legitimate blood pressure readings. The malicious party can then align to the above Data Coalition and the data is then piped into the Data Coalition’s data pool. This kind of attack will diminish the data quality of the overall Data Coalition as buyers will rate the pool data quality as low and/or request refunds. The malicious party would intend to attempt to pass for legitimate data and in return earn some $ITHEUM tokens before the act is discovered and blacklisted.
 
-The attack can also happen in a direct peer-to-peer sale method, where the malicious user uploads fake data, write up an appealing and legitimate data preview headline, and hope that a buyer will be tricked into making the 🔼ITHEUM transfer before discovering the data is fake.
+The attack can also happen in a direct peer-to-peer sale method, where the malicious user uploads fake data, write up an appealing and legitimate data preview headline and hope that a buyer will be tricked into making the $ITHEUM transfer before discovering the data is fake.
 
 ###2) Selling “Doctored Data”
 This is similar to the above attack but instead of uploading and selling fully fake data, the Data Creator/Seller doctors or manufactures data to look like it’s accurate. For example, as blood pressure data has a standard “mask” (e.g. 123/89) they can generate some random data that looks like accurate data (134/32, 123/90). They can use scripting to generate bulk quantities of doctored data and automate the upload and sale of it as described in the above section (i.e. via a Data Coalition or direct peer-to-peer sale)
@@ -883,29 +893,29 @@ This is very similar to the attack described in the "Selling Fake Data" section 
 In this type of attack, a malicious user will attempt to bring reputation damage to the Itheum Data DEX by uploading irrelevant or inappropriate data. They may masquerade as a legitimate user and then disrupt the credibility of the platform by uploading bad data that will be seen by other legitimate users of the platform. This may also bring about regulation concerns if the data is especially inappropriate. Over time this type of attack will "spam" the natural, organic network activity and degrade the reputation of the Itheum Data DEX.
 
 ###5) Sybil Attack
-This type of attack is something all distributed systems and blockchains are prone to and involves malicious parties using “multiple identities” to flood a chain with the intention to take control of governance or core functionalities (like producing blocks in a blockchain or voting in their fake proposals). The Itheum Data DEX is built on EVM compatible chains (Ethereum, Polygon, etc) — so the inherent risk of Sybil attacks on the core chains will impact Itheum’s data trade activity. The Itheum Data DEX is also prone to Sybil Attacks of a different type; where a malicious user, masquerading as a Data Creator/Seller can spin up multiple identities and flood the marketplace with fake orders or attempt to take control of the governance and voting activities that are core to the Data Coalitions.
+This type of attack is something all distributed systems and blockchains are prone to and involves malicious parties using “multiple identities” to flood a chain to take control of governance or core functionalities (like producing blocks in a blockchain or voting in their fake proposals). The Itheum Data DEX is built on EVM and non-EVM compatible chains (Elrond, Ethereum, Polygon, etc) — so the inherent risk of Sybil attacks on the core chains will impact Itheum’s data trade activity. The Itheum Data DEX is also prone to Sybil Attacks of a different type; where a malicious user, masquerading as a Data Creator/Seller can spin up multiple identities and flood the marketplace with fake orders or attempt to take control of the governance and voting activities that are core to the Data Coalitions.
 
 ## Methods for Prevention <a name="fraud-3"></a>
 The following methods are (or will be) implemented to mitigate the above attack vectors.
 
 <br />
-- The selling of personal data (either via direct peer-to-peer sales or via a Data Coalition) involves an “advertising process” (described in a section above) — where the integrity of the raw data is advertised on-chain to facilitate the trade process. As this is a “write-transaction” it does require GAS to complete. If a malicious user is attempting to spam or dump fake datasets for sale on the marketplace, the GAS cost implication will make it impractical. (this is especially true if the chain is Ethereum, but for low GAS fee chains like Polygon — the risk remains but at lower levels). This is applicable for direct peer-to-peer sales of Data Sets as well as for sales of Data NFTs.
+- The selling of personal data (either via direct peer-to-peer sales or via a Data Coalition) involves an “advertising process” (described in a section above) — where the integrity of the raw data is advertised on-chain to facilitate the trade process. As this is a “write-transaction” it does require GAS to complete. If a malicious user is attempting to spam or dump fake datasets for sale on the marketplace, the GAS cost implication will make it impractical. (this is especially true if the chain is Ethereum, but for low GAS fee chains like Elrond or Polygon — the risk remains but at lower levels). This is applicable for direct peer-to-peer sales of Data Packs as well as for sales of Data NFTs.
 
 <br />
-- Currently, a Data Preview is attached to each Data Set and Data NFT sale offer. When a user puts “Data Previews” they are currently manually entered, this allows for a malicious user to put in a fake preview and upload fake data.
+- Currently, a Data Preview is attached to each Data Pack and Data NFT sale offer. When a user puts “Data Previews” they are currently manually entered, this allows for a malicious user to put in a fake preview and upload fake data.
 
     ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xdn1bxsxdqkbclw1rhkn.png)
     > _Data Previews can be “Gamed” as it’s manually entered_
 
-We are working on having a new metadata field called “data snapshot” which will focus on a specific, random part of the uploaded file or stream and attach that to the dataset order. In order to prevent the “data snapshot” exposing any sensitive data; upon upload of the data file by the seller they will be provided with a few “snapshots” and they will be able to pick one that they prefer (similar to how you can pick a generated thumbnail for a video uploaded in YouTube)
+We are working on having a new metadata field called “data snapshot” which will focus on a specific, random part of the uploaded file or stream and attach that to the dataset order. To prevent the “data snapshot” exposing any sensitive data; upon upload of the data file by the seller they will be provided with a few “snapshots” and they will be able to pick one that they prefer (similar to how you can pick a generated thumbnail for a video uploaded in YouTube)
 
 <br />
-- Data Creators/Sellers can align to a Data Coalition to leverage the “power selling” of datasets. To align to a Data Coalition and then pipe their data to the Coalition for sale, the Data Creator/Seller will need to stake some 🔼ITHEUM against the Coalition DAO. The more they stake, the higher the data quality score is attached to the origin Data Creator. This puts a “skin in the game” vector for the Data Creator/Seller to behave in ways that don’t end up them having to be penalized and have their 🔼ITHEUM revoked.
+- Data Creators/Sellers can align to a Data Coalition to leverage the “power selling” of datasets. To align to a Data Coalition and then pipe their data to the Coalition for sale, the Data Creator/Seller will need to stake some $ITHEUM against the Coalition DAO. The more they stake, the higher the data quality score is attached to the origin Data Creator. This puts a “skin in the game” vector for the Data Creator/Seller to behave in ways that don’t end up them having to be penalized and have their $ITHEUM revoked.
 
 <br />
-- Staking/Voting against a Data Asset to boost credibility: We are looking at methods to attach community staking and/or voting against data assets that are put for sale. This may be voting that happens as part of the Data Coalition (i.e. if a specific user’s data is gaining more demand, the DAO upvotes the user’s credibility). As the core credibility grows the value of the user’s data (in terms of 🔼ITHEUM cost) also increases. Based on this method, as a new Seller (i.e. new’ish Chain Address) tries to sell data, the credit score will be extremely low and therefore the return will be less — this provides the organic incentive needed for legitimate behavior as the best way to earn more 🔼ITHEUM would be to upload legitimate data, align to strong Data Coalitions and gain organic credibility over time.
+- Staking/Voting against a Data Asset to boost credibility: We are looking at methods to attach community staking and/or voting against data assets that are put for sale. This may be voting that happens as part of the Data Coalition (i.e. if a specific user’s data is gaining more demand, the DAO upvotes the user’s credibility). As the core credibility grows the value of the user’s data (in terms of $ITHEUM cost) also increases. Based on this method, as a new Seller (i.e. new’ish Chain Address) tries to sell data, the credibility score will be extremely low and therefore the return will be less — this provides the organic incentive needed for legitimate behavior as the best way to earn more $ITHEUM would be to upload legitimate data, align to strong Data Coalitions and gain organic credibility over time.
 
-This approach will organically generate a sort of **confidence score** for each dataset or data NFT being sold on the marketplace. This is very similar to the OpenSea Confidence Score dialog alert you see when you attempt to buy NFTs.
+This approach will organically generate a sort of **confidence score** for each dataset or data NFT being sold on the marketplace. This is very similar to the `OpenSea Confidence Score` dialog alert you see when you attempt to buy NFTs.
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7c2myf0dtjl5ja7841je.png)
 
@@ -915,18 +925,18 @@ This approach will organically generate a sort of **confidence score** for each 
 - Multi-Account Detection and Blacklisting: We currently use Moralis for user account management. [Moralis](https://moralis.io/) allows for multiple addresses to be linked behind the scenes to a single user. This enables us to have an audit trail of users trying to launch any potential address-based Sybil attacks and allows us to blacklist transactions in near real-time.
 
 <br />
-- Verified Identity and/or KYC of Data Seller: One method to prevent most attacks described above would be to use a Verified Identity or KYC platform to ensure that the Data Seller has gone through a verification process before they can sell their data. To prevent a high barrier to entry and boost adoption with a better UX, we may allow for an “unverified” sale of data which will allow for the sale of data but with limited functionality in the DEX and/or much lower 🔼ITHEUM earnings (this is to incentivize the user to verify — this is similar to CEX’s like Binance which allow for trading smaller amount without verification). We are also investigating the [BrightID](https://www.brightid.org/) project for fully decentralized proof of uniqueness and other mainstream KYC platforms like CIVIC as potential solutions.
+- Verified Identity and/or KYC of Data Seller: One method to prevent most attacks described above would be to use a `Verified Identity` or KYC platform to ensure that the Data Seller has gone through a verification process before they can sell their data. To prevent a high barrier to entry and boost adoption with a better UX, we may allow for an “unverified” sale of data which will allow for the sale of data but with limited functionality in the DEX and/or much lower $ITHEUM earnings (this is to incentivize the user to verify — this is similar to CEX’s like Binance which allow for trading smaller amount without verification). We are also investigating the [BrightID](https://www.brightid.org/) project for fully decentralized proof of uniqueness and other mainstream KYC platforms like CIVIC as potential solutions.
 
 <br />
 - To increase the legitimacy of Data DEX user accounts and to prevent the attacks that we describe above; we are also considering using a mobile phone number as a 2nd factor on the user identity record. This solution path makes sense should we not want to proceed with a full KYC tool and to yet ensure each user has a 2nd factor they need to *prove they own* before using the Data DEX. As obtaining a mobile number has compliance and audit trail attached to it (you need to provide your driver's license or prove your identity and address for example), this makes attacking the system very impractical as each user will generally only have access to one mobile number (of course, there are exceptions to this but a single user can't own hundreds of mobile numbers for example).
 
 <br />
-- To prevent dump botnet attacks we will implement "invisible CAPTCHA". These are modern captcha technologies that don't have the bad UX of traditional captcha (i.e. click a button on select patterns from photos) but can weed out fraudulent automated users or bots with very high accuracy.
+- To prevent dumb botnet attacks we will implement "invisible CAPTCHA". These are modern captcha technologies that don't have the bad UX of traditional captcha (i.e. click a button on select patterns from photos) but can weed out fraudulent automated users or bots with very high accuracy.
 
 <br />
 <br />
 
-We are sure that there will be many more methods malicious users will use to try and game and disrupt the Itheum Data DEX and marketplace ecosystem. As part of our core governance model and token distribution, we will reserve a potion for the community to investigate new attack vectors and incentivize this type of white-hat hacking and remediation behavior to continue to boost the security of our Data DEX.
+We are sure that there will be many more methods malicious users will use to try and game and disrupt the Itheum platform, Data DEX, and data marketplace ecosystem. As part of our core governance model and token distribution, we will reserve a potion for the funds to investigate new attack vectors and incentivize this type of white-hat hacking and remediation behavior to continue to boost the security of our platform.
 
 
 ---
@@ -995,7 +1005,7 @@ The insights engine can also make use of some core analytics modules built by th
 
 Users who build and run Itheum Apps will get access to a management portal, this is akin to an admin portal that provides full management features over the apps they are running and the users who are enrolled in those apps. This portal will allow an admin user the tools to manage their Itheum apps (update app configurations and settings, add new apps, change engagement channels for data collation, upload new education modules, etc) and also manage their users (manually onboard new users, change password and access control for users, see user progress, add users to new programs, etc). 
 
-The portal will also provide comprehensive data reporting features that allow the user to view cutting-edge data analytics which are produced by the `Powerful analytics and insights engine`. The management portal is the "control panel" for everyone who runs itheum apps.
+The portal will also provide comprehensive data reporting features that allow the user to view cutting-edge data analytics which are produced by the `Powerful analytics and insights engine`. The management portal is the "control panel" for everyone who runs Itheum apps.
 
 
 ## Built-In Video Education Studio
@@ -1009,9 +1019,9 @@ the Itheum Management portal has a video studio that allows you to record videos
 
 ## Dispense Rewards for Compliance
 
-The data collection apps built on Itheum aim to have built-in mechanisms to boost user engagement and compliance. As higher user engagement leads to higher quantities of data, these incentive mechanisms are invaluable to the system. Users who join the `Data DEX` to connect their Itheum Apps and then bridge and trade their data on the blockchain can earn 🔼ITHEUM tokens in return for access to their data. But this requires users to have web3 experience and it can be a limiting factor initially where Itheum's apps may have many users who are yet to enter the web3 technology ecosystem (wallet usage, token purchase on DEX/CEX, etc).
+The data collection apps built on Itheum aim to have built-in mechanisms to boost user engagement and compliance. As higher user engagement leads to higher quantities of data, these incentive mechanisms are invaluable to the system. Users who join the `Data DEX` to connect their Itheum Apps and then bridge and trade their data on the blockchain can earn $ITHEUM tokens in return for access to their data. But this requires users to have web3 experience and it can be a limiting factor initially where Itheum's apps may have many users who are yet to enter the web3 technology ecosystem (wallet usage, token purchase on DEX/CEX, etc).
 
-To enable the widest adoption of Itheum in web2 and web3; the Itheum platform also introduces a `web2 rewards system` - where users earn "traditional rewards points" as they engage with the apps they join. Users can earn points for completing data collection tasks on time, watching education videos, logging into the platform to check progress, etc. This reward system is very similar to the mainstream royalty points system that users will be familiar with, where you can earn points for credit card usage, frequent travel, and shopping at the grocery stores. The Itheum app platform's rewards points can then be redeemed in the reward store for real-world gift cards or redeemed for 🔼ITHEUM tokens in the Data DEX.
+To enable the widest adoption of Itheum in web2 and web3; the Itheum platform also introduces a `web2 rewards system` - where users earn "traditional rewards points" as they engage with the apps they join. Users can earn points for completing data collection tasks on time, watching education videos, logging into the platform to check progress, etc. This reward system is very similar to the mainstream royalty points system that users will be familiar with, where you can earn points for credit card usage, frequent travel, and shopping at the grocery stores. The Itheum app platform's rewards points can then be redeemed in the reward store for real-world gift cards or redeemed for $ITHEUM tokens in the Data DEX.
 
 
 ## Full White label Support
@@ -1040,10 +1050,10 @@ All-new Smart Data Types and Apps build built on Itheum will be available in an 
 - **Data Seller:** A Data Creator who uses the DEX to sell their data either as a direct Data Pack sale or Data NFT.
 
 <br />
-- **Data Owner:** The type of user who owns a piece of data that’s available in the decentralized data DEX/marketplace. The Owner does not have to be the Data Creator, it can be someone who purchased a Data Pack or a Data NFT can prove ownership of that asset on the blockchain. So for each Data Pack for example, there will be 1 Data Creator and potentially multiple, unlimited (n∞) Data Owners (the users who bought the original data pack). And for Each Data NFT for example, there will be 1 Data Creator and a single (n1)or multiple, limited (nX) Data Owners as Data NFTs have a limited supply of 1 — x.
+- **Data Owner:** The type of user who owns a piece of data that’s available in the decentralized data DEX/marketplace. The Owner does not have to be the Data Creator, it can be someone who purchased a Data Pack or a Data NFT can prove access ownership of that asset on the blockchain. So for each Data Pack, for example, there will be 1 Data Creator and potentially multiple, unlimited (n∞) Data Owners (the users who procured access to the original data pack). And for each Data NFT for example, there will be 1 Data Creator and a single (n1)or multiple, limited (nX) Data Owners as Data NFTs can have a limited supply of 1 — x.
 
 <br />
--  **Buyer (Access Requester):** The type of user who logs into the decentralized data DEX and buys a Data Pack or Data NFT. They then become a Data Owner. They are also referred to as a `Access Requester` as they are technically not "buying data to fully own it", instead they are only "buying access rights to use a copy of the data".
+-  **Buyer (Access Requester):** The type of user who logs into the Data DEX and buys access to a Data Pack or Data NFT. They then become a Data Owner. They are also referred to as an `Access Requester` as they are technically not "buying data to fully own it", instead they are only "buying access rights to use a copy of the data".
 
 <br />
 - **Data Pack:** The simplest dataset that can be sold on the Data DEX. It’s a file in JSON format that can be put on sale by the Data Creator and then gets advertised for sale in the marketplace. The sale happens directly between Creator and Buyer with no intermediaries.
@@ -1052,14 +1062,4 @@ All-new Smart Data Types and Apps build built on Itheum will be available in an 
 - **Data Order:** When a buyer buys a Data Pack a Data Order is created. This has some metadata around the transaction, this information is kept off-chain (to conserve on-chain resources and keep costs low) but can be verified to be accurate on-chain.
 
 <br />
-- *Data NFT:* The alternate way to sell data is by wrapping it in an NFT and then trading it as a regular NFT product in the NFT marketplace.
-
-
----
-
-
-# Disclaimers <a name="disclaimers"></a>
-This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this Whitepaper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
-The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
-Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
-This Whitepaper describes a future project and contains forward-looking statements that are based on our beliefs and assumptions at the present time. The project envisaged in this Whitepaper is under development and being constantly updated and accordingly, if and when the project is completed, it may differ significantly from the project set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in the Documents is or should be relied upon as a promise or representation as to the future.
+- **Data NFT:** The alternate way to sell data is by wrapping it in an NFT and then trading it as a regular NFT product in the NFT marketplace.
