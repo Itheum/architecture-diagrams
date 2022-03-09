@@ -162,7 +162,7 @@ We envision a future where metaverse interoperability can be achieved via open-s
 ### Solution Overview Diagram
 The below high-level solution overview diagram details how all our key components and features align to enable Itheum's comprehensive data technology solution for the web3 and metaverse ecosystem.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3m5dwgt8i8zqxo4pkwk2.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ax5lwhqzxo3owdo31kvk.png)
 
 >[Click here to view the larger version](https://raw.githubusercontent.com/Itheum/architecture-diagrams/0a463b8b8d2bccf9b3ba5c6604adf8e6ecad199e/resources/3-tier-diagram.png)
  
@@ -365,7 +365,6 @@ When working with NFTs in general, the main actors to consider are:
 - NFT Purchaser - Someone with the intent of acquiring the Data NFT from the present NFT Holder
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7geatc5p26z88atfvf4.png)
- 
 
 In this example, let's assume *you want to trade your Genomics dataset as a Data NFT.*
 
@@ -453,8 +452,8 @@ Although not mandatory, Members will be able to participate in ongoing period vo
 <br />
 - They can allow (if voted by members) for "anonymous cohort analysis" of data trends via tooling provided via our "Data CAT" feature. For example; there may be a Data Coalition set up for the collection of "fitness and demographic data" - where you, as a Data Creator can align to and provide your wearable data from Fitbit or Garmin as well as append specific demographic data from your Data Vault (e.g. Gender, Age, Ethnicity) to enhance its value. Anonymous cohort analysis can then be enabled to visualize the type of data under the control of this Data Coalition. This adds more appeal to buyers who can preview data with more detail before committing to buying at a premium price.
 
-![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/avoyaf20ah58ysvutla5.png)
-> _Anonymous cohort analysis via our Data CAT integration_
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fgzxx0iidzy8yiwyx481.png)
+ > _Anonymous cohort analysis via our Data CAT integration_
 
 <br />
 - By default, the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
@@ -585,6 +584,12 @@ NFMe ID (Non-Fungible Me ID) are your `Data Avatars of the Metaverse`. Join the 
 Apps built on Itheum's `Data CAT` feed data into the PDCs, these apps are run by Itheum as well as other organizations who want to generate high-value data and then incentivize you to provide them access to your data. Itheum's `Personal Data Adaptors` can also discover and harvest on-chain and off-chain personal data and lock it inside your `Data Vault` and link it to your NFMe ID.
 
 As more data is added to the NFMe ID avatar; its "data signature" changes and more "accessories", "evolution traits" and "skins" are made available to your NFMe ID avatar. This is akin to purchasing gaming accessories and traits to augment your in-game NFT characters. Your NFMe ID is organic and evolves like a human as more data is added to it. You can apply "skins" over your base NFMe ID avatar - so you can choose the pick a different visual appearance for your NFMe IF Avatar based on on the situation you want to use your avatar in or mood you want to convey (e.g.  you can apply a photorealistic 3D skin, a "cartoonish" skin, or even a completely imaginary robotic skin)
+
+<br />
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5kr4tdtstb67lwovxv3q.png)
+ 
+<br />
 
 
 ## What can I do with an NFMe ID?
@@ -745,18 +750,32 @@ The following parties can Stake/Bond $ITHEUM:
 
 
 ## Token Metrics <a name="tokenomics-3"></a>
-Please note that the following details are being actively updated as we are currently planning for our token launch. Please stay tuned for our updated token metrics.
 
 <br />
 <br />
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hq1xv03uxyqhv69vk615.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kd6vo43qr51xafyrl7yz.png)
+> _High level characteristics of the $ITHEUM token_
 
 <br />
 <br />
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2m2zur89ouxcxu5c4r4t.png)
+> _$ITHEUM token allocation buckets_
+
+<br />
+<br />
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wy3l35zbyfi9lprhc7qc.png)
+ > _$ITHEUM token TGE unlock & bucket cliff/vests/unlock schedule_
  
+<br />
+<br />
+
 
 ---
+
 
 ## Token Distribution <a name="tokenomics-4"></a>
 As with all blockchain-based projects; Itheum will have an allocation of tokens that are not for sale. These non-sale tokens will be allocated to various buckets to oversee the roadmap, community, partners, liquidity, security, and various incentives needed for the continued growth of the Itheum ecosystem and to ensure we build a platform that becomes a market leader, brings the best value to the community and eventually be governed by the community. The non-sale allocation groups and their initiatives are as follows *(please be aware that the full initiatives under the groups are still an evolving topic of discussion but we aim to cover the following key items as a minimum)*:
@@ -824,6 +843,15 @@ As detailed above; the Foundation DAO will be responsible for the core platform'
 In this section, we will detail what it means when we say `operational maturity` and this dictates when Itheum will progressively transition to a fully DAO controlled Foundation DAO. For an ambitious platform like Itheum to gain widespread mainstream adoption and deliver robust technology solutions amid high competition from other commercial and public organizations - we will need to have fast iterative delivery of roadmap items and make objective decisions to ensure we get Itheum to the Mainnet in a state that makes it the number 1 data platform for web3.
 
 It's a well-known observation that putting in a fully decentralized DAO too early can slow down decision making and delay competitive timelines and therefore we need to be cognisant and pragmatic on how early we embrace full decentralization, as failure to do so will put the entire Itheum platform delivery at risk and affect all of the Itheum community and token holders. Once Itheum has been deployed to the Mainnet and the day-to-day operations of the platform are in a stable and controlled state and we are ready to move into iterative continuous improvements; we will then begin rolling out the Foundation DAO schemes and start opening up public voting for further roadmap upgrades. Such an approach will ensure the long-term success of Itheum and is in the best interests of the entire community.
+
+### Roadmap milestones <a name="roadmap-1"></a>
+
+The below details Itheum's roadmap milestones:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rceeaokl955r47rz2dv7.png)
+
+<br/>
+<br/>
 
 ### Roadmap methodology <a name="governance-1-2"></a>
 Itheum's roadmap has always been public and is available for everyone to view. It can be accessed here: https://itheum.com/roadmap
@@ -917,7 +945,7 @@ We are working on having a new metadata field called “data snapshot” which w
 
 This approach will organically generate a sort of **confidence score** for each dataset or data NFT being sold on the marketplace. This is very similar to the `OpenSea Confidence Score` dialog alert you see when you attempt to buy NFTs.
 
-![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7c2myf0dtjl5ja7841je.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/79pf2s123qlcqjs03i4a.png)
 
 >_OpenSea Confidence Score notification for purchases_
 
