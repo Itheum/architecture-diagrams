@@ -1,3 +1,5 @@
+>Whitepaper Version 1.1
+
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
 
@@ -28,21 +30,36 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [Multi-Chain Technical Design Goals](#multi-chain-design-1)
         [Cross Chain Tokens](#cross-chain-1)
         [Data Trading Fees](#fees-1)
-        [Distribution of Trading Fees & Community Fee Sharing](#fees-2)
+        [Distribution of Community Fee Rewards](#fees-2)
         [Itheum Token (Tokenomics)](#tokenomics-1)
-        [$ITHEUM Staking Opportunities](#staking-1)
+        [$ITHEUM Staking](#staking-1)
         [Decentralized Governance](#governance)
         [Data Collection & Analytics Toolkit Components (Web2 Data Bridge)](#web2-bridge-1)
         [Fraud Detection — “Gaming” the system](#fraud-1)
         [Key Terms of Reference](#refs-1)
+        [RISKS](#risks)
         
 
 # Disclaimers <a name="disclaimers"></a>
-This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes. The Documents are not intended to be a financial services offering document or a prospectus. The token offering involves and relates to the development and use of experimental software and technologies that may not come to fruition or achieve the objectives specified in this Whitepaper. The purchase of Tokens represents a high risk to any contributor. Tokens do not represent equity, shares, units, royalties or rights to capital, profit or income in the network or software or in the Token issuing entity or any other entity or intellectual property associated with the network or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction. The Token is not therefore intended to represent a security or similar legal interest.
+PLEASE READ THE ENTIRETY OF THIS "DISCLAIMER" SECTION CAREFULLY. NOTHING HEREIN CONSTITUTES LEGAL, FINANCIAL, BUSINESS OR TAX ADVICE AND YOU ARE STRONGLY ADVISED TO CONSULT YOUR OWN LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S) BEFORE ENGAGING IN ANY ACTIVITY IN CONNECTION HEREWITH. NEITHER ITHEUM LIMITED (THE COMPANY), ANY OF THE PROJECT TEAM MEMBERS (THE ITHEUM TEAM) WHO HAVE WORKED ON THE ITHEUM PLATFORM (AS DEFINED HEREIN) OR PROJECT TO DEVELOP THE ITHEUM PLATFORM IN ANY WAY WHATSOEVER, ANY DISTRIBUTOR/VENDOR OF $ITHEUM TOKENS (THE DISTRIBUTOR), NOR ANY SERVICE PROVIDER SHALL BE LIABLE FOR ANY KIND OF DIRECT OR INDIRECT DAMAGE OR LOSS WHATSOEVER WHICH YOU MAY SUFFER IN CONNECTION WITH ACCESSING THE PAPER, DECK OR MATERIAL RELATING TO $ITHEUM (THE TOKEN DOCUMENTATION) AVAILABLE ON THE WEBSITE AT HTTPS://WWW.ITHEUM.IO/ (THE WEBSITE, INCLUDING ANY SUB-DOMAINS THEREON) OR ANY OTHER WEBSITES OR MATERIALS PUBLISHED BY THE COMPANY FROM TIME TO TIME.
+
+This Whitepaper and any other documents published in association with it including the related token sale terms and conditions (the Documents) relate to a potential token (Token) offering to persons (contributors) in respect of the intended development and use of the network by various participants. The Documents do not constitute an offer of securities or a promotion, invitation or solicitation for investment purposes.
+
 The purchase of Tokens involves significant risks and prior to purchasing them, you should carefully assess and take into account the potential risks including those described in the Documents and on our website.
+
 Although there may be speculation on the value of the Tokens, we disclaim any liability for the use of Tokens in this manner. A market in the Tokens may not emerge and there is no guarantee of liquidity in the trading of the Tokens nor that any markets will accept them for trading.
+
+By accessing the Token Documentation or the Website (or any part thereof), you shall be deemed to represent and warrant to the Company, the Distributor, their respective affiliates, and the Itheum team as follows: (a) in any decision to acquire any $ITHEUM, you have not relied on and shall not rely on any statement set out in the Token Documentation or the Website; (b) you will and shall at your own expense ensure compliance with all laws, regulatory requirements and restrictions applicable to you (as the case may be); (c) you acknowledge, understand and agree that $ITHEUM may have no value, there is no guarantee or representation of value or liquidity for $ITHEUM, and $ITHEUM is not an investment product nor is it intended for any speculative investment whatsoever; (d) none of the Company, the Distributor, their respective affiliates, and/or the Itheum team members shall be responsible for or liable for the value of $ITHEUM, the transferability and/or liquidity of $ITHEUM and/or the availability of any market for $ITHEUM through third parties or otherwise; and (e) you acknowledge, understand and agree that you are not eligible to participate in the distribution of $ITHEUM if you are a citizen, national, resident (tax or otherwise), domiciliary and/or green card holder of a geographic area or country (i) where it is likely that the distribution of $ITHEUM would be construed as the sale of a security (howsoever named), financial service or investment product and/or (ii) where participation in token distributions is prohibited by applicable law, decree, regulation, treaty, or administrative act (including without limitation the United States of America, Canada, and the People's Republic of China); and to this effect you agree to provide all such identity verification document when requested in order for the relevant checks to be carried out. The Company, the Distributor and the Itheum team do not and do not purport to make, and hereby disclaims, all representations, warranties or undertaking to any entity or person (including without limitation warranties as to the accuracy, completeness, timeliness, or reliability of the contents of the Token Documentation or the Website, or any other materials published by the Company or the Distributor). To the maximum extent permitted by law, the Company, the Distributor, their respective affiliates and service providers shall not be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including, without limitation, any liability arising from default or negligence on the part of any of them, or any loss of revenue, income or profits, and loss of use or data) arising from the use of the Token Documentation or the Website, or any other materials published, or its contents (including without limitation any errors or omissions) or otherwise arising in connection with the same. Prospective acquirors of $ITHEUM should carefully consider and evaluate all risks and uncertainties (including financial and legal risks and uncertainties) associated with the distribution of $ITHEUM, the Company, the Distributor and the Itheum team.
+
+$ITHEUM are designed to be utilised, and that is the goal of the $ITHEUM distribution. In particular, it is highlighted that $ITHEUM: (a) does not have any tangible or physical manifestation, and does not have any intrinsic value (nor does any person make any representation or give any commitment as to its value); (b) is non-refundable and cannot be exchanged for cash (or its equivalent value in any other digital asset) or any payment obligation by the Company, the Distributor or any of their respective affiliates; (c) does not represent or confer on the token holder any right of any form with respect to the Company, the Distributor (or any of their respective affiliates), or their revenues or assets, including without limitation any right to receive future dividends, revenue, shares, ownership right or stake, share or security, any voting, distribution, redemption, liquidation, proprietary (including all forms of intellectual property or licence rights), right to receive accounts, financial statements or other financial data, the right to requisition or participate in shareholder meetings, the right to nominate a director, or other financial or legal rights or equivalent rights, or intellectual property rights or any other form of participation in or relating to the Itheum platform, the Company, the Distributor and/or their service providers; (d) is not intended to represent any rights under a contract for differences or under any other contract the purpose or pretended purpose of which is to secure a profit or avoid a loss; (e) is not intended to be a representation of money (including electronic money), security, commodity, bond, debt instrument, unit in a collective investment scheme or any other kind of financial instrument or investment; (f) is not a loan to the Company, the Distributor or any of their respective affiliates, is not intended to represent a debt owed by the Company, the Distributor or any of their respective affiliates, and there is no expectation of profit; and (g) does not provide the token holder with any ownership or other interest in the Company, the Distributor or any of their respective affiliates.
+
+Notwithstanding the $ITHEUM distribution, users have no economic or legal right over or beneficial interest in the assets of the Company, the Distributor, or any of their affiliates after the token distribution.
+
+To the extent a secondary market or exchange for trading $ITHEUM does develop, it would be run and operated wholly independently of the Company, the Distributor, the distribution of $ITHEUM and the Itheum platform. Neither the Company nor the Distributor will create such secondary markets nor will either entity act as an exchange for $ITHEUM.
+
 This Whitepaper describes a future project and contains forward-looking statements that are based on our beliefs and assumptions at the present time. The project envisaged in this Whitepaper is under development and being constantly updated and accordingly, if and when the project is completed, it may differ significantly from the project set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in the Documents is or should be relied upon as a promise or representation as to the future.
-The laws of various jurisdictions may apply to the Tokens.  The regulatory treatment of the Tokens may change from time to time which may affect the offering and use of the Token and the development of the project described in this Whitepaper.
+
+The laws of various jurisdictions may apply to the Tokens. The regulatory treatment of the Tokens may change from time to time which may affect the offering and use of the Token and the development of the project described in this Whitepaper.
 
 
 
@@ -162,9 +179,9 @@ We envision a future where metaverse interoperability can be achieved via open-s
 ### Solution Overview Diagram
 The below high-level solution overview diagram details how all our key components and features align to enable Itheum's comprehensive data technology solution for the web3 and metaverse ecosystem.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ax5lwhqzxo3owdo31kvk.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ah8gzmh5q2bw0ralc9mr.png) 
 
->[Click here to view the larger version](https://raw.githubusercontent.com/Itheum/architecture-diagrams/0a463b8b8d2bccf9b3ba5c6604adf8e6ecad199e/resources/3-tier-diagram.png)
+>[Click here to view the larger version](https://drive.google.com/file/d/1SjeUEiTTqh5mK_yAuNHPVJOJJ4f0KtvY/view?usp=sharing)
  
 <br />
 <br />
@@ -596,7 +613,7 @@ As more data is added to the NFMe ID avatar; its "data signature" changes and mo
 
 - NFMe ID avatars are NFT tokens; so it supports all NFT capabilities. But you can never completely sell your NFMe ID, you can only lease it to others and they can use it to access your data. It's an "authorization key" you provide to a 3rd party for gated entry to web3 and metaverse domains and it can also represent and supply a personal data footprint to 3rd party applications (if you choose to allow it to do so). In this way; NFMe ID avatars are `soulbound`
 - Explore Itheum's 3D `Virtual Data Metaverse` (called the Greenroom); which is a digital metaverse launchpad where you can manage your "accessories", "evolution traits" and "skins"  and interact with other NFMe ID avatars.
-- Participate in the governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake and Farm with existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your NFMe ID and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
+- Participate in the governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake to participate in existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your NFMe ID and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
 - "Slice out" certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and trade these in NFT marketplaces.
 
 In the web2 world; your personal data is exploited by 3rd parties and large corporations. In Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the NFMe ID Avatar.
@@ -684,15 +701,15 @@ All data traded within Itheum will attract a **2% seller fee and a 2% buyer fee 
 ---
 
 
-## Distribution of Trading Fees & Community Fee Sharing <a name="fees-2"></a>
-As mentioned above; 4% of every data trade is charged by the Itheum platform as a data marketplace fee. Itheum will have a generous fee-sharing system in place with community members via staking incentives and also fund an operational budget to ensure the Itheum platform can sustain long-term roadmap development and community growth. 
+## Distribution of Community Fee Rewards <a name="fees-2"></a>
+As mentioned above; 4% of every data trade is charged by the Itheum platform as a data marketplace fee. Itheum will have a generous fee-sharing system in place to re-distribute these to active community members who have contributed to creating/sharing their data and to also fund an operational budget to ensure the Itheum platform can sustain long-term roadmap development and community growth. 
 
 **Here is how the 4% will be distributed and used:**
 - 2% will be sent to the Foundation Treasury
 - 1% to the Partners program
 - 1% to the Community Treasury
 
-The funds contributed via the marketplace fee to the Community Treasury are sent directly to stakers in the core $ITHEUM **Community Staking Pool** where relative distributions can be claimed weekly by stakers. (see section titled [$ITHEUM staking opportunities](#staking-1))
+The funds contributed via the marketplace fee to the Community Treasury are sent directly to active contributors in the core $ITHEUM **Community Incentive Pool** where rewards can be claimed weekly by participants.
 
 For details on the "Foundation Treasury" and the "Partners" program and what it will be used for please read the section titled [Token Distribution](#tokenomics-4)
 
@@ -701,11 +718,13 @@ For details on the "Foundation Treasury" and the "Partners" program and what it 
 
 
 # Itheum Token <a name="tokenomics-1"></a>
-The “primary token” will exist on the Elrond blockchain (Note that this may be subject to change as we continue weighing the pros/cons of multi-chain adoption. As low transaction cost, high transaction throughput, and security are very critical for the trading of data; we continue to evaluate the best candidate blockchain for our "primary token".
+The native cryptographically-secure fungible protocol token of the Itheum platform (ticker symbol $ITHEUM) is a transferable representation of attributed governance and utility functions specified in the protocol/code of the Itheum platform, and which is designed to be used solely as an interoperable utility token thereon.
 
-The primary token will have the token symbol $ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. $mITHEUM, $bITHEUM). This "prefix design decision" is also subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single $ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
+$ITHEUM is a functional multi-utility token that will be used as the medium of exchange between participants on the Itheum platform in a decentralized manner. The goal of introducing $ITHEUM is to provide a convenient and secure mode of payment and settlement between participants who interact within the ecosystem on the Itheum platform without any intermediaries such as centralized third party entity/institution/credit. It is not, and not intended to be, a medium of exchange accepted by the public (or a section of the public) as payment for goods or services or for the discharge of a debt; nor is it designed or intended to be used by any person as payment for any goods or services whatsoever that are not exclusively provided by the issuer. $ITHEUM does not in any way represent any shareholding, participation, right, title, or interest in the Company, the Distributor, their respective affiliates, or any other company, enterprise or undertaking, nor will $ITHEUM entitle token holders to any promise of fees, dividends, revenue, profits or investment returns, and are not intended to constitute securities in the British Virgin Islands, Singapore or any relevant jurisdiction. $ITHEUM may only be utilized on the Itheum platform, and ownership of the same carries no rights, express or implied, other than the right to use $ITHEUM as a means to enable usage of and interaction within the Itheum platform. The secondary market pricing of $ITHEUM is not dependent on the effort of the Itheum team, and there is no token functionality or scheme designed to control or manipulate such secondary pricing.
 
->The final decision on the “Primary Token Blockchain” will be announced before our Token Generation Event (TGE).
+Further, $ITHEUM provides the economic incentives which will be distributed to encourage users to exert efforts towards contribution and participation in the ecosystem on the Itheum platform, thereby creating a mutually beneficial system where every participant is fairly compensated for its efforts. $ITHEUM are an integral and indispensable part of the Itheum platform, because without $ITHEUM, there would be no incentive for users to expend resources to participate in activities or provide services for the benefit of the entire ecosystem on the Itheum platform. Given that additional $ITHEUM will be awarded to a user based only on its actual usage, activity and efforts made on the Itheum platform and/or proportionate to the frequency and volume of transactions, users of the Itheum platform and/or holders of $ITHEUM which did not actively participate will not receive any $ITHEUM incentives.
+
+The “primary token” will exist on the Elrond blockchain. The primary token will have the token/ticker symbol $ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. $mITHEUM, $bITHEUM). This "prefix design decision" is subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single $ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
 
 ---
 
@@ -743,7 +762,7 @@ The following parties can Stake/Bond $ITHEUM:
 
 - Data Creators or Contributors (called Members) can link their data to a DC and also stake some $ITHEUM to flag that they have a genuine interest in supplying good quality data to the DC.
 
-- Anyone (even those who do not want to provide data themselves) can stake $ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a Crowd-Sourced Data Curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a Delegated Proof-of-stake (DPOS) system gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds $ITHEUM is incentivized relative to their role and stake and earns micropayments after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
+- Anyone (even those who do not want to provide data themselves) can stake $ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a crowd-sourced data curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a Delegated Proof-of-stake (DPOS) system gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds $ITHEUM is incentivized relative to their role in upkeeping the proper functioning and integrity of the DC DAO, and will earn micropayments for their efforts after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
 
 
 ---
@@ -788,7 +807,7 @@ The following parties can Stake/Bond $ITHEUM:
 
 2. The remaining 95% of their tokens are released progressively over a vesting period of 24 months (V:24m).
 
-3. During the 24-month vesting period, investors will be able to get access to their tokens in 3 months blocks - this is called the unlock period (U:3m). The **1st unlock date for the investors will be June 28, 2022.** 
+3. During the 24-month vesting period, purchasers will be able to get access to their tokens in 3 months blocks - this is called the unlock period (U:3m). The **1st unlock date for the purchasers will be June 28, 2022.** 
 
 ***Unlock Dates:***
 - June 28, 2022 (start)
@@ -801,8 +820,8 @@ The following parties can Stake/Bond $ITHEUM:
 - March 28, 2024 (end)
 
 **Why did Itheum design the token distribution schedule this way?**
-- Itheum needs a long-term commitment from our supporters and this assures we get this from the team, investors, and advisors.
-- Itheum's token is a utility token that is used to "price" the access to data, effectively setting a "value" for data. To ensure there is steady long-term growth and stability for the utility token we need to balance token supply and demand. We also need to ensure that there is a predictable injection of new token supply into the market. This is why we put in place the "3-month" unlock mechanism that applies after the cliff and vest dates pass.
+- Itheum needs a long-term commitment from our supporters and this assures we get this from the team, strategic partners, and advisors.
+- Itheum's token is a utility token that is used to "price" the access to data, effectively setting a "value" for data. To ensure stability for the network, Itheum will put in place the "3-month" unlock mechanism that applies after the cliff and vest dates pass.
 
 
 <br />
@@ -825,7 +844,7 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 - Grants to build apps on Itheum's **Data CAT**
 - Ongoing multi-chain liquidity reserves
 - Technical audits and white-hat hacking bounty programs, code reviews, and platform stability incentives
-- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term $ITHEUM stakers
+- Home of the **Community Treasury**: holds the percentage of funds earned from marketplace fees that will be reserved for long term $ITHEUM ecosystem participants
 - Support "Partners"
 
 ### Partners (2.5% - this is part of the Ecosystem bucket)
@@ -845,12 +864,12 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 ---
 
 
-## $ITHEUM Staking Opportunities <a name="staking-1"></a>
-Itheum will have multiple opportunities for staking; this is to ensure we incentivize long-term HODLers who will, in turn, ensure that the Itheum network has **price stability and high participation**. 
+## $ITHEUM Staking <a name="staking-1"></a>
+Itheum will require users to stake $ITHEUM at various points as a guarantee of commitment and service standards for a variety of tasks. This would encourage the participation of long-term HODLers instead of speculators.
 
 1. **Data Coalition DAO Staking:**  Data Coalition DAOs will allow for people to stake $ITHEUM against them to show support for their data trading operations and to flag support for data quality and credibility. Data Coalition DAO stakers earn a percentage from bulk trades that happen via that Data Coalition. Learn more about this in the [Data Coalitions](#data-coalitions-1) section.
 
-2. **Community Staking Pool:** Itheum will also have an internal, general-purpose staking pool called the "Community Staking Pool". $ITHEUM stakers in pool will earn a share of the data marketplace fees (see the section titled [Distribution of Trading Fees & Community Fee Sharing](#fees-2))
+2. **Community Incentive Pool:** Itheum will also have an internal, general-purpose incentive pool called the "Community Incentive Pool". This pool will hold a share of the data marketplace fees to be distributed to active ecosystem participants.
 
 3. **Core Protocol Staking:** The locking of tokens via staking incentives will lay strong network security dynamic for key features that we intend to roll out in the future; like our decentralized key pools (to power the per-user encrypted Data Vault feature) and privacy-preserving compute and regional decentralized hubs - key infrastructure that may interface with decentralized node operators and 3rd party specialized protocols to function.
 
@@ -883,13 +902,13 @@ It's a well-known observation that putting in a fully decentralized DAO too earl
 
 The below details Itheum's roadmap milestones:
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rceeaokl955r47rz2dv7.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bl9mnksvzp1lb5e4xni4.png) 
 
 <br/>
 <br/>
 
 ### Roadmap methodology <a name="governance-1-2"></a>
-Itheum's roadmap has always been public and is available for everyone to view. It can be accessed here: https://itheum.com/roadmap
+Itheum's roadmap has always been public and is available for everyone to view. It can be accessed here: https://itheum.io/roadmap
 
 As seen in the roadmap board; all items that need to be considered to be included in the roadmap are added here and are voted on by the Foundation DAO to transition them to the appropriate lanes for delivery. We follow the Kanban methodology to manage the transition of items from inception to delivery. An idea is registered in the `IdeaBox` and can then move to `Research and Development` after the Foundation DAO voting agrees that the core team can spend the time and effort to commence R&D activity on the task. Once R&D is complete and the team is ready to ready to begin design and estimation; the task will then move to the `Estimating` lane. The Foundation DAO then can decide when to schedule the work. Once it's ready to start the development phase it will then move to the "Sprint Candidate" lane and then development and testing begin. The final lane is called `shipped` and an item moves there once it's deployed to production (and/or mainnet).
 
@@ -898,9 +917,8 @@ The Foundation DAO feature is still under development but we detail our current 
 
 - The $ITHEUM token also plays the role of a Governance Token. There won't be any other, dedicated governance token in Itheum. This ensures that the $ITHEUM token has more utility in the Itheum ecosystem and that there also won't be a proliferation of bespoke governance and other tokens in Itheum - this boosts the user experience of the platform as it keeps things simple.
 - Voting is by `Quorum + Direct Democracy`
-- $ITHEUM holders can stake their tokens into the Governance contract and in turn, they will be able to vote on `proposals`
-- The weight of each user’s vote is proportionate to the number of tokens they have staked
-- Users can exist their stake anytime, but their vote will be withdrawn if they exit during an active voting round
+- $ITHEUM holders can stake their tokens into the Governance contract and in turn, $ITHEUM would allow holders to vote and determine future features, upgrades and/or parameters of the Itheum platform, or provide feedback, with voting weight calculated in proportion to the tokens staked. The right to vote is restricted solely to voting on features of the Itheum platform; it does not entitle $ITHEUM holders to vote on the operation and management of the Company, its affiliates, or their assets or the disposition of such assets to token holders, or select the board of directors or similar bodies of these entities, or determine the development direction of these entities, nor does $ITHEUM constitute any equity interest in any of these entities or any collective investment scheme; the arrangement is not intended to be any form of joint venture or partnership. After the Foundation DAO governance is fully launched, there will be no individual or corporate entity or other active promoter, sponsor, or group or affiliated party that maintains sole control over the Itheum platform.
+- Users can exit their stake anytime, but their vote will be withdrawn if they exit during an active voting round
 - `Proposals` can be decisions to `roadmap updates` or `changes to core platform parameters`
 - **Core Platform Parameters** can be tasks like `Update Quorum %`, `Approve new Data Coalition applications`, `Manage core Data Coalition parameters (min:max members / min fees to join)`, `Setting Harberger Tax rate on Coalitions managing Data NFTs`, `Manage Key-pool parameters for Personal Data Vault nodes (max / min / rotation / bonds)`, `Manage node parameters for Trusted Computation framework (max / min / rotation / bonds)` etc.
 - **Roadmap updates** are proposals to move the development roadmap future (see above in Roadmap methodology section)
@@ -924,7 +942,7 @@ Details about the Data Coalition DAOs are explained in the above section titled 
 - Anyone can link their data to a Data Coalition and join as a `Member`. They can also choose to Stake $ITHEUM along with their data to provide more guarantee that they are aligned to the long-term mission of the Data Coalition.
 - Everyone who joins the Data Coalition (Board Members and Members who contribute data) - starts with a low reputation score that builds up over time with each successful data trade.
 - Data Coalitions also allow for "pure staking" of $ITHEUM, where anyone can stake their $ITHEUM into a Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data within the Coalition is good (Crowd-Sourced Data Curation). They are also considered to be a `Member`.
-- Members who staked $ITHEUM and Board Members get a majority share of each sale. A minority share is available for pure stakers, data providers who did not “stake” and/or who have a low reputation
+- Members who staked $ITHEUM to verify data/participate and Board Members get a majority share of each sale. A minority share is available for pure stakers, data providers who did not “stake” and/or who have a low reputation
 - Members can exit anytime but Board Members need a Motion passed to leave or be replaced. Board Members also need to wait until the bond period ends to exit.
 - Although not mandatory, Members will be able to participate in ongoing period votes to express their satisfaction with the Board's performance. If satisfaction rates are low for multiple voting points - this will trigger a board rotation clause.
 - Although not mandatory, Members will be able to expect the Board to have a fixed term, after which they will need to rotate out and be replaced with a new board. 
@@ -967,7 +985,7 @@ The following methods are (or will be) implemented to mitigate the above attack 
 <br />
 - Currently, a Data Preview is attached to each Data Pack and Data NFT sale offer. When a user puts “Data Previews” they are currently manually entered, this allows for a malicious user to put in a fake preview and upload fake data.
 
-    ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xdn1bxsxdqkbclw1rhkn.png)
+    ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m9zgrmy22000gu451py0.png) 
     > _Data Previews can be “Gamed” as it’s manually entered_
 
 We are working on having a new metadata field called “data snapshot” which will focus on a specific, random part of the uploaded file or stream and attach that to the dataset order. To prevent the “data snapshot” exposing any sensitive data; upon upload of the data file by the seller they will be provided with a few “snapshots” and they will be able to pick one that they prefer (similar to how you can pick a generated thumbnail for a video uploaded in YouTube)
@@ -1126,3 +1144,19 @@ All-new Smart Data Types and Apps build built on Itheum will be available in an 
 
 <br />
 - **Data NFT:** The alternate way to sell data is by wrapping it in an NFT and then trading it as a regular NFT product in the NFT marketplace.
+
+
+# RISKS <a name="risks"></a>
+The Itheum platform is currently in the initial development stages and there are a variety of unforeseeable risks. You acknowledge and agree that there are numerous risks associated with acquiring $ITHEUM, holding $ITHEUM, and using $ITHEUM for participation in the Itheum platform. In the worst scenario, this could lead to the loss of all or part of $ITHEUM held. IF YOU DECIDE TO ACQUIRE $ITHEUM OR PARTICIPATE IN THE ITHEUM PLATFORM, YOU EXPRESSLY ACKNOWLEDGE, ACCEPT AND ASSUME THE FOLLOWING RISKS:
+
+- Uncertain Regulations and Enforcement Actions: The regulatory status of the Itheum platform, $ITHEUM and distributed ledger technology is unclear or unsettled in many jurisdictions. The regulation of digital assets has become a primary target of regulation in all major countries in the world. It is impossible to predict how, when or whether regulatory agencies may apply existing regulations or create new regulations with respect to such technology and its applications, including $ITHEUM and/or the Itheum platform. Regulatory actions could negatively impact $ITHEUM and/or the Itheum platform in various ways. The Company, the Distributor (or their respective affiliates) may cease operations in a jurisdiction in the event that regulatory actions, or changes to law or regulation, make it illegal to operate in such jurisdiction, or commercially undesirable to obtain the necessary regulatory approval(s) to operate in such jurisdiction. After consulting with a wide range of legal advisors to mitigate the legal risks as much as possible, the Company and Distributor have worked with the specialist blockchain department at Jacque Law LLC and obtained a legal opinion on the token distribution, and will be conducting business in accordance with the prevailing market practice.
+
+- Inadequate disclosure of information: As at the date hereof, the Itheum platform is still under development and its design concepts, consensus mechanisms, algorithms, codes, and other technical details and parameters may be constantly and frequently updated and changed. Although this material contains the most current information relating to the Itheum platform, it is not absolutely complete and may still be adjusted and updated by the Itheum team from time to time. The Itheum team has neither the ability nor obligation to keep holders of $ITHEUM informed of every detail (including development progress and expected milestones) regarding the project to develop the Itheum platform, hence insufficient information disclosure is inevitable and reasonable.
+
+- Loss of Talent: The development of the Itheum platform greatly depends on the continued co-operation of the existing technical team and expert consultants, who are highly knowledgeable and experienced in their respective sectors. The loss of any member may adversely affect the Itheum platform or its future development. Further, stability and cohesion within the team is critical to the overall development of the Itheum platform. There is the possibility that conflict within the team and/or departure of core personnel may occur, resulting in negative influence on the project in the future.
+
+- Failure to develop: There is the risk that the development of the Itheum platform will not be executed or implemented as planned, for a variety of reasons, including without limitation the event of a decline in the prices of any digital asset, virtual currency or $ITHEUM, unforeseen technical difficulties, and shortage of development funds for activities.
+
+- Security weaknesses: Hackers or other malicious groups or organizations may attempt to interfere with $ITHEUM and/or the Itheum platform in a variety of ways, including, but not limited to, malware attacks, denial of service attacks, consensus-based attacks, Sybil attacks, smurfing and spoofing. Furthermore, there is a risk that a third party or a member of the Company, the Distributor or their respective affiliates may intentionally or unintentionally introduce weaknesses into the core infrastructure of $ITHEUM and/or the Itheum platform, which could negatively affect $ITHEUM and/or the Itheum platform. Further, the future of cryptography and security innovations are highly unpredictable and advances in cryptography, or technical advances (including without limitation development of quantum computing), could present unknown risks to $ITHEUM and/or the Itheum platform by rendering ineffective the cryptographic consensus mechanism that underpins that blockchain protocol.
+
+- Other risks: In addition, the potential risks briefly mentioned above are not exhaustive and there are other risks (as more particularly set out in the Terms and Conditions) associated with your participation in the Itheum platform, as well as acquisition of, holding and use of $ITHEUM, including those that the Company or the Distributor cannot anticipate. Such risks may further materialize as unanticipated variations or combinations of the aforementioned risks. You should conduct full due diligence on the Company, the Distributor, their respective affiliates, and the Itheum team, as well as understand the overall framework, mission and vision for the Itheum platform prior to participating in the same and/or acquiring $ITHEUM.
