@@ -1,4 +1,4 @@
->Whitepaper Version 1.1
+>Whitepaper Version 1.2
 
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
@@ -324,8 +324,8 @@ To ensure we continually innovate and deliver tangible web3 / blockchain feature
 
 1. **Research : Labs** - Ideas that are running through an R&D stage.
 2. **Detailed Design & Prototyping** - Ideas that pass our labs stage and for which we are doing detailed solution architecture and prototyping. Release candidate notes are also prepared for formal development to commence.
-3. **Available in Testnet** - Iterative builds being released to testnet; tested and signed off by our QA team and community testers. This will continue until a mature build passes QA and is ready for deployment to mainnet.
-4. **Security Audits** - Final release that goes through internal and external security audits.
+3. **QA in Testnet** - Iterative builds being released to testnet for QA; tested and signed off by our QA team and community testers. This will continue until a mature build passes QA and is ready for deployment to mainnet.
+4. **Security Audits** - Final release that goes through internal, peer and external security audits. Issues are fixed and build is moved back to **QA in Testnet** phase and cycled until we have a final build ready for next stage.
 5. **Available in Mainnet** - Released to mainnet.
 
 
@@ -610,11 +610,11 @@ As more data is added to the NFMe ID avatar; its "data signature" changes and mo
 
 
 ## What can I do with an NFMe ID?
-
-- NFMe ID avatars are NFT tokens; so it supports all NFT capabilities. But you can never completely sell your NFMe ID, you can only lease it to others and they can use it to access your data. It's an "authorization key" you provide to a 3rd party for gated entry to web3 and metaverse domains and it can also represent and supply a personal data footprint to 3rd party applications (if you choose to allow it to do so). In this way; NFMe ID avatars are `soulbound`
-- Explore Itheum's 3D `Virtual Data Metaverse` (called the Greenroom); which is a digital metaverse launchpad where you can manage your "accessories", "evolution traits" and "skins"  and interact with other NFMe ID avatars.
-- Participate in the governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake to participate in existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your NFMe ID and other data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
-- "Slice out" certain segments of your data (e.g. Data from a specific app or category) and mint them into `Data NFTs` and trade these in NFT marketplaces.
+- NFMe Id Avatars aim to solve the fundamental question of "how can we know if this data is from a human and not a BOT or Sybil account?". It provides the means to boost data quality, provenance and veracity within the Itheum ecosystem without getting a human to expose all their private identity data in web3.
+- An NFMe Id Avatar "holds" under it your Data Packs and Data NFTs. "Slice out" certain segments of your personal data (e.g. Data from a specific Data CAT App or category) and trade them as `Data Packs` or mint them into `Data NFTs` and trade these in NFT marketplaces. The NFMe Id Avatar is the representation of your identity in the metaverse and your data is in the form of "granular" Data Packs and Data NFTs, enabling you to enforce "granular" access control the rights management over your personal data.
+- NFMe ID avatars are NFT tokens; so they support all NFT capabilities. But you can never sell your NFMe ID like you would your other NFTs, you can only lease it to others and they can use it to access your data. In this way; NFMe ID avatars are `soulbound`. Initially, a Governance based whitelist and approval mechanism is used for the NFT minting and its transfer between the owner's wallets.
+- Explore Itheum's 3D `Virtual Data Metaverse` (called the Greenroom); which is an interoperable metaverse launchpad for your NFMe ID Avatar where you can manage your data-backed "accessories", "Data NFTs", "evolution traits" and "skins"  and interact with other NFMe ID avatars.
+- Participate in the governance of `Data Coalition DAOs` - These are bulk data trading DAOs that exist to serve the people and protect personal data. Stake to participate in existing Data Coalition DAOs and provide data curation and data quality assessment services or give them access to your data assets and allow them to trade your data on your behalf as part of a larger bulk dataset.
 
 In the web2 world; your personal data is exploited by 3rd parties and large corporations. In Itheum's Data Metaverse; we give you true ownership of your data via your own Data Avatar... welcome to the era of the NFMe ID Avatar.
 
