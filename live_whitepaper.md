@@ -1,4 +1,4 @@
->Whitepaper Version 1.2
+>Whitepaper Version 1.3
 
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
@@ -238,7 +238,7 @@ The Data DEX also allows you to trade any arbitrary data using the same on-chain
 ### 2.1) Facebook Profile Data
 As you may know, Facebook opened up the option for individuals to download all their data in bulk. This was a feature that was released by Facebook after pressure from data advocacy regulators who wanted to ensure individuals had the right to download their data from the Facebook platform should they ever want to delete their Facebook account or move to a new social media platform.
 
-The Itheum Data DEX will allow for the above scenario (of moving to a new social media platform) to be handled seamlessly. For example, an individual can download all their Facebook data and advertise it for trade on the Data DEX, they can then align with a __Data Coalition centered around the responsible usage of data by Social Media organizations.__ A new social media platform can then view the “Facebook user datasets” managed for trade by the Data Coalition, agree to the responsible terms of use, and procure bulk access to the data. The new social media platform uses the Data DEX to bootstrap and migrate Facebook users to its platform directly via an authorized, delegated owner (Data Coalition) of the end-user data. The end-user (original Facebook user) then gets the relative micropayments from the Data Coalition and can also view the complete audit trail of data transfer between the social media platforms.
+The Itheum Data DEX will allow for the above scenario (of moving to a new social media platform) to be handled seamlessly. For example, an individual can download all their Facebook data and advertise it for trade on the Data DEX, they can then align with a __Data Coalition centered around the responsible usage of data by Social Media organizations.__ A new social media platform can then view the “Facebook user datasets” managed for trade by the Data Coalition, agree to the responsible terms of use, and procure bulk access to the data. The new social media platform uses the Data DEX to bootstrap and migrate Facebook users to its platform directly via an authorized, delegated owner (Data Coalition) of the end-user data. The end-user (original Facebook user) then gets the relative micro-distributions of token rewards from the Data Coalition and can also view the complete audit trail of data transfer between the social media platforms.
 
 ### 2.2) Any Other General Data
 The Data DEX also allows for the on-chain trade of any other type of data. For example, you can create a dataset of all the brands and products you, your family and friends like, all the reviews and ratings of your favorite restaurants, personal fitness, or other wellness data. You can also create and trade other interesting IP-centric general datasets like utterances to intent mappings which can then be used by organizations to train NLU and speech to text applications. For example, a hospitality booking organization (which provides telephony services or conversational tools like chatbots to help users make a booking) might already be spending a lot of investment in continuing to study end-user speech-to-text patterns and map them to intents that are relevant to their industry. They can sell the utterance-to-intent mapping data on the Data DEX to recoup some of their spending in producing this IP.
@@ -435,7 +435,7 @@ Itheum envisions a future where the most successful Data Coalitions will be run 
 
 Users (called Members) can then align to the Data Coalition who they feel acts in their best interests. You then delegate the ownership of your Data Packs, Data Streams, and Data NFTs to your preferred Data Coalitions. The Data Coalition will group your data into clusters of similar data and advertise the bulk datasets to interested Data Consumers, who can then procure access to the bulk datasets. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Data Coalitions that you support. 
 
-Data Coalitions also allow for "staking" of $ITHEUM tokens, where anyone can stake their $ITHEUM tokens with a Data Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data is good (Crowd-Sourced Data Curation). This allows for the Itheum platform to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data for trade. All parties involved in the Data Coalition (Board Members who bond $ITHEUM tokens, Members who share data, Members who stake $ITHEUM tokens are all incentivized relative to their role and stake and earn micropayments after each trade is finalized)
+Data Coalitions also allow for "staking" of $ITHEUM tokens, where anyone can stake their $ITHEUM tokens with a Data Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data is good (Crowd-Sourced Data Curation). This allows for the Itheum platform to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data for trade. All parties involved in the Data Coalition (Board Members who bond $ITHEUM tokens, Members who share data, Members who stake $ITHEUM tokens are all incentivized relative to their role and stake and earn micro-distributions of token rewards after each trade is finalized)
 
 Itheum's Data Coalitions are modeled on the [Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)
 
@@ -461,7 +461,7 @@ Although not mandatory, Members will be able to participate in ongoing period vo
 - They will also be able to link with the "Trusted Computation Framework" and facilitate the privacy-preserving compute-to-data technology handshake, where 3rd parties will be able to run algorithms on the datasets housed within the Coalition without having the identity and privacy of the original Data Creators leaked.
 
 <br />
-- They can efficiently facilitate "micropayments" to all its members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk sales. After each sale, the 1000 members will be sent a share of the earnings via micropayments. Traditional banking payment systems are unable to handle these kinds of micropayments due to the overhead of fees - but blockchain payment mechanisms will be able to facilitate this well.
+- They can efficiently facilitate "micro-distributions of token rewards" to all its members in return for data. For example, a Data Coalition can have 1000 "members" who contribute data for bulk trade. After each trade, the 1000 members will be sent a share of the earnings via micro-distributions of token rewards. Traditional banking transfer systems are unable to handle these kinds of micro-distributions due to the overhead of fees - but blockchain transfer mechanisms will be able to facilitate this well.
 
 <br />
 - Data Coalitions in the future will also trade with other Data Coalitions and be connected to autonomous machines via a machine-to-machine type interface. E.g. wearables or EVs who join Coalitions directly and participate in the data economy.
@@ -610,7 +610,8 @@ As more data is added to the NFMe ID avatar; its "data signature" changes and mo
 
 
 ## What can I do with an NFMe ID?
-- NFMe Id Avatars aim to solve the fundamental question of "how can we know if this data is from a human and not a BOT or Sybil account?". It provides the means to boost data quality, provenance and veracity within the Itheum ecosystem without getting a human to expose all their private identity data in web3.
+
+- NFMe Id Avatars aims to solve the fundamental question of "how can we know if this data is from a human and not a BOT or Sybil account?". It provides the means to boost data quality, provenance, and veracity within the Itheum ecosystem without getting a human to expose all their private identity data in web3 but yet provides some reputation to "pseudonymous" blockchain identities.
 - An NFMe Id Avatar "holds" under it your Data Packs and Data NFTs. "Slice out" certain segments of your personal data (e.g. Data from a specific Data CAT App or category) and trade them as `Data Packs` or mint them into `Data NFTs` and trade these in NFT marketplaces. The NFMe Id Avatar is the representation of your identity in the metaverse and your data is in the form of "granular" Data Packs and Data NFTs, enabling you to enforce "granular" access control the rights management over your personal data.
 - NFMe ID avatars are NFT tokens; so they support all NFT capabilities. But you can never sell your NFMe ID like you would your other NFTs, you can only lease it to others and they can use it to access your data. In this way; NFMe ID avatars are `soulbound`. Initially, a Governance based whitelist and approval mechanism is used for the NFT minting and its transfer between the owner's wallets.
 - Explore Itheum's 3D `Virtual Data Metaverse` (called the Greenroom); which is an interoperable metaverse launchpad for your NFMe ID Avatar where you can manage your data-backed "accessories", "Data NFTs", "evolution traits" and "skins"  and interact with other NFMe ID avatars.
@@ -736,21 +737,21 @@ At this point, the following tasks will REQUIRE the $ITHEUM token (or correspond
 
 **1) Gaining Access rights to use Data Packs / Data Streams / Data Coalition Data Pools**
 
-A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of $ITHEUM between the parties. $ITHEUM is essentially the "software key" to using the data from an authorization perspective. The primary goal would be to use the transaction of $ITHEUM (between the 2 parties as logged on-chain) as:
+A Data Creator (who is the original Data Owner of the data) will allow an Access Requester to access their data via a transfer of $ITHEUM between the parties. $ITHEUM is essentially the "software access key" to using the data from a consent and authorization standpoint. The primary goal would be to use the transaction of $ITHEUM (between the 2 parties as logged on-chain) as:
 
 - Evidence of access rights being granted by the Data Owner to another party
 - To trace and have evidence of the lineage of data access
 - To trace back access rights to a Provenance (Data Creator)
 
-If the sale is done via a Data Coalition (i.e. as a bulk pool of data), the $ITHEUM is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
+If the trade is done via a Data Coalition DAO (i.e. as a bulk pool of data), the $ITHEUM is transferred from the Access Requester to the DC DAO and then distributed to the members of the DC as follows:
 
 - To the Data Creators to indicate access rights to use the data (as mentioned in the above section) 
 
-- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk sale, flag and signal data quality issues and accept the risk of remediating and mediating contentious sales. The transfer of $ITHEUM to these parties is also used as a lineage and audit to trace all parties involved in the data transfer process. See point number (3) below for more details on this.
+- Based on the relative bond/stake token contribution of the board members, members, and general stakers to highlight traceability of the effort spent by these parties to coordinate the bulk trade, flag and signal data quality issues and accept the risk of remediating and mediating contentious sales. The transfer of $ITHEUM to these parties is also used as a lineage and audit to trace all parties involved in the data transfer process. See point number (3) below for more details on this.
 
-**2) Stake $ITHEUM to have relative voting rights in the Itheum Foundation (IF) DAO**
+**2) Data Creator Royalties**
 
-The Itheum Foundation (IF) DAO will vote on "Proposals'' on how the $ITHEUM Treasury will be spent to further Itheum's community development and roadmap. Please note that the full decentralization of the platform and the operation of the voting mechanism will be put into place at a future date. Read more about this in the [Decentralized Governance](#governance) section.
+A Data Creator can tokenize access rights to their data as limited-edition and royalty-enabled Data NFTs, enabling powerful secondary market characteristics to decentralized data trade. The value of data grows by limiting the minting of the Data NFTs and attaching creator royalties if data access is then re-traded to other participants. This feature is available in the Data NFT Marketplace (part of the Data DEX) and requires an exchange of tokens between parties to work.
 
 **3) Stake/Bond $ITHEUM to create a new Data Coalition (DC) (which is governed by a DAO)**
 
@@ -762,7 +763,13 @@ The following parties can Stake/Bond $ITHEUM:
 
 - Data Creators or Contributors (called Members) can link their data to a DC and also stake some $ITHEUM to flag that they have a genuine interest in supplying good quality data to the DC.
 
-- Anyone (even those who do not want to provide data themselves) can stake $ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a crowd-sourced data curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a Delegated Proof-of-stake (DPOS) system gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds $ITHEUM is incentivized relative to their role in upkeeping the proper functioning and integrity of the DC DAO, and will earn micropayments for their efforts after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
+- Anyone (even those who do not want to provide data themselves) can stake $ITHEUM into an existing DC DAO. They do this by becoming a "data quality verifier" (resulting in a crowd-sourced data curation dynamic), effectively also signaling the "genuineness/credibility" of a Data Coalition (similar to how the credibility of a node validator in a delegated proof-of-stake (DPOS) system gets signaled by the community who delegates their stake with them). Everyone who stakes/bonds $ITHEUM is incentivized relative to their role in upkeeping the proper functioning and integrity of the DC DAO, and will earn micro-distributions of token rewards for their efforts after each trade is finalized. Learn more about the [Data Coalition DAO design here](#data-coalitions-1)
+
+**4) Stake $ITHEUM to have relative voting rights in the Itheum Foundation (IF) DAO**
+
+The Itheum Foundation (IF) DAO will vote on "Proposals" on how the $ITHEUM Treasury will be spent to further Itheum's community development and roadmap. Please note that the full decentralization of the platform and the operation of the voting mechanism will be put into place at a future date. Read more about this in the [Decentralized Governance](#governance) section.
+
+
 
 
 ---
