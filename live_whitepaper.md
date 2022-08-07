@@ -720,14 +720,14 @@ For details on the "Foundation Treasury" and the "Data Partners" program and wha
 
 
 ## The Claims Portal - Token Distribution Nucleus  <a name="claims-portal-1"></a>
-One of the key components of the Itheum roadmap is the Claims Portal and we are excited to announce that the Elrond Mainnet release of the Claims Portal has been completed and is now ready for use. Let's explore why this is significant to the Itheum community and ecosystem.
+One of the key components of the Itheum roadmap is the Claims Portal and it will be the first feature that we aim to release to Mainnet. Let's explore why this is significant to the Itheum community and ecosystem.
 
 ### Token Distributions within the Itheum Ecosystem
 The $ITHEUM utility token forms the underlying mechanism for data access to be shared between Data Creator and Data Consumer. Simply put, if a Data Consumer wants access to high-value datasets from the Data Pack, Data NFT Marketplace, or Data Coalition DAO instruments, they need to transfer $ITHEUM which then unlocks access to the Data Creator's data.
 
-Data and tokens can be exchanged between a Data Consumer and Data Creator either <u>directly or indirectly</u>. They are exchanged directly in the event the Data Consumer barters their data directly via a Data Pack or a Data NFT, and they are exchanged indirectly via a Data Coalition DAO in the event the Data Creator has delegated oversight of their data to a particular DAO. 
+Data and tokens can be exchanged between a Data Consumer and Data Creator either <u>directly or indirectly</u>. They are exchanged <u>directly</u> in the event the Data Consumer barters their data directly via a Data Pack or a Data NFT, and they are exchanged <u>indirectly</u> via a Data Coalition DAO in the event the Data Creator has delegated oversight of their data to a particular DAO. 
 
-Besides the Data Creator, Data Consumer, and Data Coalition DAOs; various community participants provide a myriad of other services that ensure the decentralized Itheum data brokerage service can function with less friction, strong user experience, and reduced attack vectors. These participants are essentially highly involved community members and active contributors who donate their time and skills for the sake of the common good. They are the **community guardians of the Itheum protocol** and the **Community Treasury** is dedicated to incentivizing them for their invaluable service. Distributions of the Community Treasury are done <u>indirectly</u> via the **Community Incentive Pool**, which is DAO governed and will be fairly distributed the Community Treasury to the best community guardians.
+Besides the Data Creator, Data Consumer, and Data Coalition DAOs; various community participants provide a myriad of other services that ensure the decentralized Itheum data brokerage service can function with less friction, strong user experience, and reduced attack vectors. These participants are essentially highly involved community members and active contributors who donate their time and skills for the sake of the common good. They are the **community guardians of the Itheum protocol** and the **Community Treasury** is dedicated to incentivizing them for their invaluable service. Distributions of the Community Treasury are done <u>indirectly</u> via the **Community Incentive Pool**, which is DAO governed and will be fairly distributed to the best community guardians.
 
 ### Direct and Indirect Token Distribution Schemes
 As detailed above, $ITHEUM is distributed <u>directly and indirectly</u> between various parties that make up the Itheum ecosystem. Let's explore how these distributions will work and understand the important role the Claims Portal plays in coordinating <u>indirect</u> distributions.
@@ -736,22 +736,22 @@ As detailed above, $ITHEUM is distributed <u>directly and indirectly</u> between
 For each consented exchange of data via $ITHEUM tokens directly between Data Creator and Data Consumer, the exchange of data and tokens is orchestrated by the Smart Contracts that power the Data DEX. In simple terms, tokens are moved by the Smart Contract directly from the Data Consumer's wallet to the Data Creator's wallet and the transfer of data access rights is bartered. For each data trade listing, 96% of the requested token amount is moved from the Data Consumer to the Data Creator, this is a fully automatic <u>direct</u> movement of tokens between the counterparties and the Claims Portal is not used in this instance. The remaining 4% makes up the **Data Marketplace Fee** which then needs to be <u>indirectly</u> distributed. 
 
 ### Indirect token distribution Scheme - Powered by the Claims Portal:
-Two specific indirect exchange routes happen within the Itheum Ecosystem that relies exclusively on the Claims Portal.
+Two specific indirect exchange routes happen within the Itheum Ecosystem that relies heavily on the Claims Portal.
 
 **1) Distributions route for bulk data trading**
-For each coordinated exchange of data via $ITHEUM tokens between Data Creators and a Data Coalition DAO, the barter transaction gets more complex as the tokens need to be fairly distributed to all participants that make up the Data Coalition DAO. These are Board Members, DAO-aligned Data Creators, and the other Members who bond/stake with the DAO to provide data validation services. The complex distribution of tokens (as determined by the DAO participants) needs to be "multicast" (targeted distribution) to the various participants. The tokens first get collected by the DAO Smart Contracts and deposited into the "DC Fund Pool" and then get routed via the Claims Portal for multicast to all recipients.
+For each coordinated exchange of data via $ITHEUM tokens between Data Creators and a Data Coalition DAO, the barter transaction gets more complex as the tokens need to be fairly distributed to all participants that make up the Data Coalition DAO. These are Board Members, DAO-aligned Data Creators, and the other Members who bond/stake with the DAO to provide data validation services. The complex distribution of tokens (as determined by the DAO participants) needs to be "multicast" (targeted distribution) to the various participants. The tokens first get collected by the DAO Smart Contracts and deposited into the **DC Fund Pool** and then get routed via the Claims Portal for multicast to all recipients.
 
 2)** Distribution route to community guardians and data-market makers**
-As detailed above a 4% marketplace fee is collected from all data trade that is coordinated by the Data DEX smart contracts. This fee is then split between parties as rewards for providing the governance, oversights, growth and adoption injection, and decentralized management of the Itheum protocol. Details of the proposed split are detailed in the section of this whitepaper titled [Data Trading Fees](#fees-1), but in summary 2% is specifically going to be <u>indirectly</u> multicast distributed via the Claims Portal, the breakdown of this is as follows:
+As detailed above a 4% marketplace fee is collected from all data trade that is coordinated by the Data DEX smart contracts. This fee is then split between parties as rewards for providing the governance, oversight, growth/adoption injection, and decentralized management of the Itheum protocol. Details of the proposed split are detailed in the section of this whitepaper titled [Data Trading Fees](#fees-1), but in summary 2% is specifically going to be <u>indirectly</u> multicast distributed via the Claims Portal, the breakdown of this distribution is as follows:
 
-- 1% is distributed back to the community guardians of the Itheum protocol. These distributions are governed by Foundation DAO which oversees the Community Treasury. 
+- 1% is distributed back to the community guardians of the Itheum protocol. These distributions are governed by the Foundation DAO which oversees the Community Treasury. 
 
 - 1% is allocated for ecosystem growth via distribution to the **Data Partners Program**, which is another program that is governed by the Foundation DAO to ensure that there are always key partnerships active in the ecosystem to enable a form of "data market-making" (i.e. to ensure there is a constant demand for data). Think of these as grants and sponsorships sent out to 3rd parties and community members to boost the adoption of the Itheum protocol.
 
-### The Claims Portal is now ready for use
+### The Claims Portal is ready for use
 The Claims Portal will drive community and ecosystem growth for the Itheum protocol. "Indirect" DAO governance distributions of tokens will not be possible without the Claims Portal and it thus features as one of the core building blocks of the Itheum platform. 
 
-It is the Token Distribution Nucleus for Itheum's community guardians and ecosystem warriors and it is now ready for use on the Elrond Mainnet via the Data DEX. 
+It is the Token Distribution Nucleus for Itheum's community guardians and ecosystem warriors and it will soon be now ready for use on the Elrond Mainnet via the Data DEX. 
 
 To try out the Claims Portal via the Data DEX, head over here https://datadex.itheum.io
 
