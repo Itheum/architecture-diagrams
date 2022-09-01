@@ -1,4 +1,4 @@
->Whitepaper Version 1.4
+>Whitepaper Version 1.5
 
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
@@ -328,6 +328,11 @@ To ensure we continually innovate and deliver tangible web3 / blockchain feature
 3. **Available in Testnet** - Iterative builds being released to testnet; tested and signed off by our QA team and community testers. This will continue until a mature build passes QA and is ready for deployment to mainnet.
 4. **Security Audits** - Final release that goes through internal and external security audits.
 5. **Available in Mainnet** - Released to mainnet.
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p9hvsuhudhe98baje00t.png)
+> _How the 5 stage lifecycle works to move product ideas into mainnet_
+
 
 
 ---
