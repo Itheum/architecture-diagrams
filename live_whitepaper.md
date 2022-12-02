@@ -1,4 +1,4 @@
->Whitepaper Version 1.6
+>Whitepaper Version 1.7
 
 # Abstract
 Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides core, cross-chain web3 infrastructure required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
@@ -164,7 +164,7 @@ Every person on earth can be thought of as a "non-fungible human", as we have da
 The NFMe ID host can choose to take subsets of their base data and mint them into separate Data NFTs. These Data NFTs are linked to the base NFMe ID but can be independently traded in our own Data NFT marketplace or secondary marketplaces (e.g. XOXNO or OpenSea). As an example; the user can add more data to their NFMe ID by joining an app like the Red Heart Challenge (an app built on Itheum's Data CAT), as the user participates in the data collection as part of this app; data will flow into the NFMe ID. The user can then choose to mint a Data NFT that only holds the subset of data generated via the Red Heart Challenge. This Data NFT can then be traded to a commercial enterprise or researcher who may be keen to access the core dataset. Ownership of a Data NFT provides the "license" to access to the underlying data from the "Creator"
 
 3. **Data Coalition DAOs**
-A more detailed explanation of Data Coalitions DAOs are provided in a [below section](#data-coalitions-1), but within the context of the Data Metaverse - you can think of Data Coalition DAOs as enterprises or groups who are keen to trade bulk datasets on behalf of a large group of individual users. As personal data is much more valuable when traded in bulk, it makes sense to align to a Data Coalition DAO and have your data grouped into a large dataset. In the Data Metaverse - a Data Coalition may occupy some "land" and setup up their "virtual DAO premise" and your NFMe ID will be able to visit this premise and choose to align to the Data Coalition DAO which in turn will make sure the user's best interests are taken care of during any trade of data that happens as part of this interaction.
+A more detailed explanation of Data Coalitions are provided in a [below section](#data-coalitions-1), but within the context of the Data Metaverse - you can think of Data Coalitions as enterprises or groups who are keen to trade bulk datasets on behalf of a large group of individual users. As personal data is much more valuable when traded in bulk, it makes sense to align to a Data Coalition and have your data grouped into a large dataset. In the Data Metaverse - a Data Coalition may occupy some "land" and setup up their "virtual DAO premise" and your NFMe ID will be able to visit this premise and choose to align to the Data Coalition which in turn will make sure the user's best interests are taken care of during any trade of data that happens as part of this interaction.
 
 4. **Greenroom Protocol**
 We envision a future where metaverse interoperability can be achieved via open-standard digital avatars and your NFMe ID avatars aim to be these open-standard avatars. Interoperability between metaverse platforms is a very early-stage idea but the primary use case is to have the "users or players" move their digital assets and avatars between independent metaverse platforms. As an example; a user on MultiversX blockchain's XWorld metaverse can move their avatars, data and assets to The Sandbox or possibly even into centralized metaverse platforms like Meta and participate in the native gameplay and ecosystem exploration. The Greenroom protocol is Itheum's initiative for open-standard metaverse interoperability. It will consist of two parts:
@@ -234,7 +234,7 @@ The end-user portal allows the user (Data Creator) to link their MultiversX (pre
 
 As the data collected via an Itheum application is **fully structured and outcome-oriented**, for example — Red Heart Challenge data is centered around the self-management of cardiovascular disease and OKPulse is around the proactive monitoring of employee health and wellness issues — it is very valuable for a Data Consumer who wants to align analytics discovery or outcome analysis around a certain topic.
 
-When this data is grouped with multiple people who have joined the same application via a “Data Coalition DAO” and augmented with personal data via the “Data Vault” then the value of the data can grow exponentially as the relevance, quantity, and quality of the datasets grow.
+When this data is grouped with multiple people who have joined the same application via a “Data Coalition” and augmented with personal data via the “Data Vault” then the value of the data can grow exponentially as the relevance, quantity, and quality of the datasets grow.
 
 ## 2) Trading Any Arbitrary Data <a name="selling-3"></a>
 The Data DEX also allows you to trade any arbitrary data using the same on-chain facilitation process. This allows anyone with a crypto wallet to trade their original datasets via the Data DEX. This reduces the barrier of entry for end-users and also provides them an equal opportunity to participate in the shared data economy. 
@@ -278,7 +278,7 @@ A Data Creator should choose to trade data as a Data NFT if they have the follow
 - Benefit from the “re-sale” of data via Royalties: Your data is essentially your IP (much like a song by a music artist or a book by an author) and packaging your data and selling it as an NFT will allow you to earn a royalty on the resale of the data. For example, you can choose to nominate a 10% royalty condition and if a buyer re-sells the data, 10% of the sale will be transferred to your account.
 
 <br />
-- Benefit from multiple NFT marketplaces: As Itheum Data NFTs are built on the NFT standard, they immediately have interoperability with all the NFT marketplaces that support this standard (XOXNo, OpenSea, Rarible, etc). This significantly increases the audience and therefore increases your potential to sell.
+- Benefit from multiple NFT marketplaces: As Itheum Data NFTs are built on the NFT standard, they immediately have interoperability with all the NFT marketplaces that support this standard (XOXNO, OpenSea, Rarible, etc). This significantly increases the audience and therefore increases your potential to sell.
 
 {% youtube f5FtZl6XGSY %}
 > _Demo 1: minting and selling Genomics data as a Data NFT_
@@ -324,13 +324,13 @@ Datasets advertised for trade on the Data DEX are traded between counterparties 
 Data is traded via two channels:
 
 1. Direct between Data Creator and Buyer (Data Consumer)
-2. Via an intermediary, i.e.g. an authorized Data Coalition DAO
+2. Via an intermediary, i.e.g. an authorized Data Coalition
 
 Anyone with a crypto wallet can gain access to Data NFTs (and the underlying datasets) under certain conditions:
 
 1. They need to have $ITHEUM tokens to pay for the data. The $ITHEUM token is sent directly to the Data Creator (if the sale is directly between Data Creator and buyer) or to a Data Coalition if the Coalition is “brokering the trade”.
 
-2. If the purchase is via an authorized Data Coalition DAO, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of $ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
+2. If the purchase is via an authorized Data Coalition, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of $ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
 
 
 ---
@@ -362,15 +362,15 @@ The following key components form our Data DEX product, they work to provide the
 ---
 
 
-## Peer to Peer Data Trade <a name="peer-trade-1"></a>
+## Peer to Peer Data Trade (Data Marketplace) <a name="peer-trade-1"></a>
 
-The base functionality that's available when you first log into the Data DEX is the ability to discover and trade data with your "direct peers". You will be able to see all "advertised data" from others and also "advertise" your own data in the data marketplace. As detailed in the section (Decentralized Data Trade)[#data-trade], you can advertise your data from apps that you have joined that are built on Itheum's `Data CAT` or you can also advertise any "arbitrary data" that you own.  
+When you visit the Data DEX you will be directly presented with the ability to discover and trade data with your "direct peers" in a Data NFT marketplace. You will be able to see all "advertised data" from others and also "advertise" your data in the data marketplace. As detailed in the section (Decentralized Data Trade)[#data-trade], you can advertise your data from apps that you have joined that are built on Itheum's `Data CAT` or you can also advertise any "arbitrary data" that you own.  
 
-When you place data for sale you will nominate a purchase price in $ITHEUM tokens, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the $ITHEUM tokens requested and in return get access to the data for use based on the "Terms of Use". The market operates completely in a "peer-to-peer" manner where there are no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
+When you place data for sale you will nominate a purchase price in $ITHEUM tokens, which is effectively the price for a Data Consumer to access your data. If someone wants access to your data, they will transfer the $ITHEUM tokens requested and in return get access to the data. The data marketplace operates completely in a "peer-to-peer" form where there are no intermediaries involved in the transaction. Data Creators and Data Consumers deal direct with each other and the entire process is mediated using Smart Contract technology.
 
 <br />
 
-> Data NFTs are currently in the "Available in Testnet" stage.
+> Peer-to-Peer Data Trade (Data Marketplace) is currently in the "Available in Testnet" stage.
 
 
 ---
@@ -408,15 +408,15 @@ When working with NFTs in general, the main actors to consider are:
 
 In this example, let's assume *you want to trade your Genomics dataset as a Data NFT.*
 
-1. You use the Itheum Data DEX to upload your data file and **mint a new Data NFT**. You are the **Original Owner / Issuing Entity**. The Data NFT is minted with a "proof of ownership" along with other metadata that enables access to the original data file if ownership is proven. All this metadata will be stored on-chain via the standard NFT metadata file schema standards.
+1. You use the Itheum Data DEX to **mint a new Data NFT** that wraps around your dataset and provides the "license for data usage". You are the **Original Owner / Issuing Entity**. The Data NFT is minted with a "proof of ownership" along with other metadata that enables access to the original data file if ownership is proven. All this metadata will be stored on-chain via the standard NFT metadata file schema standards.
 
-2. You then head over to a public NFT marketplace (e.g. OpenSea - where your Data NFT will already be available in your wallet). You place it for sale for .05 ETH
+2. You then head over to the Itheum Data Marketplace or use a 3rd party secondary NFT marketplace (e.g. XOXNO) and place it for sale for 100 $ITHEUM
 
 3. **Buyer 1** comes along and purchases the Data NFT as they see value in owning a genomics/DNA-based dataset. Transfer of ownership now moves from you to **Buyer 1**. They are now the **NFT Holder**
 
-4. But **Buyer 1** does not intend to use the data for any utility, they are essentially a pure "data trader" and intend to resell the Data NFT at a higher price. They increase the sale price to 1 ETC.
+4. But **Buyer 1** does not intend to use the data for any utility, they are essentially a pure "data trader" and intend to resell the Data NFT at a higher price. They increase the sale price to 200 $ITHEUM.
 
-5. **Buyer 2** comes along and wants to purchase ownership of the Data NFT as they intend to use it for their research into topics relating to Genomics. They are now the **NFT Purchaser**. As their data research requires *absolute truth-fullness in the data quality* (e.g. they may intend to use it to train an ML model for disease diagnosis and need to guarantee that the training data has not been tampered with) - they choose to procure this data via decentralized blockchain-based trade *instead of buying it from centralized data brokers or data sellers.*
+5. **Buyer 2** comes along and wants to purchase ownership of the Data NFT as they intend to use it for their research into topics relating to Genomics. They are now the **NFT Purchaser**. As their data research requires *absolute truth-fullness in the data quality* (e.g. they may intend to use it to train an ML model for disease diagnosis and need to guarantee that the provenance of the data is authentic) - they choose to procure this data via decentralized blockchain-based trade *instead of buying it from centralized data brokers or data sellers.*
 
 <br />
 
@@ -424,7 +424,7 @@ In this example, let's assume *you want to trade your Genomics dataset as a Data
 
 **Original Owner / Issuing Entity**: 
 1. Limit the supply of the dataset to just a single item (they can always mint more if they see demand grow)
-2. During initial sale on the open NFT Marketplace (e.g. OpenSea), assign a *royalty %* that they get paid during all future re-sales
+2. During the initial sale on the open NFT Marketplace (e.g. XOXNO), assign a *royalty %* that they get paid during all future re-sales
 3. Benefit from all the open NFT Marketplace features to control the sale (duration / minimum period, highest bid, etc)
 
 **NFT Holder**:
@@ -436,9 +436,12 @@ In this example, let's assume *you want to trade your Genomics dataset as a Data
 2. They can view and prove the **provenance** of the NFT using on-chain lookup and identify the **Original Owner**
 3. They can view and prove the **lineage** of the NFT using on-chain lookup (Original Owner -> Buyer 1 -> Buyer 2)
 4. They can view and prove the **veracity (truthfulness/accuracy)** of the NFT using an on-chain lookup of the metadata and data proofs.
-5. The can request formal **transfer of ownership** to own the *IP* if needed and is allowed in the original terms of sale. Although this feature is not an inherent quality of NFTs, it will be mediated via Data Coalitions and our "decentralized middleware" service
+5. They can obtain formal **transfer of ownership** to own the *IP* if a fully transferable Data NFT-FT class of Data NFTs are used by the Issuing Entity.
 
 <br />
+
+**<sub>Note: It's important to note that the "royalty" feature works natively within Itheum's internal data marketplace but requires an upgrade to the 3rd party marketplace (e.g. XOXNO) smart contracts to work. This code upgrade is a trivial change and will be provided by an Itheum SDK for 3rd party developers.</sub>**
+<br /><br />
 
 > Data NFTs are currently in the "Available in Testnet" stage.
 
@@ -452,11 +455,11 @@ Independently trading personal data is inefficient and time-consuming. Continuin
 
 Your personal data (both the longitudinal data from your structured programs and highly personal & sensitive data from your Data Vault) — is also not very valuable “when viewed in isolation” — but when your data is “grouped” into clusters of similar people, it grows significantly in value as the volume and quality increases (e.g. your health data is worth > $1,500 if sold as part of a larger dataset). The grouped data then becomes useful for deep analysis or to train machine learning models for example. We believe that this is the future of how data will be sourced on the blockchain to train AI and for deep analytics.
 
-Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond $ITHEUM tokens to form and run it. The creators are called "Board Members" and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Data Coalition as robust as possible to attract new Members (and therefore more Data). 
+Data Coalitions are DAOs where the "Creators" of the Data Coalition will bond $ITHEUM tokens to form and run it. The creators are called "Board Members" and they have an incentive to run the Coalition in the best interests of its "Members". Board Members have a "stake in the game" with their bond and therefore will need to always act in the best interest of the Members. Board members will also earn a share of the trade, so it's in their best interest to keep their Data Coalition as robust as possible to attract new Members (and therefore more data). 
 
 Itheum envisions a future where the most successful Data Coalitions will be run by enterprises and SMEs (subject matter experts like legal and regulation experts, commercial data warehouses, academic/research institutes, government departments, etc) and will be the perfect balance between the commercialization of data and accountability to end-users (Data Providers). Board Members vote to agree on the terms and conditions and the governance (privacy and security) of the data trade, the parameters they agree to will be made visible to anyone who wants to join the Data Coalition. 
 
-Users (called Members) can then align to the Data Coalition who they feel acts in their best interests. You then delegate the ownership of your Data Packs, Data Streams, and Data NFTs to your preferred Data Coalitions. The Data Coalition will group your data into clusters of similar data and advertise the bulk datasets to interested Data Consumers, who can then procure access to the bulk datasets. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Data Coalitions that you support. 
+Users (called Members) can then align to the Data Coalition who they feel acts in their best interests. You then delegate the ownership of your Data NFTs to your preferred Data Coalitions. The Data Coalition will group your data into clusters of similar data and advertise the bulk datasets to interested Data Consumers, who can then procure access to the bulk datasets. In return, you can earn a steady value return on your data or choose to lock up your returns for the longer-term growth of the Data Coalitions that you support. 
 
 Data Coalitions also allow for "staking" of $ITHEUM tokens, where anyone can stake their $ITHEUM tokens with a Data Coalition (you don't HAVE to provide your data) to flag their support for the Data Coalition and to signal that the data is good (Crowd-Sourced Data Curation). This allows for the Itheum platform to be used by users who want to participate in the personal data economy but who don't necessarily want to provide their data for trade. All parties involved in the Data Coalition (Board Members who bond $ITHEUM tokens, Members who share data, Members who stake $ITHEUM tokens are all incentivized relative to their role and stake and earn micropayments after each trade is finalized)
 
@@ -496,7 +499,12 @@ Although not mandatory, Members will be able to participate in ongoing period vo
  > _Anonymous cohort analysis via our Data CAT integration_
 
 <br />
-- By default, the Itheum Data DEX supports any data uploaded in **valid JSON format**. But there may be some specific data sub-standards that will be more appealing to certain types of niche buyers. For example, buyers who are interested in Health and Genomics data for automated ingestions into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fgzxx0iidzy8yiwyx481.png)
+ > _Cohort analysis analytics enabled on the Gamer Passport Data Coalition_
+
+<br />
+- Data Coalitions will be able to mandate minimum data format and quality requirements for members who join to contribute data. For example, buyers who are interested in Health and Genomics data for automated ingestion into their systems - will prefer a more globally interoperable standard like [FHIR - Fast Healthcare Interoperability Resources Standard](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources). Data Coalitions will be able to mandate this as a *minimum requirement* for its members and ensure that the data being contributed is in the FHIR JSON standard.
 
 <br />
 - Anyone can start a Data Coalition but it will take some effort to progress it into an "operational mode" and attract new data to come under its control. E.g. if you start a new Data Coalition you will need to bring in Board Members with credibility and who will need to bond $ITHEUM tokens for their term duration. Once you have filled the minimum requirements for the Board Members, the Data Coalition then enters "operational mode"  and can begin accepting data and $ITHEUM token stakes from regular users (Members). But being in "operational mode" is not sufficient to attract the best quality data; all details about Data Coalition Board Members are made public - so you must have some commercial experience in data-related matters to give you credibility. Any "slashes or disputes" arising from your Data Coalition's trade activity are also made public. This is very similar to how the `Delegated Proof of Stake validator selection` process works, where you can stake your tokens after doing some due diligence on the validator's reputation and past performance. So for a Data Coalition to be successful - it will need to be in an "operational mode" and have some credible "Board Members" whilst maintaining ongoing trade operational credibility.
