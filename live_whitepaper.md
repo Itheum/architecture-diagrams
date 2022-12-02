@@ -1,7 +1,7 @@
->Whitepaper Version 1.5
+>Whitepaper Version 1.6
 
 # Abstract
-Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides the core, cross-chain web3 protocol required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
+Itheum is the world's 1st `decentralized data brokerage` platform that transforms your personal data into a highly tradable asset class. It provides `Data Creators` and `Data Consumers` with the tools required to "bridge" highly valuable personal data from web2 into web3 and to then trade data with a seamless UX that’s built on top of blockchain technology and decentralized governance. We provide the end-to-end platform required for personal data to be made available in web3 for the first time in history and to enable many more wonderful and complex real-world use cases to enter the web3 ecosystem. Itheum provides core, cross-chain web3 infrastructure required to enable personal data ownership, data sovereignty, and fair compensation for data usage - and this positions Itheum as the `data platform for the Web3 and Metaverse Era`.
 
       Table Of Contents
         [Disclaimers](#disclaimers)
@@ -13,7 +13,7 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [3) Data Metaverse](#core-prod-4)
         [Decentralized Data Trade](#data-trade-1)
         [Types of Direct Trade](#types-on-1)
-        [Methods for Buying Data](#buying-data-1)
+        [Methods for Buying Access to Data](#buying-data-1)
         [Our 5-stage Product Development Process](#product-process-1)
         [Data DEX Components](#data-dex)
         [Peer to Peer Data Trade](#peer-trade-1)
@@ -23,7 +23,7 @@ Itheum is the world's 1st `decentralized data brokerage` platform that transform
         [Data Streams](#data-streams-1)
         [Data Vault](#data-vault-1)
         [Trusted Computation Framework](#trusted-1)
-        [Regional Decentralisation Hubs](#decen-hubs-1)
+        [Regional Decentralization Hubs](#decen-hubs-1)
         [The Data Metaverse and NFMe ID Avatar Technology](#nfme-1)
         [Technology Philosophy](#tech-philosophy-1)
         [Multi-Chain Strategy](#multi-chain-1)
@@ -73,7 +73,9 @@ Every day, billions of people give away their personal data to organizations in 
 
 These organizations then use your personal data to learn more about you and people like you. They then create more products and services for you to buy and get hooked onto… they call this "stickiness"; and their objective is for you to keep coming back and to share more data.
 
-Some organizations (usually the largest and most influential) can even use your data to influence your thinking and ideas or even resell your data to [3rd Party Data Brokers](https://www.avast.com/c-data-brokers) (independent commercial organizations). These 3rd Party Data Brokers lurk in the shadows and "deal in the personal data trade" making millions of dollars of profit by packaging and selling your data to other organizations. **There are over 4000 of these Data Brokers in the world today and they have over 3000 data points collected on each one of us!** The entire Data Brokerage industry is worth over USD 200 billion each year and the person generating this data (You!) have no idea how your data is used nor do you get any form of compensation.
+Some organizations (usually the largest and most influential) can even use your data to influence your thinking and ideas or even resell your data to [3rd Party Data Brokers](https://www.avast.com/c-data-brokers) (independent commercial organizations). These 3rd Party Data Brokers lurk in the shadows and "deal in the personal data trade" making millions of dollars of profit by packaging and selling your data to other organizations. **There are over 4000 of these Data Brokers in the world today and they have over 3000 data points collected on each one of us!** The entire Data Brokerage industry is worth over USD 200 billion each year and the person generating this data (You!) have no idea how your data is used nor do you get any form of compensation. 
+
+It gets more unnerving when we realize that as the ever-growing digitization of our physical world gives birth to the hyper-digitized "Metaverse", the amount of data we generate will also grow at an exponential rate - and all this "new" data will also be "harvested" from us.
 
 At Itheum, we believe that YOUR DATA IS YOUR BUSINESS!
 
@@ -87,9 +89,9 @@ At Itheum, we believe that YOUR DATA IS YOUR BUSINESS!
 
 Itheum wants to change this current toxic model for personal data collection and exchange and level the playing field — where the commercial enterprise and “you” (the Data Creator) equally benefit from the trade of personal data.
 
-Itheum empowers data ownership in the metaverse and brings new market value to your data. It enables this by providing “decentralized data brokerage” technology. It’s a suite of tools that enables high-value data to be bridged from web2 to web3 and then be traded via peer-to-peer sales. It allows for “viral adoption” via our creative NFMe ID (Non-Fungible Me ID) and Data NFT technology and our innovative Data Coalition DAOs (which bulk trade your data). It also aims to be fully privacy-preserving, regulation-friendly, and cross-chain; making it the most comprehensive core blockchain data infrastructure available in the market with use-cases in both the enterprise and consumer space.
+Itheum empowers data ownership in the metaverse and brings new market value to your data. It enables this by providing “decentralized data brokerage” technology. It’s a suite of tools that enables high-value data to be bridged from web2 to web3 and then be traded peer-to-peer using blockchain technology. It allows for “viral adoption” via our creative NFMe ID (Non-Fungible Me ID) data-backed 3D NFT avatars, "Data NFT" data licensing technology, and our innovative Data Coalition DAOs (DAO entities that can bulk-trade your data with governance and oversight). It also aims to be fully privacy-preserving, regulation-friendly, and cross-chain; making it the most comprehensive core blockchain data infrastructure available in the market with use cases in both the enterprise and consumer space.
 
-It provides 3 fundamental products (that when used together) will flip the dynamic of personal data collection and exchange.
+It provides 3 fundamental groups of products (that when used together) will flip the dynamic of personal data collection, brokerage, and trade from being a fully top-down model to a more inclusive bottom-up model.
 
 
 ---
@@ -99,7 +101,7 @@ It provides 3 fundamental products (that when used together) will flip the dynam
 # Our Core Products <a name="core-prod-1"></a>
 Itheum has 3 Core Products that work in unison to enable new data to be generated and collected from the web2 world and for that data to then flow seamlessly into the web3 domain (via our Data CAT - Collection & Analytics Toolkit). This data can be claimed by the Data Creators (users who originally generated the data) and traded using our innovative peer-to-peer data trading technology (via our Data DEX). 
 
-For a platform like Itheum to reach its highest potential it also needs to have mass adoption (**more users = more data = more data trade**) - we aim to achieve this via our final core product (called the Data Metaverse) - where we provide "viral", "sexy" and "low barrier to entry" consumer products that will appeal to the masses and in-turn fuel mass adoption.
+For a platform like Itheum to reach its highest potential it also needs to have mass adoption (**more users = more data = more data trade**) - we aim to achieve this via our final core product group (called the Data Metaverse) - where we provide "viral", "sexy" and "low barrier to entry" consumer products that will appeal to the masses and in-turn fuel mass adoption. The general idea is to make the topic of data ownership less complex to understand and therefore evolve into an attractive new technology area for the masses to explore and participate.
 
 <br />
 
@@ -112,7 +114,7 @@ With this product, Itheum provides **real-world value and adoption** — and in 
 
 This product is essentially a fully-featured personal data and analytics platform offered as a PaaS (platform as a service) to organizations. For example:
 
-1. A health and wellness company can use the Itheum Data CAT and embed it into their apps; enabling the collection of health data like blood pressure, fitness/activity, sleep quality, and then visualize trends and patterns of their app userbase.
+1. A health and wellness company can use the Itheum Data CAT and embed it into their apps; enabling the collection of health data like blood pressure, fitness/activity, sleep quality, and then visualize trends and patterns of their app user base.
 
 2. A financial organization can use the Itheum Data CAT to collect scheduled data via customized surveys or questionnaires, triggered by certain actions related to spending patterns — the trends and patterns can then give them more context of their customers’ spending habits.
 
@@ -125,7 +127,7 @@ With this product offering; we are enabling the creation of **highly-structured,
 ## 2) Decentralized Data Exchange (Data DEX)  <a name="core-prod-3"></a>
 *Suite of web3 tools for the seamless trade of personal data.*
 
-This product enables you (the Data Creator) to own and trade the personal data which was collected by the organizations who built apps on Itheum's Data CAT product. It unlocks the personal data from these organization silos and lets you trade your data on the open market with organizations and agencies that can derive value from these previously locked datasets.
+This product enables you (the Data Creator) to own and trade the personal data which was collected by real-world organizations and entities (who built apps on Itheum's Data CAT product or who may have datasets of their own stored in on-premise data centers). It unlocks the personal data from these private silos and lets you trade your data on the open market with other organizations and entities that can derive value from these previously locked datasets.
 
 So in those same examples given above:
 
@@ -135,11 +137,11 @@ So in those same examples given above:
 
 As your personal data was collected as part of a real-world product or service, it’s **highly-structured, outcome-oriented, and normalized** — which means it’s highly valuable to many organizations across the world looking to build high-quality datasets to power their machine learning & analytics backed business insights engines.
 
-This is the real value of Itheum and a key differentiator when compared to other blockchain-based data platforms. They struggle to gain any real momentum as their products cannot effectively be used in the real world. Itheum wants to focus on real-world adoption and our 3 core products are a **balanced approach to adoption and decentralized self-sovereignty.**
+This is the real value of Itheum and a key differentiator when compared to other blockchain-based data platforms. They struggle to gain any real momentum as their products cannot effectively be used in the real world. Itheum wants to focus on real-world adoption and our 3 core product groups are a **balanced approach to adoption and decentralized self-sovereignty.**
 
-Using the Itheum Data DEX, you can trade your data via a peer-to-peer, direct sale method or use our Data Coalition technology and align to a decentralized entity (backed by a DAO) which will trade your data on your behalf (whilst acting on your best interests) and compensate you after the successful trade of the data. Data Coalitions are explained in more detail in a below section, but they are a bit like _decentralized [credit unions](https://www.mycreditunion.gov/about-credit-unions/credit-union-different-than-a-bank) - [View a view on Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)_— who by representing many members (DAO stakers) have the collective bargaining power on who can procure your data and for what it can be used for (i.e. they trade on behalf of their members' interests)
+Using the Itheum Data DEX, you can trade your data via a fully autonomous peer-to-peer mechanism or use our Data Coalition DAO technology and align to a decentralized entity (run by a DAO) which will trade your data on your behalf (whilst acting on your best interests) and compensate you after the successful bulk-trade of the data. Data Coalitions are explained in more detail in a below section, but they are a bit like _decentralized [credit unions](https://www.mycreditunion.gov/about-credit-unions/credit-union-different-than-a-bank) - [View a view on Credit Union Philosophy](https://www.youtube.com/watch?v=8RbksH4LS8U)_— who by representing many members (DAO participants) have the collective bargaining power on who can procure your data and for what it can be used for (i.e. they trade on behalf of their members' interests)
 
-The Data DEX is extremely powerful; it also allows you to secure sensitive personal data in secure data vaults, it allows you to wrap your data as an NFT so you can earn royalties on any re-sale of your data (all these revolutionary features are provided in detail in below sections). It also aims to be fully multi-chain compliant (EVM and non-EVM blockchains).
+The Data DEX is an extremely powerful web3 infrastructure construct; it will aim to be fully multi-chain compliant (EVM and non-EVM blockchains) so it can gain the broadest adoption and will eventually run on decentralized storage (e.g. IPFS) and domain names (e.g. ENS) - meaning it will be fully censorship-resistant data marketplace for the open metaverse.
 
 The Data DEX can also be thought of as the `core data protocol layer` that enables decentralized data ownership and trade. This protocol can be abstracted with more products built on top of it; the `Data Metaverse` being an example of such a consumer-friendly, "viral" product suite.
 
@@ -149,32 +151,33 @@ The Data DEX can also be thought of as the `core data protocol layer` that enabl
 
 The concepts behind data trading and blockchain-backed data technology can be overwhelming for most people to grasp. This is a key reason why many of the current web3 data platforms have very low adoption and hype. For platforms such as Itheum to change the dynamic of data ownership we need large-scale bottom-up adoption - and this kind of adoption can only come if we build consumer products that "everyone wants to use".
 
-In web3; we have observed that this viral adoption is most present in the gaming industry where there are large groups of people from varying socioeconomic and demographic backgrounds who are readily willing to participate in new gaming platforms and adopt new technology. The growth in play-to-earn games like "Axie Infinity" and metaverse games like "The Sandbox" are evidence of this (with new platforms coming to market weekly and still having rapid adoption and growth)
+In web3; we have observed that this viral adoption is most present in the gaming industry where there are large groups of people from varying socioeconomic and demographic backgrounds who are readily willing to participate in new gaming platforms and adopt new technology. The interest in play-to-earn games like "Axie Infinity" and metaverse games like "The Sandbox" are evidence of this (with new platforms coming to market weekly and still having rapid adoption and growth)
 
 The challenge for Itheum was to take "serious and complex ideas around data ownership" and abstract them with "sexy and easy-to-use consumer products". We knew that if we achieve this we can drive large adoption for our platform and in turn normalize the complex concepts around data ownership and trade. In turn; Itheum gets a large user base to test our core protocol layer and to increase the volume of data available for decentralized data trade.
 
 ### The key products that form our Data Metaverse ecosystem are:
 
 1. **NFMe ID (Non-Fungible Me ID)**
-Every person on earth can be thought of as a "non-fungible human", as we have data that is unique to each one of us (like our DNA or even our fingerprints - which are non-fungible). NFMe ID is a digital avatar identity that is built on dynamic NFT technology and backed by real personal data. Everyone in the world can mint an NFMe ID on Itheum's platform and "truly own" it. As more data is collected by the "NFMe ID host" and pushed into the NFMe ID; more "accessories" are minted and linked to the NFMe ID. These accessories are NFTs themselves and can be freely traded. NFMe ID avatars are the next generation "Profile Picture NFT" and/or gaming avatars and the goal is to have it evolve into being a universal avatar for each human on earth. They will be portable in the real-world and interoperable in all web2 and web3 metaverse platforms (e.g Meta, The SandBox, Axie Infinity, Decentraland); backed by real value (in the form of personal data), and powered by true ownership (NFT technology)
+Every person on earth can be thought of as a "non-fungible human", as we have data that is unique to each one of us (like our DNA or even our fingerprints - which are non-fungible). NFMe ID is a digital avatar identity that is built on dynamic NFT technology and backed by real personal data. Everyone in the world can mint an NFMe ID on Itheum's platform and "truly own" it. As more data is collected by the "NFMe ID host" and pushed into the NFMe ID; more "accessories" are minted and linked to the NFMe ID. These accessories are NFTs themselves and can be freely traded. NFMe ID avatars are the next generation "Profile Picture NFT" and/or gaming avatars and the goal is to have it evolve into being a universal avatar for each human on earth. They will be portable in the real-world and interoperable in all web2 and web3 metaverse platforms (e.g MultiversX blockchain's XWorld metaverse, The SandBox, Axie Infinity, Decentraland, NVIDIA Omniverse, Meta etc.); backed by real value (in the form of personal data), and powered by true ownership (NFT technology)
 
 2. **Data NFTs**
-The NFMe ID host can choose to take subsets of their base data and mint them into separate Data NFTs. These Data NFTs are linked to the base NFMe ID but can be independently traded in our own Data NFT marketplace or secondary marketplaces (e.g. OpenSea). As an example; the user can add more data to their NFMe ID by joining an app like the Red Heart Challenge (an app built on Itheum's Data CAT), as the user participates in the data collection as part of this app; data will flow into the NFMe ID. The user can then choose to mint a Data NFT that only holds the subset of data generated via the Red Heart Challenge. This Data NFT can then be traded to a commercial enterprise or researcher who may be keen to access the core dataset. Ownership of a Data NFT provides access to the underlying data (so long as the "terms of use" are followed)
+The NFMe ID host can choose to take subsets of their base data and mint them into separate Data NFTs. These Data NFTs are linked to the base NFMe ID but can be independently traded in our own Data NFT marketplace or secondary marketplaces (e.g. XOXNO or OpenSea). As an example; the user can add more data to their NFMe ID by joining an app like the Red Heart Challenge (an app built on Itheum's Data CAT), as the user participates in the data collection as part of this app; data will flow into the NFMe ID. The user can then choose to mint a Data NFT that only holds the subset of data generated via the Red Heart Challenge. This Data NFT can then be traded to a commercial enterprise or researcher who may be keen to access the core dataset. Ownership of a Data NFT provides the "license" to access to the underlying data from the "Creator"
 
 3. **Data Coalition DAOs**
 A more detailed explanation of Data Coalitions DAOs are provided in a [below section](#data-coalitions-1), but within the context of the Data Metaverse - you can think of Data Coalition DAOs as enterprises or groups who are keen to trade bulk datasets on behalf of a large group of individual users. As personal data is much more valuable when traded in bulk, it makes sense to align to a Data Coalition DAO and have your data grouped into a large dataset. In the Data Metaverse - a Data Coalition may occupy some "land" and setup up their "virtual DAO premise" and your NFMe ID will be able to visit this premise and choose to align to the Data Coalition DAO which in turn will make sure the user's best interests are taken care of during any trade of data that happens as part of this interaction.
 
 4. **Greenroom Protocol**
-We envision a future where metaverse interoperability can be achieved via open-standard digital avatars and your NFMe ID avatars aim to be these open-standard avatars. Interoperability between metaverse platforms is a very early-stage idea but the primary use case is to have the "users or players" move their digital assets and avatars between independent metaverse platforms. As an example; a player on The Sandbox can move their avatars and assets to Decentraland or possibly even into centralized metaverse platforms like Meta and participate in the native gameplay and ecosystem exploration. The Greenroom protocol is Itheum's initiative for open-standard metaverse interoperability. It will consist of two parts:
+We envision a future where metaverse interoperability can be achieved via open-standard digital avatars and your NFMe ID avatars aim to be these open-standard avatars. Interoperability between metaverse platforms is a very early-stage idea but the primary use case is to have the "users or players" move their digital assets and avatars between independent metaverse platforms. As an example; a user on MultiversX blockchain's XWorld metaverse can move their avatars, data and assets to The Sandbox or possibly even into centralized metaverse platforms like Meta and participate in the native gameplay and ecosystem exploration. The Greenroom protocol is Itheum's initiative for open-standard metaverse interoperability. It will consist of two parts:
 
 - A set of rules and standards to define NFT metadata that can then be implemented across metaverse platforms. The metadata can indicate the data for the visual characteristics of a character and (possibly) the standards for animation rigging to ensure the character appears as a native character in any metaverse platform. 
 
 <br />
 
-- A metaverse interoperability "virtual waiting room" called the Greenroom. The Greenroom is where your NFMe ID will exist (visually in 3D) and you will be able to see and organize your "accessories" and other NFMe ID characters and trade accessories whilst interacting with them. The Greenroom is where the "Itheum Data metaverse" will integrate with other metaverse platforms like The Sandbox. Once open metaverse integrations are built with other 3rd party platforms, they will appear as a portal inside your Greenroom and you will be able to enter it and teleport your NFMe ID avatar into other metaverse ecosystems. In show business; a Greenroom is a waiting room where performers "hang out" until they are called on stage - similarly; Itheum's metaverse Greenroom is where your NFMe ID avatar can hang out until it can teleport to other metaverse platforms.
+- A metaverse interoperability "virtual waiting room" called the Greenroom. The Greenroom is where your NFMe ID will exist (visually in 3D) and you will be able to see and organize your "accessories" and other NFMe ID characters and trade accessories whilst interacting with them. The Greenroom is where the "Itheum Data metaverse" will integrate with other metaverse platforms like MultiversX blockchain's XWorld or The Sandbox. Once open metaverse integrations are built with other 3rd party platforms, they will appear as a portal inside your Greenroom and you will be able to enter it and teleport your NFMe ID avatar into other metaverse ecosystems. In show business; a Greenroom is a waiting room where performers "hang out" until they are called on stage - similarly; Itheum's metaverse Greenroom is where your NFMe ID avatar can hang out until it can teleport to other metaverse platforms.
 
-<br />
-<br />
+**<sub>As we are a MultiversX blockchain core project, we aim to build the first version of the Greenroom Protocol in XWorld - a network of interoperable open metaverse worlds powered by the [MultiversX blockchain](https://multiversx.com/).</sub>**
+<br /><br />
+
 
 ### Solution Overview Diagram
 The below high-level solution overview diagram details how all our key components and features align to enable Itheum's comprehensive data technology solution for the web3 and metaverse ecosystem.
@@ -191,7 +194,7 @@ The below high-level solution overview diagram details how all our key component
 
 # Important disclaimer on usage of certain words in following sections
 
-> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our $ITHEUM utility token. Please read our [Token Utility section](#tokenomics-2) for more on this. It must also be duly noted that we use the $ symbol as a prefix to the $ITHEUM utility token as a means to simplify our written communication in this whitepaper and for the reader to be able to differentiate the $ITHEUM token from the "Itheum platform" - the $ is in no way, form or shape an indication that it's a form of currency, it is purely a "software-based utility key" that is needed to unlock access to data stored within the Itheum platform.
+> It must be duly noted that we use terms such as "Buy", "Buying", "Purchase", "Pay", "Sale", "Selling" and "Sell" purely for simplification of explanation in the following sections; in reality, a "sale" or "purchase" refers to an "access rights request transaction" between two parties and not to any form of monetary transaction. Itheum is a system that allows for data access to be granted via peer-to-peer handshakes coordinated by our $ITHEUM utility token. Please read our [Token Utility section](#tokenomics-2) for more on this. It must also be duly noted that we use the $ symbol as a prefix to the $ITHEUM utility token as a means to simplify our written communication in this whitepaper and for the reader to be able to differentiate the $ITHEUM token from the "ITHEUM platform" - the $ is in no way, form or shape an indication that it's a form of currency, it is purely a "software-based utility key" that is needed to unlock access to data assets that are powered by the Itheum platform.
 
 ---
 
@@ -206,11 +209,11 @@ There are a few reasons for this:
 
 For these reasons, the trade of data is facilitated via a hybrid on-chain/off-chain model.
 
-1. Data is first validated and hashed. The validated and encrypted dataset is uploaded to a centralized, secure storage location to a hidden (non-public) destination.
+1. Data is first validated and hashed. The validated and encrypted dataset is uploaded to a centralized, secure storage location to a hidden (non-publicly advertised) destination.
 
 2. It’s important to note that the above “storage location” is centralized. rather than being decentralized via IPFS or FileCoin (for example). Again there are reasons for this — this mainly has to do with the data sovereignty laws of data where certain countries or regions require data to remain within geographical boundaries. We are working on a solution that allows for decentralized, region-based storage or via validated decentralized node-based storage. This will be abstracted via both the *Data Coalitions* and *Regional Decentralized Hubs* features - where privacy, security, and regulatory requirements for storage of data are governed via a delegated, authorized `Data Coalition Board` who will manage these on behalf of the end-user.
 
-3. The hashed value and the identifier for the location are stored on the blockchain. The availability of this new data for trade is then “Advertised” — allowing for this new dataset to be “discovered” and then purchased via on-chain transaction facilitation.
+3. The hashed value and the identifier for the location are stored on the blockchain. The availability of this new data for trade is then “Advertised” — allowing for "access" this new dataset to be “discovered” and then purchased via on-chain transaction facilitation.
 
 At this point, there are “two groups” of data you can trade on the DEX. They are as follows:
 
@@ -223,26 +226,32 @@ Examples of these structured data collection applications are:
 - OKPulse (https://okpulse.life/)
 - Other Programs (https://itheum.io/#case-studies)
 
-The applications are called “programs” within the Itheum platform and these programs can onboard their own “end-users". These end-users generate a lot of personal data and have access to an end-user portal app which provides full visibility over the data and insights being collected.
+The applications are called “programs” within the Itheum Data CAT platform and these programs can onboard their own “end-users". These end-users generate a lot of personal data and have access to an end-user portal app which provides full visibility over the data and insights being collected.
 
 This demo video shows you an example of the end-user portal for OKPulse (https://www.youtube.com/watch?v=ITONnseBFV4)
 
-The end-user portal allows the user (Data Creator) to link their Elrond, Ethereum, Polygon, BSC, Avalanche (or other supported Blockchain) account to their Itheum platform account. Once they have done this they can then use the Data DEX to load the raw datasets they have generated and advertise them for trade.
+The end-user portal allows the user (Data Creator) to link their MultiversX (previously called Elrond), Ethereum, Polygon, BSC, Avalanche (or other supported Blockchain) account to their Itheum platform account. Once they have done this they can then use the Data DEX to load the raw datasets they have generated and advertise them for trade.
 
 As the data collected via an Itheum application is **fully structured and outcome-oriented**, for example — Red Heart Challenge data is centered around the self-management of cardiovascular disease and OKPulse is around the proactive monitoring of employee health and wellness issues — it is very valuable for a Data Consumer who wants to align analytics discovery or outcome analysis around a certain topic.
 
 When this data is grouped with multiple people who have joined the same application via a “Data Coalition DAO” and augmented with personal data via the “Data Vault” then the value of the data can grow exponentially as the relevance, quantity, and quality of the datasets grow.
 
 ## 2) Trading Any Arbitrary Data <a name="selling-3"></a>
-The Data DEX also allows you to trade any arbitrary data using the same on-chain facilitation process. This allows anyone with a crypto wallet to upload and trade datasets via the Data DEX. This reduces the barrier of entry for end-users and also provides them an equal opportunity to participate in the shared data economy. At this stage, we allow for the trade of the following arbitrary datasets.
+The Data DEX also allows you to trade any arbitrary data using the same on-chain facilitation process. This allows anyone with a crypto wallet to trade their original datasets via the Data DEX. This reduces the barrier of entry for end-users and also provides them an equal opportunity to participate in the shared data economy. 
 
-### 2.1) Facebook Profile Data
+### 2.1) Trading Social Media Profile Data
 As you may know, Facebook opened up the option for individuals to download all their data in bulk. This was a feature that was released by Facebook after pressure from data advocacy regulators who wanted to ensure individuals had the right to download their data from the Facebook platform should they ever want to delete their Facebook account or move to a new social media platform.
 
-The Itheum Data DEX will allow for the above scenario (of moving to a new social media platform) to be handled seamlessly. For example, an individual can download all their Facebook data and advertise it for trade on the Data DEX, they can then align with a __Data Coalition centered around the responsible usage of data by Social Media organizations.__ A new social media platform can then view the “Facebook user datasets” managed for trade by the Data Coalition, agree to the responsible terms of use, and procure bulk access to the data. The new social media platform uses the Data DEX to bootstrap and migrate Facebook users to its platform directly via an authorized, delegated owner (Data Coalition) of the end-user data. The end-user (original Facebook user) then gets the relative micropayments from the Data Coalition and can also view the complete audit trail of data transfer between the social media platforms.
+The Itheum Data DEX will allow for the above scenario (of moving to a new social media platform) to be handled seamlessly. For example, an individual can download all their Facebook data and advertise it for trade on the Data DEX, they can then align with a __Data Coalition centered around the responsible usage of data by Social Media organizations.__ A new social media platform can then view the “Facebook user datasets” managed for trade by the Data Coalition, agree to the responsible terms of use, and procure bulk access to the data. The new social media platform uses the Data DEX to bootstrap and migrates Facebook users to its platform directly via an authorized, delegated owner (Data Coalition) of the end-user data. The end-user (original Facebook user) then gets the relative micropayments from the Data Coalition and can also view the complete audit trail of data transfer between the social media platforms.
 
-### 2.2) Any Other General Data
-The Data DEX also allows for the on-chain trade of any other type of data. For example, you can create a dataset of all the brands and products you, your family and friends like, all the reviews and ratings of your favorite restaurants, personal fitness, or other wellness data. You can also create and trade other interesting IP-centric general datasets like utterances to intent mappings which can then be used by organizations to train NLU and speech to text applications. For example, a hospitality booking organization (which provides telephony services or conversational tools like chatbots to help users make a booking) might already be spending a lot of investment in continuing to study end-user speech-to-text patterns and map them to intents that are relevant to their industry. They can sell the utterance-to-intent mapping data on the Data DEX to recoup some of their spending in producing this IP.
+**<sub>Important: Please note that the use-case of trading your Facebook profile data is given primarily as a futuristic proof-of-concept on how data like social media profiles can be "made portable". Itheum does not encourage this activity as (if not done cautiously) may lead to your sensitive social media data being propagated outside of your control. Soon, Itheum will be launching a technology called "Data NFT-Lease", which will enable a much more controlled sharing experience of sensitive data.</sub>**
+<br /><br />
+
+### 2.2) Trading Original Data as a "Data Stream"
+The Data DEX also allows for the on-chain trade of any other type of original data as a "Data Stream" (a stream of data or files that you can host yourself in a secure and regulation-compliant location). For example, you can create a dataset of all the brands and products you, your family and friends like, all the reviews and ratings of your favorite restaurants, personal fitness, or other wellness data. You can also create and trade other interesting IP-centric general datasets like utterances to intent mappings which can then be used by organizations to train NLU and speech-to-text applications. For example, a hospitality booking organization (which provides telephony services or conversational tools like chatbots to help users make a booking) might already be spending a lot of investment in continuing to study end-user speech-to-text patterns and map them to intents that are relevant to their industry. They can sell the utterance-to-intent mapping data on the Data DEX to recoup some of their spending in producing this IP.
+
+**<sub>Note: "Data Stream" based trading of data will be live soon thanks to our launch of Data NFT technology. Please more about it in the below section.</sub>**
+<br /><br />
 
 ---
 
@@ -250,30 +259,13 @@ The Data DEX also allows for the on-chain trade of any other type of data. For e
 
 As described in the above section - you can use the Itheum Data DEX to trade personal data using on-chain tools that coordinate the trade between buyer and seller. On the Data DEX, there are essentially **two types of direct trade** that can occur. We mention “direct trade” here as it’s the seller (Data Creator) who decides which type they prefer and initiates the trade process within those constraints. In a later section we will describe how data can also be sold indirectly via a delegated Data Coalition, but for now, let’s focus on the following two direct trade types.
 
-1. Trade of Data Packs
-2. Trade of Data NFTs
+1. Trade of Data NFTs
+2. Trade of Data Packs
 
 let’s now dive into these two types individually and understand the difference.
 
-## Trade of Data Packs <a name="types-on-2"></a>
-Once a Data Creator decides to trade their personal data, the default method of trade is via Data Packs. Data Packs hold a reference to the type of dataset they are advertising and contains some metadata around it. For example, it provides a preview of the data, when it was created, terms of use, the link to where the data can be securely downloaded from (after trade is complete), etc. Once the user creates a Data Pack it gets advertised for sale ‘on-chain’. Once this on-chain advertising process is completed, the original “data hash” and the “transaction reference” of the advertising process are stored as metadata against the Data Pack. A $ITHEUM price is automatically calculated based on the type of data and market demand for the type of data. In the future, we will also support for the Data Creator to set a starting price for their data. The sale of Data Packs can be described as direct peer-to-peer trade.
-
-Once the on-chain advertising process is complete, buyers will see the advertised Data Packs in the “Buy Data” section of the Data DEX. The buyer can pay the $ITHEUM cost for the data and then “own” access to the underlying data (these copies are called **Data Orders** and appear in the **Purchased Data** section of the Data DEX). As part of the buying process, they agree (on-chain) to abide by the “terms of use”. A record of this agreement is stored on-chain as part of the transaction and serves as an immutable audit trail for this agreement. One key point to note is that in this type of peer-to-peer trade — **the re-sale of data is NOT permitted.**
-
-A Data Creator should choose to trade data as a Data Pack if they have the following requirements:
-
-- Sell multiple (potentially unlimited) copies of their data to buyers (Data Consumers) around the world
-
-<br />
-- Don’t want their data to be re-sold by the buyer (i.e. the buyer can only use it as per the terms of sale and for their own use/consumption — __if a buyer breaks their agreement and resells the data, the owner will have the ability to detect this and mediate a conflict resolution process — but only if the trade is handled by the Data Coalition — more on this below — but the Data Creator, unfortunately, won’t have a direct method to track the re-sale or get any benefit from it. e.g. royalties).__
-
-<br />
-- Only allow for their personal data to be traded on the Itheum Data DEX (no other decentralized marketplace will display the Data Pack for sale — this is because it’s not built on any open blockchain standard like ERC20 or ERC721 that allows for interoperability). This can be considered a benefit if the Data Creator wants to limit exposure of their data (as it’s available for trade, in only one data marketplace)
-
 ## Trade of Data NFTs <a name="types-on-3"></a>
-A Data Creator can also choose to trade their personal data as an NFT (Non-Fungible Token). This makes a lot of sense as personal data is very unique and NOT fungible (watch this short video to understand the difference between [fungible and non-fungible](https://www.youtube.com/watch?v=OXCJxy0f4Ic])). This allows for the Data Creator to have more control of their data and can align to NFT features that make their data grow in value (rarity/scarcity) and increase the exposure of their data assets due to the interoperability and portability NFT standards have in the blockchain ecosystem.
-
-Data NFTs are described in more detail below and use the ERC721 open standard to coordinate and facilitate the NFT transaction between parties involved in the trade.
+Once a Data Creator decides to trade their personal data, the default method of trade is via Data NFT technology. A Data Creator can choose to trade their personal data as an NFT (Non-Fungible Token) which functions as a "digital, autonomous license" for data usage between counterparties. Using an NFT token for this use case makes a lot of sense as personal data is very unique and NOT fungible (watch this short video to understand the difference between [fungible and non-fungible](https://www.youtube.com/watch?v=OXCJxy0f4Ic])). This allows for the Data Creator to have more control of their data and can align to NFT features that make their data grow in value (rarity/scarcity) and increase the exposure of their data assets due to the interoperability and portability NFT standards have in the blockchain ecosystem.
 
 A Data Creator should choose to trade data as a Data NFT if they have the following requirements:
 
@@ -286,7 +278,7 @@ A Data Creator should choose to trade data as a Data NFT if they have the follow
 - Benefit from the “re-sale” of data via Royalties: Your data is essentially your IP (much like a song by a music artist or a book by an author) and packaging your data and selling it as an NFT will allow you to earn a royalty on the resale of the data. For example, you can choose to nominate a 10% royalty condition and if a buyer re-sells the data, 10% of the sale will be transferred to your account.
 
 <br />
-- Benefit from multiple NFT marketplaces: As Itheum Data NFTs are built on the ERC721 standard, they immediately have interoperability with all the NFT marketplaces that support this standard (OpenSea, Rarible, etc). This significantly increases the audience and therefore increases your potential to sell.
+- Benefit from multiple NFT marketplaces: As Itheum Data NFTs are built on the NFT standard, they immediately have interoperability with all the NFT marketplaces that support this standard (XOXNo, OpenSea, Rarible, etc). This significantly increases the audience and therefore increases your potential to sell.
 
 {% youtube f5FtZl6XGSY %}
 > _Demo 1: minting and selling Genomics data as a Data NFT_
@@ -296,24 +288,49 @@ A Data Creator should choose to trade data as a Data NFT if they have the follow
 {% youtube SmDGCt45qZU %}
 > _Demo 2: minting and selling Blood tests results as a Data NFT on OpenSea_
 
+### Classes of Data NFTs
+There are 2 classes of Data NFTs in Itheum and you can pick a specific class of NFTs based on your requirements for privacy, regulation, control of data, re-trade ability, and royalty collection.
+
+1. Data NFT-FT
+These Data NFTs are comparable to the perpetual fully transferable license model for "data usage". With these Data NFTs, you can mint multiple copies of the license and also enable royalties on the "re-trade" of each copy. They are ideal for the trade of high-value, unique datasets between humans and machines and machines and machines (e.g. An Electric Vehicle (EV) trading its data with another EV or with a charging station)
+
+2. Data NFT-LEASE
+These Data NFTs enable "time-based subscription trading" of your data, where you can have data access "leased out" for 1 week, 1 month, or for any fixed time limit. This is ideal for regulation-compliant (as you can "exit the system" anytime) trading of your sensitive personal datasets.
+
+## Trade of Data Packs <a name="types-on-2"></a>
+**<sub>Important: Data Packs were an early design construct in the Itheum platform and is documented here to provide some historical context. Data trade on Itheum will primarily use Data NFT technology given its fully decentralized design. Data Packs, on the other hand, require some form of centralization for the storage and cataloging of datasets, and until Itheum has some robust alternative for these issues our focus will be on building robust data trading schemes powered by Data NFTs.</sub>**
+<br />
+
+Data Packs allow a user to have tighter control over their data trading activity but at the cost of decentralization and also flexibility. Each Data Pack provides a location of a file that was uploaded within the Data DEX by the user,  the link to where this file can be securely downloaded from (after a trade is complete), a preview of the data, when it was created, terms of use, etc. Once the user creates a Data Pack it gets advertised for sale ‘on-chain’. Once this on-chain advertising process is completed, the original “data hash” and the “transaction reference” of the advertising process are stored as metadata against the Data Pack. The sale of Data Packs can be described as direct peer-to-peer trade where no secondary market activity can happen once data is advertised. As Data Packs are "file-based" peer-to-peer sharing of data on the blockchain, they also can be used for a powerful construct called "personal data proofs" - you can learn more about this in a below section.
+
+Once the on-chain Data Pack advertising process is complete, buyers will see the advertised Data Packs in the “Buy Data” section of the Data DEX. The buyer can pay the $ITHEUM cost for the data and then “own” access to the underlying data (these copies are called **Data Orders** and appear in the **Purchased Data** section of the Data DEX). As part of the buying process, they agree (on-chain) to abide by the “terms of use”. A record of this agreement is stored on-chain as part of the transaction and serves as an immutable audit trail for this agreement. One key point to note is that in this type of peer-to-peer trade — **the re-sale of data is NOT permitted.**
+
+A Data Creator should choose to trade data as a Data Pack if they have the following requirements:
+
+- Sell multiple (potentially unlimited) copies of their data to buyers (Data Consumers) around the world
+
+<br />
+- Don’t want their data to be re-sold by the buyer (i.e. the buyer can only use it as per the terms of sale and for their own use/consumption — __if a buyer breaks their agreement and resells the data, the owner will have the ability to detect this and mediate a conflict resolution process — but only if the trade is handled by the Data Coalition — more on this below — but the Data Creator, unfortunately, won’t have a direct method to track the re-sale or get any benefit from it. e.g. royalties).__
+
+<br />
+- Only allow for their personal data to be traded on the Itheum Data DEX (no other decentralized marketplace will display the Data Pack for sale — this is because it’s not built on any open blockchain standard like ERC20 or ERC721 that allows for interoperability). This can be considered a benefit if the Data Creator wants to limit exposure of their data (as it’s available for trade, in only one data marketplace)
+
 ---
 
-# Methods for Buying Data <a name="buying-data-1"></a>
+# Methods for Buying Access to Data <a name="buying-data-1"></a>
 
-One-off datasets advertised for trade on the Data DEX are called “Data Packs”. As described in the above section “Decentralized Data Trade”, there are various types of data that can be put up for trade on the Data DEX. Along with one-off data sets (Data Packs), the Itheum Data DEX also allows for the trade to “Data Stream subscriptions” (see in a below section titled Data Streams)
+Datasets advertised for trade on the Data DEX are traded between counterparties thanks primarily to Data NFT licensing technology. As described in the above section “Decentralized Data Trade”, there are various types of data that can be put up for trade on the Data DEX. Along with static datasets (Files that don't change once produced), the Itheum Data DEX also allows for the trade to “Data Streams".
 
 Data is traded via two channels:
 
 1. Direct between Data Creator and Buyer (Data Consumer)
-2. Via an intermediary, i.e.g. an authorised Data Coalition
+2. Via an intermediary, i.e.g. an authorized Data Coalition DAO
 
-Anyone with a crypto wallet can procure access to Data Packs or Data Streams under certain conditions:
+Anyone with a crypto wallet can gain access to Data NFTs (and the underlying datasets) under certain conditions:
 
 1. They need to have $ITHEUM tokens to pay for the data. The $ITHEUM token is sent directly to the Data Creator (if the sale is directly between Data Creator and buyer) or to a Data Coalition if the Coalition is “brokering the trade”.
 
-2. Each Data Pack or Stream will have an associated “terms of use”, the buyer agrees to abide by these nominated terms. There will be dispute and conflict resolution processes in the future to protect the seller from misuse. (if the sale is directly between Data Creator and buyer)
-
-3. If the purchase is via an authorized Data Coalition, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of $ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
+2. If the purchase is via an authorized Data Coalition DAO, then the buyer needs to adhere to the terms and conditions of use as per the Data Coalition and also put in collateral in the form of $ITHEUM tokens for a certain period (until the buyer earns a higher credibility score) – data traded via a Data Coalition has more robust misuse remediation and dispute resolution process handled via decentralized governance.
 
 
 ---
@@ -648,7 +665,7 @@ The following sections provide an overview of the underlying technology principl
 
 
 ## Multi-Chain Strategy <a name="multi-chain-1"></a>
-The Itheum Data DEX will work across EVM and non-EVM compatible chains. We already have the Data DEX deployed to the Ethereum, Polygon, BSC, Avalanche, Harmony, PlatON and Parastate (Future Polkadot Parachain) testnets. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like Elrond, Hedera, Algorand, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain. This design is called the `Multi-Chain Architecture`.
+The Itheum Data DEX will work across EVM and non-EVM compatible chains. We already have the Data DEX deployed to the Ethereum, Polygon, BSC, Avalanche, Harmony, PlatON and Parastate (Future Polkadot Parachain) testnets. We are also working on a `native middleware interface` to enable support for non-EVM blockchains like MultiversX (previously called Elrond), Hedera, Algorand, and others. Currently, data advertised on a particular chain can only be visible to participants who are on the same chain. i.e. a buyer can only buy data advertised for sale on the same chain. This design is called the `Multi-Chain Architecture`.
 
 We are working on cross-chain advertising and purchasing of data facilitated via cross-chain oracles, relays, and bridges that will allow for the transaction handshake to be done between chains and allow for the data to be verified and transacted as well as for the mint/burn/lock of chain native tokens to balance the maximum token supply across the chains (i.g. burning of Polygon tokens and minting of BSC tokens and vice versa as data is transacted across chains). This will be our `Cross-Chain Architecture` initiative.
 
@@ -673,19 +690,19 @@ We are working on cross-chain advertising and purchasing of data facilitated via
 
 
 ## Cross Chain Tokens <a name="cross-chain-1"></a>
-The core Itheum utility token is an ERC20 token called $ITHEUM. The $ITHEUM token will allow for purchasing access rights for data from Data Creators and Data Coalitions. The $ITHEUM token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
+The core Itheum utility token is an ESDT token called $ITHEUM. The $ITHEUM token will allow for purchasing access rights for data from Data Creators and Data Coalitions. The $ITHEUM token will also play a role in staking against a Data Coalition and for decentralized governance of the Data Coalition’s responsibilities and actions.
 
 As the Itheum Data DEX operates multi-chain, there will be core tokens that represent each chain with the total supply of $ITHEUM bridged and distributed as more chains are added.
 
 As an example:
 
-- $ITHEUM — Token deployed on Elrond
+- $ITHEUM — Token deployed on MultiversX (previously called Elrond)
 - $eITHEUM — Token deployed on Ethereum
 - $mITHEUM — Token deployed on Polygon/Matic
 - $bITHEUM — Token deployed on Binance Smart Chain (BSC)
 - $aITHEUM — Token deployed on Avalanche
 
-$ITHEUM token can be moved between chains via native bridges that already exist. For example, you can use the native Elrond <> Ethereum token bridge to convert your $ITHEUM to $eITHEUM and vice versa.
+$ITHEUM token can be moved between chains via native bridges that already exist. For example, you can use the native MultiversX (previously called Elrond) <> Ethereum token bridge to convert your $ITHEUM to $eITHEUM and vice versa.
 
 
 ---
@@ -756,7 +773,7 @@ As detailed above a 4% marketplace fee is collected from all data trade that is 
 ### The Claims Portal is ready for use
 The Claims Portal will drive community and ecosystem growth for the Itheum protocol. "Indirect" DAO governance distributions of tokens will not be possible without the Claims Portal and it thus features as one of the core building blocks of the Itheum platform. 
 
-It is the Token Distribution Nucleus for Itheum's community guardians and ecosystem warriors and it will soon be now ready for use on the Elrond Mainnet via the Data DEX. 
+It is the Token Distribution Nucleus for Itheum's community guardians and ecosystem warriors and it will soon be now ready for use on the MultiversX (previously called Elrond) Mainnet via the Data DEX. 
 
 To try out the Claims Portal via the Data DEX, head over here https://datadex.itheum.io
 
@@ -771,7 +788,7 @@ $ITHEUM is a functional multi-utility token that will be used as the medium of e
 
 Further, $ITHEUM provides the economic incentives which will be distributed to encourage users to exert efforts towards contribution and participation in the ecosystem on the Itheum platform, thereby creating a mutually beneficial system where every participant is fairly compensated for its efforts. $ITHEUM are an integral and indispensable part of the Itheum platform, because without $ITHEUM, there would be no incentive for users to expend resources to participate in activities or provide services for the benefit of the entire ecosystem on the Itheum platform. Given that additional $ITHEUM will be awarded to a user based only on its actual usage, activity and efforts made on the Itheum platform and/or proportionate to the frequency and volume of transactions, users of the Itheum platform and/or holders of $ITHEUM which did not actively participate will not receive any $ITHEUM incentives.
 
-The “primary token” will exist on the Elrond blockchain. The primary token will have the token/ticker symbol $ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. $mITHEUM, $bITHEUM). This "prefix design decision" is subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single $ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
+The “primary token” exists on the MultiversX (previously called Elrond) blockchain. The primary token will have the token/ticker symbol $ITHEUM and the side-chain tokens (called Side Tokens) will have a prefix character in front of the token symbol to identify it (e.g. $mITHEUM, $bITHEUM). This "prefix design decision" is subject to change as we want to ensure the best user experience (UX) for data trading and we may alter the design to have a single $ITHEUM token that has the same name across various blockchains (Similar to have USDC is called USDC across all blockchains).
 
 ---
 
@@ -914,7 +931,7 @@ As with all blockchain-based projects; Itheum will have an allocation of tokens 
 ## $ITHEUM Staking <a name="staking-1"></a>
 Itheum will require users to stake $ITHEUM at various points as a guarantee of commitment and service standards for a variety of tasks. This would encourage the participation of long-term HODLers instead of speculators.
 
-1. **Elrond Metastaking:** The Itheum protocol is live on the Elrond Blockchain Mainnet and supports the community staking of $ITHEUM tokens as part of the **Elrond Maiar DEX Metastaking program**. Community members can stake their existing $ITHEUM tokens to receive more $ITHEUM tokens in return for providing liquidity and farming services that stabilize the universal Elrond web3 ecosystem. This in turn increases community adoption and awareness of the Itheum protocol and empowers more participants with the tools to take ownership of their personal data. [Learn more about $ITHEUM Metastaking and participate here](https://itheum.medium.com/a-guide-to-elrond-metastaking-for-itheum-43b8b6b0f227)
+1. **MultiversX (previously called Elrond) Metastaking:** The Itheum protocol is live on the MultiversX Blockchain Mainnet and supports the community staking of $ITHEUM tokens as part of the **MultiversX (Elrond) Maiar DEX Metastaking program**. Community members can stake their existing $ITHEUM tokens to receive more $ITHEUM tokens in return for providing liquidity and farming services that stabilize the universal MultiversX web3 ecosystem. This in turn increases community adoption and awareness of the Itheum protocol and empowers more participants with the tools to take ownership of their personal data. [Learn more about $ITHEUM Metastaking and participate here](https://itheum.medium.com/a-guide-to-elrond-metastaking-for-itheum-43b8b6b0f227)
 
 2. **Data Coalition DAO Staking:**  Data Coalition DAOs will allow for people to stake $ITHEUM against them to show support for their data trading operations and to flag support for data quality and credibility. Data Coalition DAO stakers earn a percentage from bulk trades that happen via that Data Coalition in return for their services. Learn more about this in the [Data Coalitions](#data-coalitions-1) section.
 
@@ -1023,13 +1040,13 @@ This is very similar to the attack described in the "Selling Fake Data" section 
 In this type of attack, a malicious user will attempt to bring reputation damage to the Itheum Data DEX by uploading irrelevant or inappropriate data. They may masquerade as a legitimate user and then disrupt the credibility of the platform by uploading bad data that will be seen by other legitimate users of the platform. This may also bring about regulation concerns if the data is especially inappropriate. Over time this type of attack will "spam" the natural, organic network activity and degrade the reputation of the Itheum Data DEX.
 
 ###5) Sybil Attack
-This type of attack is something all distributed systems and blockchains are prone to and involves malicious parties using “multiple identities” to flood a chain to take control of governance or core functionalities (like producing blocks in a blockchain or voting in their fake proposals). The Itheum Data DEX is built on EVM and non-EVM compatible chains (Elrond, Ethereum, Polygon, etc) — so the inherent risk of Sybil attacks on the core chains will impact Itheum’s data trade activity. The Itheum Data DEX is also prone to Sybil Attacks of a different type; where a malicious user, masquerading as a Data Creator/Seller can spin up multiple identities and flood the marketplace with fake orders or attempt to take control of the governance and voting activities that are core to the Data Coalitions.
+This type of attack is something all distributed systems and blockchains are prone to and involves malicious parties using “multiple identities” to flood a chain to take control of governance or core functionalities (like producing blocks in a blockchain or voting in their fake proposals). The Itheum Data DEX is built on EVM and non-EVM compatible chains (MultiversX, Ethereum, Polygon, etc) — so the inherent risk of Sybil attacks on the core chains will impact Itheum’s data trade activity. The Itheum Data DEX is also prone to Sybil Attacks of a different type; where a malicious user, masquerading as a Data Creator/Seller can spin up multiple identities and flood the marketplace with fake orders or attempt to take control of the governance and voting activities that are core to the Data Coalitions.
 
 ## Methods for Prevention <a name="fraud-3"></a>
 The following methods are (or will be) implemented to mitigate the above attack vectors.
 
 <br />
-- The selling of personal data (either via direct peer-to-peer sales or via a Data Coalition) involves an “advertising process” (described in a section above) — where the integrity of the raw data is advertised on-chain to facilitate the trade process. As this is a “write-transaction” it does require GAS to complete. If a malicious user is attempting to spam or dump fake datasets for sale on the marketplace, the GAS cost implication will make it impractical. (this is especially true if the chain is Ethereum, but for low GAS fee chains like Elrond or Polygon — the risk remains but at lower levels). This is applicable for direct peer-to-peer sales of Data Packs as well as for sales of Data NFTs.
+- The selling of personal data (either via direct peer-to-peer sales or via a Data Coalition) involves an “advertising process” (described in a section above) — where the integrity of the raw data is advertised on-chain to facilitate the trade process. As this is a “write-transaction” it does require GAS to complete. If a malicious user is attempting to spam or dump fake datasets for sale on the marketplace, the GAS cost implication will make it impractical. (this is especially true if the chain is Ethereum, but for low GAS fee chains like MultiversX or Polygon — the risk remains but at lower levels). This is applicable for direct peer-to-peer sales of Data Packs as well as for sales of Data NFTs.
 
 <br />
 - Currently, a Data Preview is attached to each Data Pack and Data NFT sale offer. When a user puts “Data Previews” they are currently manually entered, this allows for a malicious user to put in a fake preview and upload fake data.
